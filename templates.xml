@@ -1,0 +1,25 @@
+<spell>
+		<name></name>
+		<level></level>
+		<school></school>
+		<time></time>
+		<range></range>
+		<components></components>
+		<duration></duration>
+		<classes></classes>
+		<text></text>
+		<text />
+		<text></text>
+		<roll></roll>
+		<roll></roll>
+		<roll></roll>
+		<roll></roll>
+	</spell>
+	
+	<secret>
+	<name>
+	<firstmastery></firstmastery>
+	<secondmastery></secondmastery>
+	<thirdmastery></thirdmastery>
+	<finalmastery></finalmastery>	
+</secret>
