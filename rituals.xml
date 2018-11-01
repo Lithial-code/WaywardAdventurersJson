@@ -20,7 +20,9 @@
 	<ritual>
 		<name>Cast the Bones</name>
 		<castingtime>10 minutes</castingtime>
-		<text>You search into the future, gaining some insight into the future. If you attempt to cast this ritual more than once per downtime you have an increased chance of incorrect results.</text>
+		<text>You search into the future, gaining some insight into the future. If you attempt to cast this ritual more than once per downtime you have an increased chance of incorrect results.
+The insight gained from this ritual could be a phrase or a single word. Or just a feeling of wrongness or rightness. You can attempt to ask the bones a specific question but there is a 50% change there will be no answer and the casting of the ritual is wasted.
+</text>
 	</ritual>
 	<ritual>
 		<name>Clear the Skies</name>
@@ -57,7 +59,7 @@
 	<ritual>
 		<name>Light</name>
 		<castingtime>1 Minute</castingtime>
-		<text>You touch an object. For the next hour, or until you dismiss it, the object shines brightly.</text>
+		<text>You touch an object. For the next hour, or until you dismiss it, the object shines brightly, shining light 60 ft around it.</text>
 	</ritual>
 	<ritual>
 		<name>Mage Armour</name>
@@ -67,7 +69,7 @@
 	<ritual>
 		<name>Detect Magic</name>
 		<castingtime>10 minutes</castingtime>
-		<text>You can see faint auras around items, locations, or people affected by magic for an hour. By concentrating on the aura for 10 minutes you can determine the strength and type of spell. More complex spell might require a spellcraft or arcana check.</text>
+		<text>You can see faint auras around items, locations, or people affected by magic for an hour. By concentrating on the aura for 10 minutes you can determine the strength and type of spell. More complex spells may require a spellcraft or arcana check. You can learn the origin of the spell, what secret it belongs to (if any) and its rough power level.</text>
 	</ritual>
 	<ritual>
 		<name>Moonlight Dancing</name>
