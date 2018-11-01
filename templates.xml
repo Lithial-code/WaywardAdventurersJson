@@ -16,10 +16,26 @@
 		<roll></roll>
 	</spell>
 	
-	<secret>
+<secret>
 	<name>
+	<text>
+	<ritual>
+	<invocation>
 	<firstmastery></firstmastery>
 	<secondmastery></secondmastery>
 	<thirdmastery></thirdmastery>
 	<finalmastery></finalmastery>	
+	<limit>
 </secret>
+
+
+<condtions>
+<name></name>
+<text></text>
+</condtions>
+
+	<ritual>
+		<name></name>
+		<castingtime></castingtime>
+		<text></text>
+	</ritual>
