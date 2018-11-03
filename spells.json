@@ -404,7 +404,7 @@
       "name": "Shield of Cold",
       "time": "Casting Time: One Turn",
       "cost": "Cost: 3",
-      "duration" "Duration: 1 minute."
+      "duration":"Duration: 1 minute.",
       "text": "While this spell is active you have a +2 bonus to armour class. In addition, whenever a creature makes a melee attack against you, they must roll a fortitude save or take 1d6 cold damage."
    },
    {
