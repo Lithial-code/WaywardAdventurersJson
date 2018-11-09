@@ -1,6 +1,7 @@
 [
 	{
 		"name": "Warrior",
+		"type": "",
 		"ability1": "Warrior Extra Attack",
 		"ability2": "Warrior Fighting Skills",
 		"ability3": "Warrior Armour Mastery",
@@ -15,6 +16,7 @@
 	},
 	{
 		"name": "Rogue",
+		"type": "",
 		"ability1": "Extra Rogue Skills",
 		"ability2": "Rogue Starting Attributes",
 		"ability3": "Fighting Dirty",
@@ -30,6 +32,7 @@
 	},
 	{
 		"name": "Mage",
+		"type": "",
 		"ability1": "Mage Secrets",
 		"ability2": "Mage Spell Attack Mastery",
 		"ability3": "Mage Starting Attributes",
@@ -44,6 +47,7 @@
 	},
 	{
 		"name": "Priest",
+		"type": "",
 		"ability1": "Divine Healing",
 		"ability2": "Priest Bonus Feat",
 		"ability3": "Priest Spell Attack Mastery",

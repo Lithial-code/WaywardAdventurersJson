@@ -1,6 +1,7 @@
 [
 	{
 		"name": "City Born Human",
+		"type": "",
 		"race": "Human",
 		"subrace": "City Born",
 		"stat": "+2 any 2 stats",
@@ -11,6 +12,7 @@
 	},
 	{
 		"name": "Wild Born Human",
+		"type": "",
 		"race": "Human",
 		"subrace": "Wild Born",
 		"stat": "+2 any 2 stats",
@@ -21,6 +23,7 @@
 	},
 	{
 		"name": "Mountain Born Human",
+		"type": "",
 		"race": "Human",
 		"subrace": "Mountain Born",
 		"stat": "+2 any 2 stats",
@@ -31,6 +34,7 @@
 	},
 	{
 		"name": "Saddle Born Human",
+		"type": "",
 		"race": "Human",
 		"subrace": "Saddle Born",
 		"stat": "+2 any 2 stats",
@@ -41,6 +45,7 @@
 	},
 	{
 		"name": "Sea Born Human",
+		"type": "",
 		"race": "Human",
 		"subrace": "Sea Born",
 		"stat": "+2 any 2 stats",
@@ -51,6 +56,7 @@
 	},
 	{
 		"name": "Wood Elf",
+		"type": "",
 		"race": "Elf",
 		"subrace": "Wood",
 		"stat": "+2 dexterity, +1 int or +1 wis",
@@ -61,6 +67,7 @@
 	},
 	{
 		"name": "High Elf",
+		"type": "",
 		"race": "Elf",
 		"subrace": "High",
 		"stat": "+2 dexterity, +1 int or +1 wis",
@@ -71,6 +78,7 @@
 	},
 	{
 		"name": "Moon Elf",
+		"type": "",
 		"race": "Elf",
 		"subrace": "Moon",
 		"stat": "+2 dexterity, +1 int or +1 wis",
@@ -81,6 +89,7 @@
 	},
 	{
 		"name": "Desert Elf",
+		"type": "",
 		"race": "Elf",
 		"subrace": "Desert",
 		"stat": "+2 dexterity, +1 int or +1 wis",
@@ -91,6 +100,7 @@
 	},
 	{
 		"name": "Sea Elf",
+		"type": "",
 		"race": "Elf",
 		"subrace": "Sea",
 		"stat": "+2 dexterity, +1 int or +1 wis",
@@ -101,6 +111,7 @@
 	},
 	{
 		"name": "Hill Dwarf",
+		"type": "",
 		"race": "Dwarf",
 		"subrace": "Hill",
 		"stat": "+2 constitution",
@@ -111,6 +122,7 @@
 	},
 	{
 		"name": "Mountain Dwarf",
+		"type": "",
 		"race": "Dwarf",
 		"subrace": "Mountain",
 		"stat": "+2 constitution",
@@ -121,6 +133,7 @@
 	},
 	{
 		"name": "Sea Dwarf",
+		"type": "",
 		"race": "Dwarf",
 		"subrace": "Sea",
 		"stat": "+2 constitution",
@@ -131,6 +144,7 @@
 	},
 	{
 		"name": "Clanless Dwarf",
+		"type": "",
 		"race": "Dwarf",
 		"subrace": "Clanless",
 		"stat": "+2 constitution",
@@ -141,6 +155,7 @@
 	},
 	{
 		"name": "Stout Halfling",
+		"type": "",
 		"race": "Halfling",
 		"subrace": "Stout",
 		"stat": "+2 dexterity, +1 any",
@@ -151,6 +166,7 @@
 	},
 	{
 		"name": "River Halfling",
+		"type": "",
 		"race": "Halfling",
 		"subrace": "River",
 		"stat": "+2 dexterity, +1 any",
@@ -161,6 +177,7 @@
 	},
 	{
 		"name": "Lightfoot Halfling",
+		"type": "",
 		"race": "Halfling",
 		"subrace": "Lightfoot",
 		"stat": "+2 dexterity, +1 any",
@@ -171,6 +188,7 @@
 	},
 	{
 		"name": "Streetwise Halfling",
+		"type": "",
 		"race": "Halfling",
 		"subrace": "Streetwise",
 		"stat": "+2 dexterity, +1 any",
@@ -182,41 +200,41 @@
 	{
 		"name": "Beast Blooded",
 		"type": "special",
-        "race":"Human \n Elf \n Halfling",
-        "stat": "+2 str, +2 dex",
-        "bonus": "+10 speed",
-        "flaw": "-4 int, -4 cha"
-    },
-    {
+		"race": "Human \n Elf \n Halfling",
+		"stat": "+2 str, +2 dex",
+		"bonus": "+10 speed",
+		"flaw": "-4 int, -4 cha"
+	},
+	{
 		"name": "Daemon Blood",
 		"type": "special",
-        "race":"Human \n Elf \n Dwarf \n Halfling",
-        "stat": "+4 cha",
-        "bonus": "Adv on diplomacy and deception with humanoids",
-        "flaw": "-2 str, -2 dex,-2 con"
-    },
-    {
+		"race": "Human \n Elf \n Dwarf \n Halfling",
+		"stat": "+4 cha",
+		"bonus": "Adv on diplomacy and deception with humanoids",
+		"flaw": "-2 str, -2 dex,-2 con"
+	},
+	{
 		"name": "Dragon Blood",
 		"type": "special",
-        "race":"Human \n Elf",
-        "stat": "+2 int",
-        "bonus": "+1 AC",
-        "flaw": "-2 con, -2 wis"
-    },
-    {
+		"race": "Human \n Elf",
+		"stat": "+2 int",
+		"bonus": "+1 AC",
+		"flaw": "-2 con, -2 wis"
+	},
+	{
 		"name": "Giant Blood",
 		"type": "special",
-        "race":"Human \n Dwarf",
-        "stat": "+3 str",
-        "bonus": "+4 defense at level 1",
-        "flaw": "-4 int, -4 dex"
-    },
-    {
+		"race": "Human \n Dwarf",
+		"stat": "+3 str",
+		"bonus": "+4 defense at level 1",
+		"flaw": "-4 int, -4 dex"
+	},
+	{
 		"name": "Half Elf",
 		"type": "special",
-		"race":"Human \n Elf",
+		"race": "Human \n Elf",
 		"stat": "none",
 		"flaw": "none",
-        "bonus": "Can swap parent race traits. see phb pg 25 for more details"
-    }
+		"bonus": "Can swap parent race traits. see phb pg 25 for more details"
+	}
 ]
