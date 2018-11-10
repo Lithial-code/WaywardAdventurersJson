@@ -2,52 +2,55 @@
   {
     "name": "Incapacitated",
     "type": "",
-    "text": "An incapacitated creature cannot take any actions."
+    "description": "An incapacitated creature cannot take any actions. An incapacitated creature speed is 0 and it cannot be increased by any means."
   },
   {
     "name": "Petrified",
     "type": "",
-    "text": "A petrified creature is turned to stone."
+    "description": "A petrified creature is turned to stone. It is incapacitated and is unaware of its surroundings. Any damage dealt to the statue carries over to the creature should it be restored to life."
   },
   {
     "name": "Unconscious",
     "type": "",
-    "text": "An unconscious creature is incapacitated and prone. A hit against an unconscious creature is always a critical hit, deals double damage and ignores all the targets defence."
+    "description": "An unconscious creature is incapacitated and prone. A hit against an unconscious creature is always a critical hit and ignores all the targets defence."
   },
   {
     "name": "Paralysed",
     "type": "",
-    "text": "A paralysed creature is incapacitated and prone. A hit against a paralysed creature is always a critical hit and ignores half the targets defence."
+    "description": "A paralysed creature is incapacitated and prone. A hit against a paralysed creature is always a critical hit and ignores half the targets defence."
   },
   {
     "name": "Frightened",
     "type": "",
-    "text": "While frightened  a creature must move away from whatever frightened it, if it is within 60ft of the source of its fear. It has disadvantage on all attacks and ability checks while it can see or is otherwise aware of the source of its fear."
+    "description": "While frightened a creature must move away from whatever frightened it, if it is within 60ft of the source of its fear. It has disadvantage on all attacks and ability checks while it can see or is otherwise aware of the source of its fear."
   },
   {
     "name": "Prone",
     "type": "",
-    "text": "If a creature is knocked prone, or falls prone willingly, its movement speed becomes 5 ft and attacks against it  from within 5 feet range have advantage. Ranged attacks against a prone creature have disadvantage."
+    "description": [
+      "If a creature is knocked prone, or falls prone willingly, its movement speed becomes 5 ft unless it would otherwise be lower and attacks against it from within 5 feet range have advantage. Ranged attacks against a prone creature have disadvantage.",
+      "To stand up from prone your movement speed cannot be 0. You must take an action that lets you move up to your movement speed. If you would normally be able to move your movement speed a number of times you can move it one less time. If you would normally move up to your movement speed you instead do not move this turn."
+    ]
   },
   {
     "name": "Poisoned",
     "type": "",
-    "text": "If a creature is poisoned or sickened it has its movement speed halved and the creature has disadvantage on all attack rolls and reflex saving throws."
+    "description": "If a creature is poisoned or sicked it has its movement speed halved and the creature has disadvantage on all attack rolls and reflex saving throws."
   },
   {
     "name": "Sickened",
     "type": "",
-    "text": "If a creature is poisoned or sickened it has its movement speed halved and the creature has disadvantage on all attack rolls and reflex saving throws."
+    "description": "If a creature is poisoned or sicked it has its movement speed halved and the creature has disadvantage on all attack rolls and reflex saving throws."
   },
   {
     "name": "Restrained",
     "type": "",
-    "text": "A restrained creature cannot move and has disadvantage on attack rolls, strength and dexterity checks and reflex saves. Attacks against a restrained creature have advantage."
+    "description": "A restrained creature cannot move and has disadvantage on attack rolls, strength and dexterity checks and reflex saves. Attacks against a restrained creature have advantage."
   },
   {
     "name": "Grappled",
     "type": "",
-    "text": [
+    "description": [
       "A grappled creature cannot move and has disadvantage on attacks. When attacking a creature that is grappled the target gains +3 to armour class unless the attacking creature is the one performing the grapple.",
       "An attack against a grappled creature can critically fail, hitting the creature doing the grapple on a critical failure.",
       "To cast a spell while grappled a creature must make a DC 12 concentration check each round they cast. To escape a grapple the creature must pass a contested strength or dexterity check against the grappling creatures strength check."
@@ -56,21 +59,34 @@
   {
     "name": "Blinded",
     "type": "",
-    "text": "A blinded or blind creature cannot see. It automatically fails any perception checks or any other checks relying on sight. Its movement speed is halved while blinded."
+    "description": "A blinded or blind creature cannot see. It automatically fails any perception checks or any other checks relying on sight. Its movement speed is halved while blinded."
   },
   {
     "name": "Stunned",
     "type": "",
-    "text": "A stunned creature can only take the Take Cover or Full Attack actions on its turn. The creature can only make a single attack at disadvantage and its movement speed is reduced to 5ft."
+    "description": "A stunned creature can only take the Take Cover or Full Attack actions on its turn. The creature can only make a single attack at disadvantage and its movement speed is reduced to 5ft."
   },
   {
     "name": "Slowed",
     "type": "",
-    "text": "A slowed creature has its movement speed reduced by half. It has disadvantage on reflex saves. The creature can only make half the number of attacks it usually can, and any spells take twice as long as normal to cast. The creature cannot take any action outside of its turn."
+    "description": "A slowed creature has its movement speed reduced by half. It has disadvantage on reflex saves. The creature can only make half the number of attacks it usually can, and any spells take twice as long as normal to cast. The creature cannot take any action outside of its turn."
   },
   {
     "name": "Fascinated",
     "type": "",
-    "text": "A fascinated creature cannot look away from whatever is fascinating them."
+    "description": "A fascinated creature cannot look away from whatever is fascinating them."
+  },
+  {
+    "name": "Damage Over Time",
+    "type": "",
+    "description": "Some effects will continue doing damage over time. Common examples are bleeding or some poisons. A damage over time effect deals damage on the turn of which ever creature caused the damage."
+  },
+  {
+    "name": "Enthralled",
+    "type": "",
+    "description": [
+      "Sometimes known as charmed, a creature that is enthralled cannot attack the creature that is enthralling it, the enthralling creature has advantage on any charisma checks against the enthralled creature and the enthralled creature regards the enthraller as a friend or trusted companion.",
+      "Often effects that enthral a target will have additional effects."
+    ]
   }
 ]

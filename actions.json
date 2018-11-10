@@ -1,82 +1,104 @@
 [
   {
+    "name": "Walk",
+    "type": "",
+    "description": "You can use your main action to move up to your movement speed. This action is not strenuous and takes little energy but is not especially useful in combat."
+  },
+  {
     "name": "Charge",
     "type": "",
-    "text": "You can move up to your movement speed and make a single attack. If the movement is at least half of your total move speed and in a straight line you gain +2 to hit as long as you are using a melee weapon."
+    "description": "You can use your main action to move up to your movement speed and make a single attack. If the movement is at least half of your total move speed and in a straight line you gain +2 to hit as long as you are using a melee weapon."
   },
   {
     "name": "Full Attack",
     "type": "",
-    "text": "You can move 5 feet and make as many attacks as you are allowed to take."
+    "description": "You can move 5 feet and make as many attacks as you are allowed to take."
   },
   {
     "name": "Withdraw",
     "type": "",
-    "text": "You can move up to twice your movement speed. You do not provoke an attack of opportunity from leaving any enemies reach."
+    "description": "You can move up to twice your movement speed. You do not provoke an attack of opportunity from leaving any enemies reach."
   },
   {
     "name": "Run",
     "type": "",
-    "text": "You can move up to three times your movement speed."
+    "description": "You can move up to three times your movement speed."
   },
   {
     "name": "Hide",
     "type": "",
-    "text": "You can move up to your movement and attempt to hide if you are out of sight of whoever you are attempting to hide from. When you are hidden you have advantage on attacks against people who cannot see you."
+    "description": "You can move up to your movement and attempt to hide if you are out of sight of whoever you are attempting to hide from. When you are hidden you have advantage on attacks against people who cannot see you."
   },
   {
     "name": "Sneak",
     "type": "",
-    "text": "If you are hidden, you can move up to your movement and remain hidden, as long as you do not move into the sight of whoever you are hiding from."
+    "description": "If you are hidden, you can move up to your movement and remain hidden, as long as you do not move into the sight of whoever you are hiding from."
   },
   {
     "name": "Dodge",
     "type": "",
-    "text": "Move up to your movement speed and give disadvantage to any creature attacking you that you can see."
+    "description": "You can use your main action to move up to your movement speed and impose disadvantage to any creature attacking you that you can see until the start of your next turn."
   },
   {
     "name": "Cast a spell",
     "type": "",
-    "text": "You can move 5 feet and cast a spell. If the spell has a casting time of more than one turn, you must use this name each turn until the spell is cast, losing the spell, and still paying the cost, if you fail to do so."
+    "description": "You can use your main action to move 5 feet and cast a spell. If the spell has a casting time of more than one turn, you must use repeat this action each turn until the spell is cast. If you do not the spell is lost, and you must still pay the cost of the spell."
   },
   {
     "name": "Ready Attack",
     "type": "",
-    "text": "You can move 5 feet and ready a single attack or a spell that has a one turn cast. You declare under what conditions your attack or spell will happen. If that condition occurs before your next turn you can immediately attack or cast the spell."
+    "description": "You can use your main action to move 5 feet and ready a single attack or a spell that has a one turn casting time. You must declare under what conditions your attack or spell will happen. If that condition occurs before your next turn you can immediately attack or cast the spell."
   },
   {
     "name": "Take cover",
     "type": "",
-    "text": "Move up to your movement speed and take cover behind cover if any is available."
+    "description": "You can use your main action to move up to your movement speed and take cover behind cover if any is available."
   },
   {
     "name": "Grappling",
     "type": "",
-    "text": "Using a full turn, a creature can attempt to hold another creature. To do this the first must roll a strength check. Each size category difference between the creature and the target gives a -5 penalty on this roll. The target then must roll either a strength or dexterity check to resist the grapple. If the rolls lower than the creature attempting the grapple, the grapple is successful. Once you have a creature grappled you can take a number of other names on your next turn."
+    "description": [
+      "You can use your main action to attempt to grapple another creature. To do this you must roll a strength check against your target’s strength or dexterity check.",
+      "Each size category difference between the creature and the target gives a -5 penalty on this roll.",
+      "If your roll is higher than your target’s, you successfully grapple the target.",
+      "You may release a grapple at any time. When you release a grapple, the target may immediately make a grapple check against you.",
+      "You can attempt to grapple in place of an Attack of Opportunity.",
+      "Once you have a creature grappled you can take a number of other actions on your next turn."
+    ]
   },
   {
-    "name": "Drag",
+    "name": "Dragging a grappled target",
     "type": "",
-    "text": "You drag the creature with you as you move a distance up to your movement speed."
+    "description": "You use your main action to drag the creature with you as you move a distance up to twice your movement speed."
   },
   {
-    "name": "Body Shield",
+    "name": "Using the grappled target as a Body Shield",
     "type": "",
-    "text": "You can use the creature as cover. Any attack that targets you has a 50% chance to instead target the creature"
+    "description": "You can use a bonus action to use the creature as cover. Any attack that targets you has a 50% chance to instead target the creature."
   },
   {
-    "name": "Execute",
+    "name": "Executing a grappled target",
     "type": "",
-    "text": "You attempt to slit the targets throat, stab them in the back or otherwise kill them. Roll an attack at advantage. If it hits it is a critical hit."
+    "description": "You use one of your attacks to attempt to slit the targets throat, stab them in the back or otherwise kill them. Roll an attack at advantage. If this attack hits it is a critical hit."
+  },
+  {
+    "name": "Pushing a grappled target",
+    "type": "",
+    "description": "In the place of a single attack you can attempt to shove, either with a shield or a free hand. Roll a strength check opposed by your target?s strength or dexterity. If you win you can choose to either push them back 10 feet or knock them prone."
+  },
+  {
+    "name": "Disarming a grappled target",
+    "type": "",
+    "description": "You can use a bonus action to attempt to disarm your grappled target. The creature has disadvantage on the strength check to avoid dropping their weapon."
   },
   {
     "name": "Pushing",
     "type": "",
-    "text": "In the place of a single attack you can attempt to shove, either with a shield or a free hand. Roll a strength check opposed by your target?s strength or dexterity. If you win you can choose to either push them back 10 feet or knock them prone."
+    "description": "In the place of a single attack you can attempt to shove, either with a shield or a free hand. Roll a strength check opposed by your target’s strength or dexterity. If you win you can choose to either push them back 10 feet or knock them prone. If you charge you can push with a shoulder rather than a shield or free hand."
   },
   {
     "name": "Disarming",
     "type": "",
-    "text": "In the place of an attack you can attempt to disarm a foe. Roll an attack at disadvantage and with a -5 to hit, -10 if the weapon is being held in two hands. If it hits the target must make a strength save against your DC or drop the weapon."
+    "description": "In the place of a single attack you can attempt to disarm a foe. Roll an attack at disadvantage and with a -5 to hit, -10 if the weapon is being held in two hands. If it hits the target must make a strength check against your DC or drop the weapon."
   }
 ]

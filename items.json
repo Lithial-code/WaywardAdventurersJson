@@ -2,391 +2,588 @@
 	{
 		"name": "Dagger",
 		"type": "Weapon",
-		"damage": "d6",
-		"damagetype": "Piercing",
+		"dice": "d6",
+		"damage type": "Piercing",
 		"range": "5 ft.",
-		"cost": "50",
+		"cost (sp)": "50",
 		"properties": "Thrown",
 		"special": " Light"
 	},
 	{
 		"name": "Shortsword",
 		"type": "Weapon",
-		"damage": "d8",
-		"damagetype": "Piercing/Slashing",
+		"dice": "d8",
+		"damage type": "Piercing/Slashing",
 		"range": "5 ft.",
-		"cost": "150",
+		"cost (sp)": "150",
 		"properties": "Light",
+		"special": "None"
+	},
+	{
+		"name": "Scimitar",
+		"type": "Weapon",
+		"dice": "d8",
+		"damage type": "Piercing/Slashing",
+		"range": "5 ft.",
+		"cost (sp)": "180",
+		"properties": "Light, +2 damage when used from horseback",
 		"special": "None"
 	},
 	{
 		"name": "Longsword",
 		"type": "Weapon",
-		"damage": "d10",
-		"damagetype": "Slashing",
+		"dice": "d10",
+		"damage type": "Slashing",
 		"range": "5 ft.",
-		"cost": "300",
+		"cost (sp)": "300",
 		"properties": "None",
 		"special": "None"
 	},
 	{
 		"name": "Greatsword",
 		"type": "Weapon",
-		"damage": "2d8",
-		"damagetype": "Slashing",
+		"dice": "2d8",
+		"damage type": "Slashing",
 		"range": "5 ft.",
-		"cost": "500",
+		"cost (sp)": "500",
 		"properties": "Heavy",
 		"special": " Two Handed"
 	},
 	{
 		"name": "Ultra-Greatsword",
 		"type": "Weapon",
-		"damage": "2d10",
-		"damagetype": "Slashing",
+		"dice": "2d10",
+		"damage type": "Slashing",
 		"range": "5 ft.",
-		"cost": "650",
+		"cost (sp)": "650",
 		"properties": "Heavy",
 		"special": "Two Handed"
 	},
 	{
 		"name": "Hand-Axe",
 		"type": "Weapon",
-		"damage": "d6",
-		"damagetype": "Slashing",
+		"dice": "d6",
+		"damage type": "Slashing",
 		"range": "5 ft.",
-		"cost": "40",
+		"cost (sp)": "40",
 		"properties": "Light",
 		"special": " Thrown"
 	},
 	{
 		"name": "War Axe",
 		"type": "Weapon",
-		"damage": "d8",
-		"damagetype": "Slashing",
+		"dice": "d8",
+		"damage type": "Slashing",
 		"range": "5 ft.",
-		"cost": "120",
+		"cost (sp)": "120",
 		"properties": "Light",
 		"special": "None"
 	},
 	{
 		"name": "Great Axe",
 		"type": "Weapon",
-		"damage": "d12",
-		"damagetype": "Slashing",
+		"dice": "d12",
+		"damage type": "Slashing",
 		"range": "5 ft.",
-		"cost": "200",
+		"cost (sp)": "200",
 		"properties": "Heavy",
 		"special": " Two Handed"
 	},
 	{
 		"name": "Hammer",
 		"type": "Weapon",
-		"damage": "d8",
-		"damagetype": "Bludgeoning",
+		"dice": "d8",
+		"damage type": "Bludgeoning",
 		"range": "5 ft.",
-		"cost": "100",
+		"cost (sp)": "100",
 		"properties": "Light",
 		"special": "None"
 	},
 	{
 		"name": "Warhammer",
 		"type": "Weapon",
-		"damage": "d10",
-		"damagetype": "Bludgeoning",
+		"dice": "d10",
+		"damage type": "Bludgeoning",
 		"range": "5 ft.",
-		"cost": "200",
+		"cost (sp)": "200",
 		"properties": "None",
 		"special": "None"
 	},
 	{
 		"name": "Maul",
 		"type": "Weapon",
-		"damage": "2d8",
-		"damagetype": "Piercing/Bludgeoning",
+		"dice": "2d8",
+		"damage type": "Piercing/Bludgeoning",
 		"range": "5 ft.",
-		"cost": "400",
+		"cost (sp)": "400",
 		"properties": "Heavy",
 		"special": " Two Handed"
 	},
 	{
 		"name": "Spear",
 		"type": "Weapon",
-		"damage": "d6",
-		"damagetype": "Piercing",
+		"dice": "d6",
+		"damage type": "Piercing",
 		"range": "10 ft.",
-		"cost": "80",
+		"cost (sp)": "80",
 		"properties": "None",
+		"special": "None"
+	},
+	{
+		"name": "Javelin",
+		"type": "Weapon",
+		"dice": "d6",
+		"damage type": "Piercing",
+		"range": "5 ft.",
+		"cost (sp)": "80",
+		"properties": "Thrown",
 		"special": "None"
 	},
 	{
 		"name": "Glaive",
 		"type": "Weapon",
-		"damage": "d10",
-		"damagetype": "Piercing/Slashing",
+		"dice": "d10",
+		"damage type": "Piercing/Slashing",
 		"range": "10 ft.",
-		"cost": "350",
+		"cost (sp)": "350",
 		"properties": "Two Handed",
 		"special": "None"
 	},
 	{
 		"name": "Pike",
 		"type": "Weapon",
-		"damage": "d10",
-		"damagetype": "Piercing",
+		"dice": "d10",
+		"damage type": "Piercing",
 		"range": "15 ft.",
-		"cost": "160",
+		"cost (sp)": "160",
 		"properties": "Heavy",
 		"special": " Two Handed"
 	},
 	{
 		"name": "Lance",
 		"type": "Weapon",
-		"damage": "2d8",
-		"damagetype": "Piercing",
+		"dice": "2d8",
+		"damage type": "Piercing",
 		"range": "5 ft.",
-		"cost": "450",
+		"cost (sp)": "450",
 		"properties": "Heavy",
 		"special": "Double damage on a charge. Can only be used while on a horse."
 	},
 	{
 		"name": "Shortbow",
 		"type": "Weapon",
-		"damage": "d8",
-		"damagetype": "Piercing",
+		"dice": "d8",
+		"damage type": "Piercing",
 		"range": "500 ft.",
-		"cost": "400",
+		"cost (sp)": "400",
 		"properties": "Two Handed",
 		"special": " ranged"
 	},
 	{
 		"name": "Longbow",
 		"type": "Weapon",
-		"damage": "d10",
-		"damagetype": "Piercing",
+		"dice": "d10",
+		"damage type": "Piercing",
 		"range": "800 ft.",
-		"cost": "600",
+		"cost (sp)": "600",
 		"properties": "Heavy",
 		"special": " Two Handed"
 	},
 	{
 		"name": "Crossbow",
 		"type": "Weapon",
-		"damage": "d12",
-		"damagetype": "Piercing",
+		"dice": "d12",
+		"damage type": "Piercing",
 		"range": "450 ft.",
-		"cost": "900",
+		"cost (sp)": "900",
 		"properties": "Loading",
 		"special": " ranged"
 	},
 	{
 		"name": "Pistol",
 		"type": "Weapon",
-		"damage": "2d8",
-		"damagetype": "Piercing",
+		"dice": "2d8",
+		"damage type": "Piercing",
 		"range": "200 ft.",
-		"cost": "1200",
+		"cost (sp)": "1200",
 		"properties": "Light",
 		"special": " Loading"
 	},
 	{
 		"name": "Musket",
 		"type": "Weapon",
-		"damage": "2d12",
-		"damagetype": "Piercing",
+		"dice": "2d12",
+		"damage type": "Piercing",
 		"range": "300 ft.",
-		"cost": "2500",
+		"cost (sp)": "2500",
 		"properties": "Loading",
 		"special": " Two Handed"
 	},
 	{
 		"name": "Sling",
 		"type": "Weapon",
-		"damage": "d4",
-		"damagetype": "Bludgeoning",
+		"dice": "d4",
+		"damage type": "Bludgeoning",
 		"range": "600 ft.",
-		"cost": "6",
+		"cost (sp)": "6",
 		"properties": "Loading",
 		"special": " ranged"
 	},
 	{
 		"name": "Club",
 		"type": "Weapon",
-		"damage": "d6",
-		"damagetype": "Bludgeoning",
+		"dice": "d6",
+		"damage type": "Bludgeoning",
 		"range": "5 ft.",
-		"cost": "4",
+		"cost (sp)": "4",
 		"properties": "Light",
 		"special": "None"
 	},
 	{
 		"name": "Quarterstaff",
 		"type": "Weapon",
-		"damage": "d8",
-		"damagetype": "Bludgeoning",
+		"dice": "d8",
+		"damage type": "Bludgeoning",
 		"range": "5 ft.",
-		"cost": "10",
+		"cost (sp)": "10",
 		"properties": "Two Handed",
 		"special": "None"
 	},
 	{
 		"name": "Padded",
-		"type": "Armor",
-		"baseac": "9",
-		"dexpen": "0",
-		"dr": "0",
-		"damagetype": "Light",
-		"maxdex": "5",
-		"cost": "300"
+		"type": "Armour",
+		"base ac": "9",
+		"dex penalty": "0",
+		"damage reduction": "0",
+		"damage type": "Light",
+		"max dex bonus": "5",
+		"cost (sp)": "300"
 	},
 	{
 		"name": "Leather",
-		"type": "Armor",
-		"baseac": "10",
-		"dexpen": "0",
-		"dr": "0",
-		"damagetype": "Light",
-		"maxdex": "5",
-		"cost": "800"
+		"type": "Armour",
+		"base ac": "10",
+		"dex penalty": "0",
+		"damage reduction": "0",
+		"damage type": "Light",
+		"max dex bonus": "5",
+		"cost (sp)": "800"
 	},
 	{
 		"name": "Studded Leather",
-		"type": "Armor",
-		"baseac": "11",
-		"dexpen": "1",
-		"dr": "1",
-		"damagetype": "Light",
-		"maxdex": "4",
-		"cost": "1300"
+		"type": "Armour",
+		"base ac": "11",
+		"dex penalty": "1",
+		"damage reduction": "1",
+		"damage type": "Light",
+		"max dex bonus": "4",
+		"cost (sp)": "1300"
 	},
 	{
 		"name": "Rusted Chain",
-		"type": "Armor",
-		"baseac": "12",
-		"dexpen": "3",
-		"dr": "2",
-		"damagetype": "Medium",
-		"maxdex": "3",
-		"cost": "500"
+		"type": "Armour",
+		"base ac": "12",
+		"dex penalty": "3",
+		"damage reduction": "2",
+		"damage type": "Medium",
+		"max dex bonus": "3",
+		"cost (sp)": "500"
 	},
 	{
 		"name": "Chain",
-		"type": "Armor",
-		"baseac": "13",
-		"dexpen": "2",
-		"dr": "2",
-		"damagetype": "Medium",
-		"maxdex": "3",
-		"cost": "700"
+		"type": "Armour",
+		"base ac": "13",
+		"dex penalty": "2",
+		"damage reduction": "2",
+		"damage type": "Medium",
+		"max dex bonus": "3",
+		"cost (sp)": "700"
 	},
 	{
 		"name": "Steel Chain",
-		"type": "Armor",
-		"baseac": "14",
-		"dexpen": "2",
-		"dr": "2",
-		"damagetype": "Medium",
-		"maxdex": "3",
-		"cost": "2000"
+		"type": "Armour",
+		"base ac": "14",
+		"dex penalty": "2",
+		"damage reduction": "2",
+		"damage type": "Medium",
+		"max dex bonus": "3",
+		"cost (sp)": "2000"
 	},
 	{
 		"name": "Breastplate",
-		"type": "Armor",
-		"baseac": "14",
-		"dexpen": "3",
-		"dr": "3",
-		"damagetype": "Medium",
-		"maxdex": "3",
-		"cost": "3000"
+		"type": "Armour",
+		"base ac": "14",
+		"dex penalty": "3",
+		"damage reduction": "3",
+		"damage type": "Medium",
+		"max dex bonus": "3",
+		"cost (sp)": "3000"
 	},
 	{
 		"name": "Steel Breastplate",
-		"type": "Armor",
-		"baseac": "15",
-		"dexpen": "3",
-		"dr": "4",
-		"damagetype": "Medium",
-		"maxdex": "3",
-		"cost": "8000"
+		"type": "Armour",
+		"base ac": "15",
+		"dex penalty": "3",
+		"damage reduction": "4",
+		"damage type": "Medium",
+		"max dex bonus": "3",
+		"cost (sp)": "8000"
 	},
 	{
 		"name": "Rusted Half Plate",
-		"type": "Armor",
-		"baseac": "14",
-		"dexpen": "4",
-		"dr": "3",
-		"damagetype": "Heavy",
-		"maxdex": "0",
-		"cost": "2500"
+		"type": "Armour",
+		"base ac": "14",
+		"dex penalty": "4",
+		"damage reduction": "3",
+		"damage type": "Heavy",
+		"max dex bonus": "0",
+		"cost (sp)": "2500"
 	},
 	{
 		"name": "Half Plate",
-		"type": "Armor",
-		"baseac": "16",
-		"dexpen": "3",
-		"dr": "4",
-		"damagetype": "Heavy",
-		"maxdex": "0",
-		"cost": "12 000"
+		"type": "Armour",
+		"base ac": "16",
+		"dex penalty": "3",
+		"damage reduction": "4",
+		"damage type": "Heavy",
+		"max dex bonus": "0",
+		"cost (sp)": "12 000"
 	},
 	{
 		"name": "Steel Half Plate",
-		"type": "Armor",
-		"baseac": "17",
-		"dexpen": "3",
-		"dr": "5",
-		"damagetype": "Heavy",
-		"maxdex": "0",
-		"cost": "24 000"
+		"type": "Armour",
+		"base ac": "17",
+		"dex penalty": "3",
+		"damage reduction": "5",
+		"damage type": "Heavy",
+		"max dex bonus": "0",
+		"cost (sp)": "24 000"
 	},
 	{
 		"name": "Full Plate",
-		"type": "Armor",
-		"baseac": "18",
-		"dexpen": "4",
-		"dr": "6",
-		"damagetype": "Heavy",
-		"maxdex": "0",
-		"cost": "150 000"
+		"type": "Armour",
+		"base ac": "18",
+		"dex penalty": "4",
+		"damage reduction": "6",
+		"damage type": "Heavy",
+		"max dex bonus": "0",
+		"cost (sp)": "150 000"
 	},
 	{
 		"name": "Steel Full Plate",
-		"type": "Armor",
-		"baseac": "20",
-		"dexpen": "4",
-		"dr": "6",
-		"damagetype": "Heavy",
-		"maxdex": "0",
-		"cost": "400 000"
+		"type": "Armour",
+		"base ac": "20",
+		"dex penalty": "4",
+		"damage reduction": "6",
+		"damage type": "Heavy",
+		"max dex bonus": "0",
+		"cost (sp)": "400 000"
 	},
 	{
 		"name": "Wooden Shield",
-		"type": "Armor",
-		"baseac": "2",
-		"dexpen": "1",
-		"dr": "0",
-		"damagetype": "Light",
-		"maxdex": "None",
-		"cost": "150"
+		"type": "Armour",
+		"base ac": "2",
+		"dex penalty": "1",
+		"damage reduction": "0",
+		"damage type": "Light",
+		"max dex bonus": "None",
+		"cost (sp)": "150"
 	},
 	{
 		"name": "Steel Shield",
-		"type": "Armor",
-		"baseac": "3",
-		"dexpen": "2",
-		"dr": "1",
-		"damagetype": "Medium",
-		"maxdex": "None",
-		"cost": "500"
+		"type": "Armour",
+		"base ac": "3",
+		"dex penalty": "2",
+		"damage reduction": "1",
+		"damage type": "Medium",
+		"max dex bonus": "None",
+		"cost (sp)": "500"
 	},
 	{
 		"name": "Tower Shield",
-		"type": "Armor",
-		"baseac": "4",
-		"dexpen": "4",
-		"dr": "2",
-		"damagetype": "Heavy",
-		"maxdex": "None",
-		"cost": "4000"
+		"type": "Armour",
+		"base ac": "4",
+		"dex penalty": "4",
+		"damage reduction": "2",
+		"damage type": "Heavy",
+		"max dex bonus": "None",
+		"cost (sp)": "4000"
+	},
+	{
+		"name": "Riding Horse",
+		"type": "Mount",
+		"speed": "40ft",
+		"cost (sp)": "550"
+	},
+	{
+		"name": "War Horse",
+		"type": "Mount",
+		"speed": "50ft",
+		"cost (sp)": "800",
+		"special": "When you perform a charge with a melee attack on a warhorse and move 40ft in a straight line before you hit your target you deal an extra 2d6 damage on a hit as you trample your foe with the horse. You can only deal this damage once per turn."
+	},
+	{
+		"name": "Noble Horse",
+		"type": "Mount",
+		"speed": "60ft",
+		"cost (sp)": "4000",
+		"special": "When you perform a charge with a melee attack on a warhorse and move 40ft in a straight line before you hit your target you deal an extra 2d6 damage on a hit as you trample your foe with the horse. You can only deal this damage once per turn."
+	},
+	{
+		"name": "Pack Horse",
+		"type": "Mount",
+		"speed": "30ft",
+		"cost (sp)": "300",
+		"special": "Carries an extra 2 weapons"
+	},
+	{
+		"name": "Donkey",
+		"type": "Mount",
+		"speed": "30ft",
+		"cost (sp)": "150"
+	},
+	{
+		"name": "Rope",
+		"type": "",
+		"cost (sp)": "10",
+		"description": "50 ft. of well-made rope."
+	},
+	{
+		"name": "Medicine Kit",
+		"type": "",
+		"cost (sp)": "200",
+		"description": "Contains 10 charges. Can be used to heal."
+	},
+	{
+		"name": "Grappling Hook",
+		"type": "",
+		"cost (sp)": "40"
+	},
+	{
+		"name": "10 ft. Ladder",
+		"type": "",
+		"cost (sp)": "8"
+	},
+	{
+		"name": "Lockpick Set",
+		"type": "",
+		"cost (sp)": "150"
+	},
+	{
+		"name": "Crowbar",
+		"type": "",
+		"cost (sp)": "20"
+	},
+	{
+		"name": "Caltrops",
+		"type": "",
+		"cost (sp)": "15"
+	},
+	{
+		"name": "Lantern",
+		"type": "",
+		"cost (sp)": "90"
+	},
+	{
+		"name": "Fishing Gear",
+		"type": "",
+		"cost (sp)": "5"
+	},
+	{
+		"name": "Kettle",
+		"type": "",
+		"cost (sp)": "3"
+	},
+	{
+		"name": "Pot",
+		"type": "",
+		"cost (sp)": "5"
+	},
+	{
+		"name": "Climbing Gear",
+		"type": "",
+		"cost (sp)": "120"
+	},
+	{
+		"name": "Trap Disarming Kit",
+		"type": "",
+		"cost (sp)": "230"
+	},
+	{
+		"name": "Basic Wand",
+		"type": "Magic",
+		"cost (sp)": "200"
+	},
+	{
+		"name": "Basic Staff",
+		"type": "Magic",
+		"cost (sp)": "350"
+	},
+	{
+		"name": "Wand of Recharge",
+		"type": "Magic",
+		"cost (sp)": "900",
+		"description": "Once per downtime you can regain 1d4 intelligence as your main action."
+	},
+	{
+		"name": "Wand of Wand",
+		"type": "Magic",
+		"cost (sp)": "1000",
+		"description": [
+			"3 charges. ",
+			"Regains 1d3 charges on a long rest. Can use a charge to cast flame bolt."
+		]
+	},
+	{
+		"name": "Wooden Holy Symbol",
+		"type": "Magic",
+		"cost (sp)": "Free"
+	},
+	{
+		"name": "Metal Holy Symbol",
+		"type": "Magic",
+		"cost (sp)": "50 – 500 silver"
+	},
+	{
+		"name": "Restorative Relic",
+		"type": "Magic",
+		"cost (sp)": "1000 - 1200 silver",
+		"description": "Once per downtime you can regain 1d4 wisdom as your main action."
+	},
+	{
+		"name": "Relic of Saint Marcus",
+		"type": "Magic",
+		"cost (sp)": "90 000 silver",
+		"description": "This relic contains a finger bone of the famous Saint, who defeated the Black Dragon Arcturus in single combat. A priest using this relic can cast Flame Bolt at will and Fireball once per short rest."
+	},
+	{
+		"name": "Porter",
+		"type": "Hireling",
+		"cost (sp)": "25 per day",
+		"description":"Carries 2 weight loot"
+	},
+	{
+		"name": "Scout",
+		"type": "Hireling",
+		"cost (sp)": "35 per day",
+		"description":"Chance to spot enemies"
+	},
+	{
+		"name": "Camp Hand",
+		"type": "Hireling",
+		"cost (sp)": "16 per day",
+		"description":"Cleans weapons, cooks"
+	},
+	{
+		"name": "Caravan Guard",
+		"type": "Hireling",
+		"cost (sp)": "50 per day",
+		"description":"Guards"
+	},
+	{
+		"name": "Healer",
+		"type": "Hireling",
+		"cost (sp)": "120 per day",
+		"description":"Heals"
 	}
 ]
