@@ -1,0 +1,122 @@
+{
+    "misfire": [
+        {
+            "roll": 1,
+            "text": "Catastrophic Misfire: You take 2d8 damage and the weapon takes a week to repair at half its value"
+        },
+        {
+            "roll": 2,
+            "text": "The weapon will take a long rest to repair for 10% of its base cost."
+        },
+        {
+            "roll": 3,
+            "text": "Misfire: The weapon requires a short rest to be unjammed and repaired."
+        },
+        {
+            "roll": 4,
+            "text": "Misfire: The weapon requires a short rest to be unjammed and repaired."
+        },
+        {
+            "roll": 5,
+            "text": "Minor Misfire: The weapon will take a turn to repair/clear the jam."
+        },
+        {
+            "roll": 6,
+            "text": "Minor Misfire: The weapon will take a turn to repair/clear the jam."
+        },
+        {
+            "roll": 7,
+            "text": "Minor Misfire: The weapon will take a turn to repair/clear the jam."
+        },
+        {
+            "roll": 8,
+            "text": "Minor Misfire: The weapon will take a turn to repair/clear the jam."
+        },
+        {
+            "roll": 9,
+            "text": "Minor Misfire: The weapon will take a turn to repair/clear the jam."
+        },
+        {
+            "roll": 10,
+            "text": "Wet Powder: The weapon cannot be used until your next turn."
+        }
+    ],
+    "primal": [
+            {
+            "roll": 2,
+            "text": "You are knocked unconscious for 1d6 hours. If you take any damage you must roll a d10. If the roll is above a 7 you wake up."
+        },
+        {
+            "roll": 3,
+            "text": "You must succeed a fortitude save against your own DC or take a major wound, taking a minor wound on a pass."
+        },
+        {
+            "roll": 4,
+            "text": "You cast lightning bolt, including yourself in the area of effect."
+        },
+        {
+            "roll": 5,
+            "text": "You cannot cast spells for 1d6 rounds."
+        },
+        {
+            "roll": 6,
+            "text": "A random creature within 30ft of you (including yourself) must succeed on a will save or be stunned for a minute. On each turn it can repeat the save, ending the stun on a success."
+        },
+        {
+            "roll": 7,
+            "text": "You summon an imp in a random square 10ft from you. This imp is hostile to any creature near it and disappears when dead or after an hour."
+        },
+        {
+            "roll": 8,
+            "text": "Everything within 15 ft. of you (including you) catches on fire, taking 1d10 damage every round until they or another creature use an action to put it out."
+        },
+        {
+            "roll": 9,
+            "text": "You take 1d12 sanity damage and have visions of tentacles."
+        },
+        {
+            "roll": 10,
+            "text": "Your next invocation costs double the number of spellcasting ability points."
+        },
+        {
+            "roll": 11,
+            "text": "Choose one of the following options \n A) Flip a coin. On heads you can select an effect from this table. On tails the GM selects an effect. (GM Note: Pick a bad one) \n B) Reroll this roll."
+        },
+        {
+            "roll": 12,
+            "text": "Every creature within 15 ft. of you regains 5 defence."
+        },
+        {
+            "roll": 13,
+            "text": "The next attack that hits you deals no damage."
+        },
+        {
+            "roll": 14,
+            "text": "A swarm of butterflies appears around you. This blocks line of sight in a 20 ft. radius around you. You are blinded."
+        },
+        {
+            "roll": 15,
+            "text": "You regain 1 defence at the start of every round for a minute."
+        },
+        {
+            "roll": 16,
+            "text": "Pick a creature within 30ft of you. The target must succeed on a fortitude save or be deafened for a minute. You can choose to target an empty square if you wish, creating a loud boom instead."
+        },
+        {
+            "roll": 17,
+            "text": "Pick a creature within 30ft of you. The creature has advantage on the next attack it makes within 1 minute."
+        },
+        {
+            "roll": 18,
+            "text": "The next invocation you cast costs half its usual cost."
+        },
+        {
+            "roll": 19,
+            "text": "You can select a target within 30ft. The target must succeed a fortitude save or take a minor wound. If you cause a wound in this manner you may heal one minor wound."
+        },
+        {
+            "roll": 20,
+            "text": "You instantly regain all your spent spellcasting ability points"
+        }
+    ]
+}
