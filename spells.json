@@ -40,6 +40,58 @@
         "range": "120 ft.",
         "description": "One (non-native) daemon within range must succeed a will save or be forced back to chaos. You can target up to 3 additional daemons by paying 3 points per extra daemon. A daemon currently touching a material it is weak to has disadvantage on this save."
     },
+	{
+        "name": "Bind Imp",
+        "type": "spell",
+        "time": "1 minute",
+        "cost": "4",
+        "range": "30 ft.",
+        "description": [
+			"An Imp within range must succeed on a will save or be bound to your will for a week. An imp you have not summoned yourself has advantage and a +5 bonus to this save.",
+			"Speaking the imps true name will give it disadvantage and a -5 penalty on this save.",
+			"Once bound, the imp must obey your commands to the letter, though it will seek to subvert them to the best of its ability. Treating an imp well can cause it to become friendlier and obey your commands more leniently.",
+			"You cannot force an imp to reveal its true name or the true name of any other daemon."
+		]
+    },
+	{
+        "name": "Bind Lesser Daemon",
+        "type": "spell",
+        "time": "10 minutes",
+        "cost": "8",
+        "range": "30 ft.",
+        "description": [
+			"A lesser daemon within range must succeed on a will save or be bound to your will for a week. A lesser daemon you have not summoned yourself has advantage and a +10 bonus to this save.",
+			"Speaking the lesser daemons true name will give it disadvantage and a -10 penalty on this save.",
+			"Once bound, the lesser daemon must obey your commands to the letter, though it will seek to subvert them to the best of its ability. Treating a lesser daemon well can cause it to become friendlier and obey your commands more leniently.",
+			"You cannot force a lesser daemon to reveal its true name or the true name of any other daemon."
+		]
+    },
+	{
+        "name": "Bind Greater Daemon",
+        "type": "spell",
+        "time": "1 hour",
+        "cost": "20",
+        "range": "15 ft.",
+        "description": [
+			"A greater daemon within range must succeed on a will save or be bound to your will for a week. A greater daemon you have not summoned yourself has advantage and a +15 bonus to this save.",
+			"Speaking the greater daemons true name will give it disadvantage and a -15 penalty on this save.",
+			"Once bound, the greater daemon must obey your commands to the letter, though it will seek to subvert them to the best of its ability.",
+			"You cannot force a greater daemon to reveal its true name or the true name of any other daemon."
+		]
+    },
+	{
+        "name": "Bind Daemon Lord",
+        "type": "spell",
+        "time": "1 Day",
+        "cost": "50",
+        "range": "5 ft.",
+        "description": [
+			"A daemon lord within range must succeed on a will save or be bound to your will for a week. A daemon lord you have not summoned yourself has advantage and a +25 bonus to this save.",
+			"Speaking the daemon lords true name will give it disadvantage and a -25 penalty on this save.",
+			"Once bound, the daemon lord must obey your commands to the letter, though it will seek to subvert them to the best of its ability.",
+			"You cannot force a daemon lord to reveal its true name or the true name of any other daemon."
+		]
+    },
     {
         "name": "Bird Scout",
         "type": "spell",
@@ -134,6 +186,14 @@
         "cost": "2",
         "range": "60ft",
         "description": "All creatures within range must succeed a will save or be frightened of you for one minute. Any creature frightened by this spell takes an extra 1d6 damage from any attack or spell that deals damage to them."
+    },
+	{
+        "name": "Cacophonous Chorus",
+        "type": "spell",
+        "time": "1 turn",
+        "cost": "4",
+        "range": "60 ft.",
+        "description": "All creatures within 20 ft of a point you chose within range must make a will save or take 2d8 damage and be deafened for an hour. The area is also filled with birds and feathers for a round and blocks line of sight."
     },
     {
         "name": "Call the Flock",
@@ -681,14 +741,24 @@
             "To call lighting you can spend 2 points to deal 4d8 to every creature within 10 ft of a point you pick within 150 ft."
         ]
     },
+	{
+        "name": "Cauldron",
+        "type": "ceremony",
+        "secret": "Secret of Witchery",
+        "description": [
+            "You create a cauldron with metal and wood worth 10 000 silver. In this cauldron you can brew concoctions if you have the alchemist feat or poisons if you have the poisoner feat. You can also create the following concoctions.",
+			"Each time you make a potion, poision, or concoction you fill your cauldron by 1. Once the cauldron hits 10 it is full and all potion, poison, concoction crafting costs are halved."
+        ]
+    },
     {
         "name": "Contact Daemon",
         "type": "ceremony",
         "secret": "Secret of Chaos",
         "description": [
             "You sacrifice a living creature and attempt to contact a daemon. The type of daemon contacted depends on the quality of the sacrifice. ",
-            "The daemon appears within a chalk circle you draw. Once the daemon appears you must bind it with a knowledge daemons check. If successful you can have it complete a single task. Any additional task beyond the first increases the DC, as do long or difficult tasks. ",
-            " If you fail the check by 5 the daemon instead attacks you."
+            "The daemon appears within a chalk circle you draw. Once the daemon appears you must bind it with a knowledge daemons check. If successful you can have it complete a single task or answer a single question. Any additional task beyond the first increases the DC, as do long or difficult tasks. You cannot ask a daemon its true name or the true name of another daemon. ",
+            " If you fail the base check by 5 the daemon instead attacks you.",
+			"If you speak the daemons true name as part of the ceremony you gain advantage on the check and the daemon cannot attack you directly."
         ],
         "img": "https://cdn.discordapp.com/attachments/507858027215323136/510054947384066051/unknown.png"
     },

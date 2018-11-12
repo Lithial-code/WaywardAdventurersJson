@@ -238,10 +238,11 @@
   {
     "name": "Hard Hearted",
     "type": "",
-    "prerequisite": "Intelligence or wisdom 12",
+    "prerequisite": "Intelligence or wisdom 12, Trait: Cruel Upbringing or Flaw: Bloodthirsty",
     "description": [
       "You do not react as much to death, gore, and other horrors as normal people. ",
-      "You gain sanity damage reduction 2. This reduces all sanity damage received by 2."
+      "You gain sanity damage reduction 2. This reduces all sanity damage received by 2.",
+	  "You no longer lose sanity when seeing allies die or go unconscious, or from killing innocent people."
     ]
   },
   {
@@ -251,15 +252,6 @@
     "description": [
       "Your body clings to life more easily than others. ",
       "You only instantly die if you take more than 40 damage after your defence, rather than 30. You have advantage on any saves to avoid an instant death effect or to stop bleeding out."
-    ]
-  },
-  {
-    "name": "Heartless",
-    "type": "",
-    "prerequisite": "Hard Hearted",
-    "description": [
-      "You care little for others, and do not care who or when you care. ",
-      "You no longer lose sanity when seeing allies die or go unconscious, or from killing innocent people."
     ]
   },
   {
@@ -1086,6 +1078,14 @@
     "prerequisite": "Rogue, Level 5 ",
     "description": [
       "Your critical hits ignore defence."
+    ]
+  },
+  {
+    "name": "Deadly Grapple",
+    "type": "",
+    "prerequisite": "Rogue, Stealth ",
+    "description": [
+      "When you grapple a target from stealth you can immediately make an attack as a bonus action. This attack can be used to execute."
     ]
   },
   {
