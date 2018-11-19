@@ -2,12 +2,12 @@
 	{
 		"name": "Warrior",
 		"type": "",
-		"Warrior Extra Attack": "A warrior can attack twice a turn at level 1. This extra attack stacks with other abilities that grant additional attacks.",
+		"Warrior Extra Attack": "A warrior can attack twice a turn. This extra attack stacks with other abilities that grant additional attacks.",
 		"Warrior Fighting Skills": "A warrior can add a bonus equal to half their level, minimum 1, to weapon attack rolls.",
 		"Warrior Armour Mastery": "A warrior starts with the Medium Armour Feat but does not gain the +1 strength bonus of that feat.",
 		"Warrior Starting Attributes": [
-			"A warrior has a wound limit of 3 at level 1.",
-			"A warrior has defence equal to their constitution modifier + 7 at level 1."
+			"A warrior has a wound limit of 3.",
+			"A warrior has defence equal to their constitution modifier + 8."
 		],
 		"Warrior Saves": [
 			"Major Save: Fortitude ",
@@ -15,34 +15,19 @@
 		]
 	},
 	{
-		"name": "Rogue",
-		"type": "",
-		"Extra Rogue Skills": "The rogue can select two additional skills to be trained in at level 1.",
-		"Rogue Starting Attributes": [
-			"A rogue has a wound limit of 2 at level 1.",
-			"A rogue has defence equal to their constitution modifier + 6 at level 1."
-		],
-		"Fighting Dirty": "A rogue can add a bonus of half their level, minimum 1 to attack rolls.",
-		"Get the Drop": "A rogue gains advantage on attacks against targets who are surprised or stunned.",
-		"Rogue Talents": "A rogue gains a bonus equal to half their level, minimum 1, to stealth checks and checks to unlock locks or disarm traps. ",
-		"Rogue Saves": [
-			"Major Save: Reflex",
-			"Minor Save: Will"
-		]
-	},
-	{
 		"name": "Mage",
 		"type": "",
 		"Mage Secrets": [
-			"At level one you pick 3 mage secrets from the list of basic or advanced mage secrets to learn.",
-			" Learning a secret gives you access to that secrets base level of spells and/or abilities.Whenever you level up you can choose to either learn a new secret, gaining its base abilities as normal, or you can deepen your knowledge of a secret you have already learned, gaining access to its next level of mastery and the abilities or spells that provides.",
-			" Secrets can be viewed with the secrets * command"
+			"At level one you pick 3 mage secrets from the list of basic or advanced mage secrets to learn. Learning a secret gives you access to that secrets base level of spells and/or abilities. You also select one of these secrets to gain the first mastery of.",
+			"Whenever you level up you can choose to either learn a new secret, gaining its base abilities as normal, or you can deepen your knowledge of a secret you have already learned, gaining access to its next level of mastery and the abilities or spells that provides.",
+			"When you reach level 5 and level 10 you can select one additional secret to deepen your knowledge of. This secret cannot be the same one as one you have already deepened during this level up.",
+			"Secrets can be viewed with the secrets * command"
 		],
 		"Mage Spell Attack Mastery": "A mage can add a bonus equal to half their level, minimum 1, to any spell attacks.",
 		"Mage Starting Attributes": [
-			"A mage has a wound limit of 2 at level 1.",
-			" A mage has defence equal to their constitution modifier + 5 at level 1. ",
-			" A mage gains +2 sanity at level 1 and an additional +1 sanity each time they level up."
+			"A mage has a wound limit of 2.",
+			" A mage has defence equal to their constitution modifier + 5.",
+			"A mage gains an additional 2 sanity  and an additional +1 sanity at each odd level."
 		],
 		"Mage Casting Ability Score": "A mage’s casting ability score is intelligence.",
 		"Mage  Saves": [
@@ -61,13 +46,30 @@
 		"Priest Bonus Feat": "A priest starts the game with a bonus feat. This feat must have priest as a prerequisite.",
 		"Priest Spell Attack Mastery": "A priest can add a bonus equal to half their level, minimum 1, to any spell attacks.",
 		"Priest Starting Attributes": [
-			"A priest has a wound limit of 3 at level 1. ",
-			"A priest has defence equal to their constitution modifier + 7 at level 1."
+			"A priest has a wound limit of 3. ",
+			"A priest has defence equal to their constitution modifier + 7."
 		],
 		"Priest Casting Ability Score": "A priest’s casting ability score is wisdom.",
 		"Priest Saves": [
 			"Major Save: Will",
 			"Minor Save: Reflex"
+		]
+	},
+	{
+		"name": "Rogue",
+		"type": "",
+		"Extra Rogue Skills": "The rogue can select two additional skills to be trained in.",
+		"Rogue Starting Attributes": [
+			"A rogue has a wound limit of 2",
+			"A rogue has defence equal to their constitution modifier + 6"
+		],
+		"Rogue Bonus Feat":"A rogue starts the game with a bonus feat. This feat must have rogue as a prerequisite.",
+		"Fighting Dirty": "A rogue can add a bonus of half their level, minimum 1 to attack rolls.",
+		"Get the Drop": "A rogue gains advantage on attacks against targets who are surprised or stunned.",
+		"Rogue Talents": "A rogue gains a bonus equal to half their level, minimum 1, to stealth checks and checks to unlock locks or disarm traps. ",
+		"Rogue Saves": [
+			"Major Save: Reflex",
+			"Minor Save: Will"
 		]
 	}
 ]

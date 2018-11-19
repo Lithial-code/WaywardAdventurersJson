@@ -25,14 +25,6 @@
     "description": "While frightened a creature must move away from whatever frightened it, if it is within 60ft of the source of its fear. It has disadvantage on all attacks and ability checks while it can see or is otherwise aware of the source of its fear."
   },
   {
-    "name": "Prone",
-    "type": "",
-    "description": [
-      "If a creature is knocked prone, or falls prone willingly, its movement speed becomes 5 ft unless it would otherwise be lower and attacks against it from within 5 feet range have advantage. Ranged attacks against a prone creature have disadvantage.",
-      "To stand up from prone your movement speed cannot be 0. You must take an action that lets you move up to your movement speed. If you would normally be able to move your movement speed a number of times you can move it one less time. If you would normally move up to your movement speed you instead do not move this turn."
-    ]
-  },
-  {
     "name": "Poisoned",
     "type": "",
     "description": "If a creature is poisoned or sicked it has its movement speed halved and the creature has disadvantage on all attack rolls and reflex saving throws."
@@ -43,6 +35,16 @@
     "description": "If a creature is poisoned or sicked it has its movement speed halved and the creature has disadvantage on all attack rolls and reflex saving throws."
   },
   {
+    "name": "Prone",
+    "type": "",
+    "description": [
+      "If a creature is knocked prone, or falls prone willingly, its movement speed becomes 5 ft unless it would otherwise be lower and attacks against it from within 5 feet range have advantage. Ranged attacks against a prone creature have disadvantage.",
+      "To stand up from prone your movement speed cannot be 0. You must take an action that lets you move up to your movement speed. If you would normally be able to move your movement speed a number of times you can move it one less time. If you would normally move up to your movement speed you instead do not move this turn.",
+      "If a flying creature is knocked prone, it falls, unless it is flying through magic."
+    ]
+  },
+ 
+  {
     "name": "Restrained",
     "type": "",
     "description": "A restrained creature cannot move and has disadvantage on attack rolls, strength and dexterity checks and reflex saves. Attacks against a restrained creature have advantage."
@@ -52,8 +54,9 @@
     "type": "",
     "description": [
       "A grappled creature cannot move and has disadvantage on attacks. When attacking a creature that is grappled the target gains +3 to armour class unless the attacking creature is the one performing the grapple.",
-      "An attack against a grappled creature can critically fail, hitting the creature doing the grapple on a critical failure.",
-      "To cast a spell while grappled a creature must make a DC 12 concentration check each round they cast. To escape a grapple the creature must pass a contested strength or dexterity check against the grappling creatures strength check."
+      "An attack against a grappled creature can critically fail, hitting the creature doing the grapple on a critical failure. You cannot hit yourself with a critically failed attack.",
+      "To cast a spell while grappled a creature must make a DC 12 concentration check each round they cast.",
+      "To escape a grapple the creature must use its main action and pass a contested strength or dexterity check against the grappling creatures strength check."
     ]
   },
   {

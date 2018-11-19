@@ -3,5 +3,20 @@
     "name": "Lethargy",
     "type": "",
     "description": "A creature with this curse requires twice as much time on any rest."
+  },
+  {
+    "name": "Slow Death",
+    "type": "",
+    "description": "A creature with the curse of slow death has disadvantage on saves to heal wounds or against death effects. They cannot regain defence."
+  },
+  {
+    "name": "Debilitating Pain",
+    "type": "",
+    "description": "A creature with the curse of debilitating pain never stops feeling any pain they feel. Any time they take a wound they must make a will save or take 1d6 sanity damage. The DC is 10 + any wound taken after this curse. For each wound taken the dice also increased by one size."
+  },
+  {
+    "name": "Polymorph",
+    "type": "",
+    "description": "The target of this curse is turned into a creature of the caster’s choice. The target cannot return to their true form until the curse is lifted."
   }
 ]

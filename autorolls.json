@@ -1,122 +1,293 @@
 {
-    "misfire": [
+    "Misfire": [
         {
-            "roll": 1,
-            "text": "Catastrophic Misfire: You take 2d8 damage and the weapon takes a week to repair at half its value"
+            "1": "Catastrophic Misfire: You take 2d8 damage and the weapon takes a week to repair at half its value"
         },
         {
-            "roll": 2,
-            "text": "The weapon will take a long rest to repair for 10% of its base cost."
+            "2": "The weapon will take a long rest to repair for 10% of its base cost."
         },
         {
-            "roll": 3,
-            "text": "Misfire: The weapon requires a short rest to be unjammed and repaired."
+            "3": "Misfire: The weapon requires a short rest to be unjammed and repaired."
         },
         {
-            "roll": 4,
-            "text": "Misfire: The weapon requires a short rest to be unjammed and repaired."
+            "4": "Misfire: The weapon requires a short rest to be unjammed and repaired."
         },
         {
-            "roll": 5,
-            "text": "Minor Misfire: The weapon will take a turn to repair/clear the jam."
+            "5": "Minor Misfire: The weapon will take a turn to repair/clear the jam."
         },
         {
-            "roll": 6,
-            "text": "Minor Misfire: The weapon will take a turn to repair/clear the jam."
+            "6": "Minor Misfire: The weapon will take a turn to repair/clear the jam."
         },
         {
-            "roll": 7,
-            "text": "Minor Misfire: The weapon will take a turn to repair/clear the jam."
+            "7": "Minor Misfire: The weapon will take a turn to repair/clear the jam."
         },
         {
-            "roll": 8,
-            "text": "Minor Misfire: The weapon will take a turn to repair/clear the jam."
+            "8": "Minor Misfire: The weapon will take a turn to repair/clear the jam."
         },
         {
-            "roll": 9,
-            "text": "Minor Misfire: The weapon will take a turn to repair/clear the jam."
+            "9": "Minor Misfire: The weapon will take a turn to repair/clear the jam."
         },
         {
-            "roll": 10,
-            "text": "Wet Powder: The weapon cannot be used until your next turn."
+            "10": "Wet Powder: The weapon cannot be used until your next turn."
+        }         
+    ],
+    "Primal": [
+        {
+            "2": "You are knocked unconscious for 1d6 hours. If you take any damage you must roll a d10. If the roll is above a 7 you wake up."
+        },
+        {
+            "3": "You must succeed a fortitude save against your own DC or take a major wound, taking a minor wound on a pass."
+        },
+        {
+            "4": "You cast lightning bolt, including yourself in the area of effect."
+        },
+        {
+            "5": "You cannot cast spells for 1d6 rounds."
+        },
+        {
+            "6": "A random creature within 30ft of you (including yourself) must succeed on a will save or be stunned for a minute. On each turn it can repeat the save, ending the stun on a success."
+        },
+        {
+            "7": "You summon an imp in a random square 10ft from you. This imp is hostile to any creature near it and disappears when dead or after an hour."
+        },
+        {
+            "8": "Everything within 15 ft. of you (including you) catches on fire, taking 1d10 damage every round until they or another creature use an action to put it out."
+        },
+        {
+            "9": "You take 1d12 sanity damage and have visions of tentacles."
+        },
+        {
+            "10": "Your next invocation costs double the number of spellcasting ability points."
+        },
+        {
+            "11": "Choose one of the following options \n A) Flip a coin. On heads you can select an effect from this table. On tails the GM selects an effect. (GM Note: Pick a bad one) \n B) Reroll this roll."
+        },
+        {
+            "12": "Every creature within 15 ft. of you regains 5 defence."
+        },
+        {
+            "13": "The next attack that hits you deals no damage."
+        },
+        {
+            "14": "A swarm of butterflies appears around you. This blocks line of sight in a 20 ft. radius around you. You are blinded."
+        },
+        {
+            "15": "You regain 1 defence at the start of every round for a minute."
+        },
+        {
+            "16": "Pick a creature within 30ft of you. The target must succeed on a fortitude save or be deafened for a minute. You can choose to target an empty square if you wish, creating a loud boom instead."
+        },
+        {
+            "17": "Pick a creature within 30ft of you. The creature has advantage on the next attack it makes within 1 minute."
+        },
+        {
+            "18": "The next invocation you cast costs half its usual cost."
+        },
+        {
+            "19": "You can select a target within 30ft. The target must succeed a fortitude save or take a minor wound. If you cause a wound in this manner you may heal one minor wound."
+        },
+        {
+            "20": "You instantly regain all your spent spellcasting ability points"
         }
     ],
-    "primal": [
-            {
-            "roll": 2,
-            "text": "You are knocked unconscious for 1d6 hours. If you take any damage you must roll a d10. If the roll is above a 7 you wake up."
+    "Sanity": [
+        {
+         
+            "1": "Heart Attack (Major Wound )+ Major Madness"
         },
         {
-            "roll": 3,
-            "text": "You must succeed a fortitude save against your own DC or take a major wound, taking a minor wound on a pass."
+        
+            "2": "Heart Attack (Minor Wound)+ Minor Madness"
         },
         {
-            "roll": 4,
-            "text": "You cast lightning bolt, including yourself in the area of effect."
+        
+            "3": "Supreme Madness + Minor Madness"
         },
         {
-            "roll": 5,
-            "text": "You cannot cast spells for 1d6 rounds."
+         
+            "4": "Major Madness"
         },
         {
-            "roll": 6,
-            "text": "A random creature within 30ft of you (including yourself) must succeed on a will save or be stunned for a minute. On each turn it can repeat the save, ending the stun on a success."
+
+            "5": "Major Madness"
         },
         {
-            "roll": 7,
-            "text": "You summon an imp in a random square 10ft from you. This imp is hostile to any creature near it and disappears when dead or after an hour."
+        
+            "6": "Minor Madness"
         },
         {
-            "roll": 8,
-            "text": "Everything within 15 ft. of you (including you) catches on fire, taking 1d10 damage every round until they or another creature use an action to put it out."
+        
+            "7": "Minor Madness"
         },
         {
-            "roll": 9,
-            "text": "You take 1d12 sanity damage and have visions of tentacles."
-        },
-        {
-            "roll": 10,
-            "text": "Your next invocation costs double the number of spellcasting ability points."
-        },
-        {
-            "roll": 11,
-            "text": "Choose one of the following options \n A) Flip a coin. On heads you can select an effect from this table. On tails the GM selects an effect. (GM Note: Pick a bad one) \n B) Reroll this roll."
-        },
-        {
-            "roll": 12,
-            "text": "Every creature within 15 ft. of you regains 5 defence."
-        },
-        {
-            "roll": 13,
-            "text": "The next attack that hits you deals no damage."
-        },
-        {
-            "roll": 14,
-            "text": "A swarm of butterflies appears around you. This blocks line of sight in a 20 ft. radius around you. You are blinded."
-        },
-        {
-            "roll": 15,
-            "text": "You regain 1 defence at the start of every round for a minute."
-        },
-        {
-            "roll": 16,
-            "text": "Pick a creature within 30ft of you. The target must succeed on a fortitude save or be deafened for a minute. You can choose to target an empty square if you wish, creating a loud boom instead."
-        },
-        {
-            "roll": 17,
-            "text": "Pick a creature within 30ft of you. The creature has advantage on the next attack it makes within 1 minute."
-        },
-        {
-            "roll": 18,
-            "text": "The next invocation you cast costs half its usual cost."
-        },
-        {
-            "roll": 19,
-            "text": "You can select a target within 30ft. The target must succeed a fortitude save or take a minor wound. If you cause a wound in this manner you may heal one minor wound."
-        },
-        {
-            "roll": 20,
-            "text": "You instantly regain all your spent spellcasting ability points"
+        
+            "8": "Minor Madness"
         }
+    ],
+    "Long": [
+        {
+         
+            "1": "Roll on the supreme madness table every hour you are awake. The effect lasts one hour."
+        },
+        {
+            "2": "Each time you take damage roll on the minor madness table. This effect lasts one round."
+        },
+        {
+            "3": "Each time you take damage roll on the minor madness table. This effect lasts one round."
+        },
+        {
+            "4": "The first time you see a hostile creature today you must make a DC 15 will save or suffer major madness."
+        },
+        {
+            "5": "The first time you see a hostile creature today you must make a DC 15 will save or suffer major madness."
+        },
+        {
+            "6": "The first time you take damage today roll on the major madness table."
+        },
+        {
+            "7": "The first time you take damage today roll on the major madness table."
+        },
+        {
+            "8": "The first time you take damage today roll on the major madness table."
+        },
+        {
+            "9": "The first time you take damage today roll on the major madness table."
+        },
+        {
+            "10": "The first time you take damage today roll on the major madness table."
+        },
+        {
+            "11": "No effect."
+        },
+        {
+            "12": "No effect."
+        },
+        {
+            "13": "No effect."
+        },
+        {
+            "14": "No effect."
+        },
+        {
+            "15": "You feel a little better. Your maximum sanity is increased by 1."
+        },
+        {
+            "16": "You feel a little better. Your maximum sanity is increased by 1."
+        },
+        {
+            "17": "You feel a little better. Your maximum sanity is increased by 1."
+        },
+        {
+            "18": "You feel a little better. Your maximum sanity is increased by 1."
+        },
+        {
+            "19": "You feel a little better. Your maximum sanity is increased by 1."
+        },
+        {
+            "20": "You feel much better. Your maximum sanity is increased by 2."
+        }
+    ],
+    "Minor":[
+        {
+            "1": "You fall unconscious. You wake if you take any damage or a creature takes a turn to wake you."
+          },
+          {
+            "2": "You are jumpy. You gain advantage on initiative checks but have disadvantage on any charisma checks and wisdom checks."
+          },
+          {
+            "3": "Paranoid. You do not trust anyone. You cannot be a willing target of a spell."
+          },
+          {
+            "4": "Overconfident. Your armour class is reduced by 1 and you cannot take cover."
+          },
+          {
+            "5": "Violent. You must succeed on a DC 18 will save to attack any creature besides the closest enemy."
+          },
+          {
+            "6": "Brash. You cannot move away from any enemy you see, unless it is towards another enemy."
+          },
+          {
+            "7": "Mute/gibbering. You cannot speak intelligibly. You cannot cast spells unless they do not require you to speak to cast."
+          },
+          {
+            "8": "Fear. You are terrified of an object or creature of the GMs choice."
+          },
+          {
+            "9": "Skin Crawling. You feel like something is crawling over your skin. At the start of each turn you must make a DC 15 will save or spend your turn trying to stop whatever is crawling on you."
+          },
+          {
+            "10": "Screaming/crying. You are stunned"
+          }
+    ],
+    "Major":[
+        {
+            "1": "You fall unconscious and cannot be woken."
+          },
+          {
+            "2": "You cannot speak or make any other sound."
+          },
+          {
+            "3": "Fear. The GM picks up to three objects or creatures for you to be frightened of."
+          },
+          {
+            "4": "Blind. You believe you are blind and automatically fail any check involving sight. If you are already blind, you are deafened instead."
+          },
+          {
+            "5": "Reckless. You cannot dodge or use cover and your armour class is reduced by 4."
+          },
+          {
+            "6": "Crazed. The creature must roll to determine what actions they will take each round if in combat or each minute if not."
+          },
+          {
+            "7": "Hallucinations. You have disadvantage on every 2d10 roll as you attempt to work out what is real and what is just in your head."
+          },
+          {
+            "8": "Personality Change. You undergo a dramatic personality shift. You might become evil, a coward, greedy, an exact copy of a party member or an enemy. You might even act like an animal or some monster."
+          },
+          {
+            "9": "Stunned"
+          },
+          {
+            "10": "Stunned"
+          }
+    ],
+    "Supreme":[
+        {
+            "1": "Shell.\\n You cannot take any action. Any creature can pull you along at half speed."
+          },
+          {
+            "2": "Babbling.\\nYou constantly babble intolerantly. You have disadvantage on stealth checks and saying anything takes 3 times as long as normal. If you try to cast a spell it has a 50% chance of failing as you cast it, unless it does not require you to speak."
+          },
+          {
+            "3": "Totem. \\n You choose a totem, while more than 30 ft. from the totem you have disadvantage on every roll. If the totem is destroyed you must roll on the minor, major and supreme madness tables."
+          },
+          {
+     
+            "4": "Night Terrors. \\n The madness has crept into your subconscious and you have awful night terrors when you sleep. Whenever you take a long rest, roll a d6. On a 1, you do not gain the benefits of a long rest."
+          },
+          {
+        
+            "5": "Death Wish. You must refuse any healing or medicine while conscious and insist that you deserve to feel the pain."
+          },
+          {
+           
+            "6": "Permanent Damage. \\n Your wisdom score is permanently reduced by 2."
+          },
+          {
+          
+            "7": "Sanguine Fascination. \\n You become infatuated with blood and will go out of your way to observe bleeding wounds regardless of the context."
+          },
+          {
+         
+            "8": "Aggressive. \\n You must always attack an enemy if there is an opportunity to do so. At the end of any combat you must succeed at a DC 15 will save or attack whatever creatures are around you."
+          },
+          {
+          
+            "9": "Paranoid. \\n You do not trust anyone. You cannot be a willing target of any spell and cannot sleep while there are other creatures around."
+          },
+          {
+
+            "10": "Merciless. \\n You cannot leave an enemy alive."
+          }
     ]
 }

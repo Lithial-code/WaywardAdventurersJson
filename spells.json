@@ -3,9 +3,19 @@
         "name": "Abjure Daemon",
         "type": "spell",
         "time": "1 turn.",
-        "cost": "3",
+        "cost": "4",
         "range": "30ft",
-        "description": "Select one daemon within range. It must make a fortitude save or be frightened of you for 1 hour. A daemon frightened from this invocation is no longer resistant to damage dealt by your allies. You can target an additional daemon by spending 2 points per additional daemon."
+        "duration": "1 hour",
+        "description": "Select one daemon within range. It must make a fortitude save or be frightened of you for duration. A daemon frightened from this invocation takes double damage from your or your allies. You can target an additional daemon by spending 3 points per additional daemon."
+    },
+    {
+        "name": "Abjuring Ward",
+        "type": "spell",
+        "time": "1 turn.",
+        "cost": "5",
+        "range": "self",
+        "duration": "1 minute",
+        "description": "For the duration of the spell, every creature within 15 ft of you (including yourself) gains a +3 bonus to armour class and DR 2 against spell attacks."
     },
     {
         "name": "Agony",
@@ -13,6 +23,7 @@
         "time": "1 turn",
         "cost": "4",
         "range": "touch",
+        "duration": "instantaneous",
         "description": "A creature you touch must make a will save. On a successful save they take 1d3-1 minor wounds. On a failure or take 1d4 minor wounds. In addition, if the saving throw is failed the target has  disadvantage on all attack rolls, ability checks and saving throws while the creature has a wound caused by this spell."
     },
     {
@@ -30,7 +41,8 @@
         "time": "One Turn",
         "cost": "2",
         "range": "One creature within 120 feet.",
-        "description": "Roll a spell attack against a creature within range. This attack ignores any bonus to armour class and any damage reduction from armour. On a hit deal 3d8 magic damage."
+        "duration": "instantaneous",
+        "description": "Roll a spell attack against a creature within range. This attack ignores any bonus to armour class and any damage reduction from armour. On a hit deal 2d10 magic damage."
     },
     {
         "name": "Banish Daemon",
@@ -38,59 +50,64 @@
         "time": "1 turn",
         "cost": "6",
         "range": "120 ft.",
-        "description": "One (non-native) daemon within range must succeed a will save or be forced back to chaos. You can target up to 3 additional daemons by paying 3 points per extra daemon. A daemon currently touching a material it is weak to has disadvantage on this save."
+        "duration": "instantaneous",
+        "description": "One (non-native) daemon of your choice within range must succeed a will save or be forced back to chaos. You can target up to 3 additional daemons by paying 4 points per extra daemon. A daemon currently touching a material it is weak to has disadvantage on the save against this spell."
     },
-	{
+    {
         "name": "Bind Imp",
         "type": "spell",
         "time": "1 minute",
         "cost": "4",
         "range": "30 ft.",
+        "duration": "1 week",
         "description": [
-			"An Imp within range must succeed on a will save or be bound to your will for a week. An imp you have not summoned yourself has advantage and a +5 bonus to this save.",
-			"Speaking the imps true name will give it disadvantage and a -5 penalty on this save.",
-			"Once bound, the imp must obey your commands to the letter, though it will seek to subvert them to the best of its ability. Treating an imp well can cause it to become friendlier and obey your commands more leniently.",
-			"You cannot force an imp to reveal its true name or the true name of any other daemon."
-		]
+            "An Imp within range must succeed on a will save or be bound to your will for a week. An imp you have not summoned yourself has advantage and a +5 bonus to this save.",
+            "Speaking the imps true name will give it disadvantage and a -5 penalty on this save.",
+            "Once bound, the imp must obey your commands to the letter, though it will seek to subvert them to the best of its ability. Treating an imp well can cause it to become friendlier and obey your commands more leniently.",
+            "You cannot force an imp to reveal its true name or the true name of any other daemon."
+        ]
     },
-	{
+    {
         "name": "Bind Lesser Daemon",
         "type": "spell",
         "time": "10 minutes",
         "cost": "8",
         "range": "30 ft.",
+        "duration": "1 week",
         "description": [
-			"A lesser daemon within range must succeed on a will save or be bound to your will for a week. A lesser daemon you have not summoned yourself has advantage and a +10 bonus to this save.",
-			"Speaking the lesser daemons true name will give it disadvantage and a -10 penalty on this save.",
-			"Once bound, the lesser daemon must obey your commands to the letter, though it will seek to subvert them to the best of its ability. Treating a lesser daemon well can cause it to become friendlier and obey your commands more leniently.",
-			"You cannot force a lesser daemon to reveal its true name or the true name of any other daemon."
-		]
+            "A lesser daemon within range must succeed on a will save or be bound to your will for a week. A lesser daemon you have not summoned yourself has advantage and a +10 bonus to this save.",
+            "Speaking the lesser daemons true name will give it disadvantage and a -10 penalty on this save.",
+            "Once bound, the lesser daemon must obey your commands to the letter, though it will seek to subvert them to the best of its ability. Treating a lesser daemon well can cause it to become friendlier and obey your commands more leniently.",
+            "You cannot force a lesser daemon to reveal its true name or the true name of any other daemon."
+        ]
     },
-	{
+    {
         "name": "Bind Greater Daemon",
         "type": "spell",
         "time": "1 hour",
         "cost": "20",
         "range": "15 ft.",
+        "duration": "1 week",
         "description": [
-			"A greater daemon within range must succeed on a will save or be bound to your will for a week. A greater daemon you have not summoned yourself has advantage and a +15 bonus to this save.",
-			"Speaking the greater daemons true name will give it disadvantage and a -15 penalty on this save.",
-			"Once bound, the greater daemon must obey your commands to the letter, though it will seek to subvert them to the best of its ability.",
-			"You cannot force a greater daemon to reveal its true name or the true name of any other daemon."
-		]
+            "A greater daemon within range must succeed on a will save or be bound to your will for a week. A greater daemon you have not summoned yourself has advantage and a +15 bonus to this save.",
+            "Speaking the greater daemons true name will give it disadvantage and a -15 penalty on this save.",
+            "Once bound, the greater daemon must obey your commands to the letter, though it will seek to subvert them to the best of its ability.",
+            "You cannot force a greater daemon to reveal its true name or the true name of any other daemon."
+        ]
     },
-	{
+    {
         "name": "Bind Daemon Lord",
         "type": "spell",
         "time": "1 Day",
         "cost": "50",
         "range": "5 ft.",
+        "duration": "1 week",
         "description": [
-			"A daemon lord within range must succeed on a will save or be bound to your will for a week. A daemon lord you have not summoned yourself has advantage and a +25 bonus to this save.",
-			"Speaking the daemon lords true name will give it disadvantage and a -25 penalty on this save.",
-			"Once bound, the daemon lord must obey your commands to the letter, though it will seek to subvert them to the best of its ability.",
-			"You cannot force a daemon lord to reveal its true name or the true name of any other daemon."
-		]
+            "A daemon lord within range must succeed on a will save or be bound to your will for a week. A daemon lord you have not summoned yourself has advantage and a +25 bonus to this save.",
+            "Speaking the daemon lords true name will give it disadvantage and a -25 penalty on this save.",
+            "Once bound, the daemon lord must obey your commands to the letter, though it will seek to subvert them to the best of its ability.",
+            "You cannot force a daemon lord to reveal its true name or the true name of any other daemon."
+        ]
     },
     {
         "name": "Bird Scout",
@@ -98,7 +115,13 @@
         "time": "1 minute",
         "cost": "2",
         "range": "Self",
-        "description": "You create a small bird that lasts for an hour. You can see through its eyes and telepathically direct its movement for the hour, at the end of which it vanishes in a puff of smoke."
+        "duration": "1 hour",
+        "description": [
+            "You create a small bird that lasts for an hour. You can see through its eyes and telepathically direct its movement for the hour, at the end of which it vanishes in a puff of smoke.",
+            "You can use an action to switch between controlling the bird and your own body. While not being directly controlled the bird will follow its last instruction to the best of its ability.",
+            "While looking through the bird’s eyes you are blind and deaf to your own surroundings. You can spend an additional point in order to also hear through the bird’s ears.",
+            "If the bird dies while you are telepathically linked to it, you take 1d6 sanity damage."
+        ]
     },
     {
         "name": "Blade from the Void",
@@ -106,6 +129,7 @@
         "time": "none.",
         "cost": "5",
         "range": "self",
+        "duration": "1 minute",
         "description": "On your turn, before making an attack, you can cast this invocation, summoning a blade made from void energies. This blade has the light property. It deals 3d10 damage on a hit, and the wounds from this weapon are slow healing. Medicine checks and fortitude saves to heal them have disadvantage. Once per turn, when you make an attack with this blade, you can spend 2 points to make an extra attack against the same target."
     },
     {
@@ -123,6 +147,7 @@
         "time": "One Turn",
         "cost": "3",
         "range": "One creature within 150 feet.",
+        "duration": "until dispelled",
         "description": "The target must succeed on a fortitude save or be blinded until either the caster decides to remove it, or they are targeted by a spell that removes curses or is otherwise uncursed."
     },
     {
@@ -131,15 +156,21 @@
         "time": "1 turn",
         "cost": "3",
         "range": "120 ft",
+        "duration": "1 minute",
         "description": "You create a burst of light within range. Each creature within 15 ft of a point you choose must succeed on a fortitude save or take 2d8 damage and be blinded for a minute. At the end of each of their turns they can roll the save again, ending the effect on a success."
     },
     {
         "name": "Bloodsplosion",
         "type": "spell",
-        "time": "None",
+        "time": "1 turn",
         "cost": "7",
         "range": "150 ft",
-        "description": "Chose a creature that is bleeding within range. The creature must make a fortitude save or take 1d4 major wounds as the bleeding cuts explode with blood. Every creature within 15 ft. of the target creature, not including the target, must make a reflex save 3d12 damage, taking half the amount on a successful save. If the initial target passes the fortitude save it instead takes 1d4 minor wounds and the surrounding creature must make a reflex save against 3d8 damage, half on a success."
+        "duration": "instantaneous",
+        "description": [
+            "Chose a creature that is bleeding within range. The creature must make a fortitude save or take 1d4 major wounds as the bleeding cuts explode with blood.",
+            "Every creature within 15 ft. of the target creature, not including the target, must make a reflex save 3d12 damage, taking half the amount on a successful save.",
+            "If the initial target passes the fortitude save it instead takes 1d4 minor wounds and the surrounding creature must make a reflex save against 3d8 damage, half on a success."
+        ]
     },
     {
         "name": "Blizzard",
@@ -147,7 +178,23 @@
         "time": "3 turns.",
         "cost": "24",
         "range": "self",
-        "description": "You summon an intense blizzard around yourself. The area within 1 mile of you becomes difficult terrain. All creatures in the open must succeed a fortitude save or take 2d8 damage and be slowed. You are immune to this damage. Any number of your allies can be granted advantage on this save. The area is also heavily obscured by wind and snow."
+        "duration": "1 hour",
+        "description": [
+            "You summon an intense blizzard around yourself. The area within 1 mile of you becomes difficult terrain. All creatures in the open must succeed a fortitude save or take 2d8 cold damage and be slowed. You are immune to this damage. Any number of your allies can be granted advantage on this save. The area is also heavily obscured by wind and snow.",
+            "While the blizzard is active you can use a bonus action and spend a point to cause an area of the blizzard to worsen. Chose a point within 600 feet, any creatures within 30 ft of the point must make a fortitude save or take 4d8 cold damage."
+        ]
+    },
+    {
+        "name": "Bolster",
+        "type": "spell",
+        "time": "2 turn.",
+        "cost": "5",
+        "range": "60 ft",
+        "duration": "1 minute",
+        "description": [
+            "You bolster the strength of your allies’ weapons and armour.",
+            "For the next minute all creatures of your choice within the range gain + 2 armour class if they are wearing metal armour or using a metal shield and deal an extra 2 damage with any metal weapons."
+        ]
     },
     {
         "name": "Boulder",
@@ -155,7 +202,11 @@
         "time": "1 turn.",
         "cost": "1",
         "range": "30ft",
-        "description": "You pull a boulder from the earth and throw it at a target within range. Roll a spell attack against the target. On a hit you deal 2d6 damage and push it back 10ft. If there is another creature behind the first creature and you hit you can roll a second attack against it, dealing 2d6 damage and pushing it back 5ft on a hit."
+        "duration": "instantaneous",
+        "description": [
+            "You pull a boulder from the earth and throw it at a target within range. Roll a spell attack against the target. On a hit you deal 2d6 damage and push it back 10ft.",
+            "If there is another creature behind the first creature and you hit you can roll a second attack against it, dealing 2d6 damage and pushing it back 5ft on a hit."
+        ]
     },
     {
         "name": "Burning Light",
@@ -163,13 +214,14 @@
         "time": "1 Turn",
         "cost": "4",
         "range": "Self",
+        "duration": "instantaneous",
         "description": "You burn with divine radiance. Every creature of your choice within 60 ft of you must make a fortitude save or take 4d12 fire damage and be set on fire (1d12). You also take this damage."
     },
     {
         "name": "Call of the Deep",
         "type": "spell",
         "time": "1 turn",
-        "cost": "6",
+        "cost": "8",
         "range": "Self",
         "duration": "1 minute.",
         "description": [
@@ -183,16 +235,18 @@
         "name": "Cackle",
         "type": "spell",
         "time": "None.",
-        "cost": "2",
+        "cost": "3",
         "range": "60ft",
+        "duration": "1 minute",
         "description": "All creatures within range must succeed a will save or be frightened of you for one minute. Any creature frightened by this spell takes an extra 1d6 damage from any attack or spell that deals damage to them."
     },
-	{
+    {
         "name": "Cacophonous Chorus",
         "type": "spell",
         "time": "1 turn",
         "cost": "4",
         "range": "60 ft.",
+        "duration": "1 hour",
         "description": "All creatures within 20 ft of a point you chose within range must make a will save or take 2d8 damage and be deafened for an hour. The area is also filled with birds and feathers for a round and blocks line of sight."
     },
     {
@@ -210,6 +264,7 @@
         "time": "One Turn",
         "cost": "2",
         "range": "One creature within 30 feet.",
+        "duration": "instantaneous",
         "description": "The target must make a fortitude save or suffer a minor wound. If the fortitude save is failed by at least 5 points they instead take a major wound."
     },
     {
@@ -218,6 +273,7 @@
         "time": "1 turn.",
         "cost": "4",
         "range": "60ft.",
+        "duration": "instantaneous",
         "description": "One daemon you see is surrounded with silver chains. It must succeed on a reflex save or take 10d8 silvered damage and be restrained. If restrained it can attempt to break the chains at the end of its turn by making a strength check against your DC. On a failed attempt it takes 2d8 silver damage."
     },
     {
@@ -226,15 +282,20 @@
         "time": "One Turn",
         "cost": "3",
         "range": "20 feet cone.",
+        "duration": "instantaneous",
         "description": "All creatures within the cone must succeed on a reflex save or take 4d8 fire damage. On a successful save the creature takes half damage."
     },
     {
         "name": "Control Undead",
         "type": "spell",
-        "time": "One minute",
-        "cost": "2",
+        "time": "1 minute",
+        "cost": "1",
         "range": "One undead you have created.",
-        "description": "You gain control over the undead for one week."
+        "duration": "25 hours",
+        "description": [
+            "You gain control over the undead for 25 hours.",
+            "The points spent on this invocation cannot be reduced except by a magic item."
+        ]
     },
     {
         "name": "Counterspell",
@@ -242,6 +303,7 @@
         "time": "None",
         "cost": "Varies",
         "range": "300 ft.",
+        "duration": "instantaneous",
         "description": "When a creature casts a spell within range you can attempt to counterspell it with pure magic. This counterspelling works as an instantaneous dispel magic (read dispel magic)."
     },
     {
@@ -250,7 +312,8 @@
         "time": "1 turn",
         "cost": "1",
         "range": "60ft",
-        "description": "You open a passage through earth or stone. The passage can be up to 10ft long and can fit a medium creature. You can choose to close the passage behind you by paying 1 point, leaving no trace of your passage."
+        "duration": "instantaneous",
+        "description": "You open a passage through earth or stone. The passage can be up to 10ft long and can fit a medium creature. You can choose to close the passage behind you by paying 1 point, leaving no trace of your passage aside from a faint echo of magic."
     },
     {
         "name": "Create Water",
@@ -258,6 +321,7 @@
         "time": "1 turn.",
         "cost": "4",
         "range": "60ft",
+        "duration": "instantaneous",
         "description": [
             "You create a deluge of water that erupts within range. Anyone within 20 ft of where the water appears must succeed on a reflex save or take 2d10 bludgeoning damage and be knocked 10ft away from the eruption and knocked prone. The area within 20 ft of the eruption point becomes wet, creating difficult or slippery terrain, depending on what was there before. This water is murky and undrinkable.",
             "You can also cast this invocation to create drinking water for up to 5 people for a day."
@@ -266,9 +330,10 @@
     {
         "name": "Darkness",
         "type": "spell",
-        "time": "One turn",
+        "time": "1 turn",
         "cost": "2",
         "range": "A space within 60 feet",
+        "duration": "10 minutes",
         "description": "Darkness fills the area within 25 feet of the target. This darkness lasts for 10 minutes, or until a spell that creates light that costs more than darkness creates light within the area of darkness created by this spell."
     },
     {
@@ -277,14 +342,16 @@
         "time": "1 turn",
         "cost": "2",
         "range": "Touch",
+        "duration": "1 hour",
         "description": "You grant a creature or object you touch a defensive barrier that grants the creature an additional 10 points of defence that last for an hour. You can only have one such barrier active at a time. While the barrier still has at least 1 point of defence left you can refill it by spending one point and touching it as a main action."
     },
     {
         "name": "Dispel Magic",
         "type": "spell",
-        "time": "One Minute",
+        "time": "1 Minute",
         "cost": "Varies",
         "range": "30 feet",
+        "duration": "instantaneous",
         "description": [
             "WARNING: This spell is heavily reliant on GM fiat",
             "You attempt to dispel one magical effect in range. If the spell is the result of a ritual with no cost, it is dispelled. Otherwise roll a spellcraft check, DC 10 + spell cost + misc. modifiers. If you pass this check you can spend intelligence equal to the cost to dispel it."
@@ -293,24 +360,26 @@
     {
         "name": "Divine Radiance",
         "type": "spell",
-        "time": "One Turn",
+        "time": "1 Turn",
         "cost": "2",
         "range": "One creature within 40 ft.",
+        "duration": "instantaneous",
         "description": "The target must make a reflex save or take 4d8 radiant damage."
     },
     {
         "name": "Elemental Ward",
         "type": "spell",
-        "time": "None",
+        "time": "1 turn",
         "cost": "2",
         "range": "Touch",
+        "duration": "instantaneous",
         "description": "You grant one creature you touch protection from one type of damage. For the next hour they have resistance to that sort of damage."
     },
     {
         "name": "Entangling Ground",
         "type": "spell",
         "time": "1 turn",
-        "cost": "4",
+        "cost": "3",
         "range": "120 ft.",
         "duration": "10 minutes.",
         "description": "The area in a 60 ft radius around a point in range becomes difficult terrain for the duration. You can move normally within the area. You can spend 2 points to grant your allies the same power. While standing in the area you can use your turn to cause the ground to attempt to restrain up to 3 creatures within the area. The creatures you target must succeed on a reflex save or be restrained until the end of your next turn."
@@ -321,21 +390,23 @@
         "time": "2 turns",
         "cost": "5",
         "range": "100 ft.",
+        "duration": "instantaneous + 1 minute",
         "description": "You fling a line of energy to a point in range. At that point a ball of fire erupts in a 30 ft. sphere. Any creature within the sphere must succeed on a reflex save or take 6d8 fire damage. On a passed save they take half damage. Any creature that takes damage or anything else within the sphere is set on fire (d4 per round for a minute or until the creature or another creatures uses its main action to move up to double its movement speed and put out the flames)."
     },
     {
         "name": "Flame Bolt",
         "type": "spell",
-        "time": "One Turn",
+        "time": "1 Turn",
         "cost": "1",
         "range": "One creature within 200 feet",
-        "description": "Roll an attack roll with int + level. On a hit deal 2d10 fire damage."
+        "duration": "instantaneous",
+        "description": "Roll an attack roll with ScS + level. On a hit deal 2d10 fire damage."
     },
     {
         "name": "Flight",
         "type": "spell",
         "time": "None",
-        "cost": "6",
+        "cost": "5",
         "range": "Self",
         "duration": "1 hour.",
         "description": "You gain a flying speed of 60ft."
@@ -355,6 +426,7 @@
         "time": "One Turn",
         "cost": "2",
         "range": "A creature within 60 feet.",
+        "duration": "instantaneous",
         "description": "The target must make a reflex save or take 1d6 damage. If the target can bleed it is cut and the blood is magically transported to your hand."
     },
     {
@@ -363,22 +435,34 @@
         "time": "1 turn",
         "cost": "1",
         "range": "60 ft.",
+        "duration": "instantaneous",
         "description": "You create a vine at a point in range which lashes out at a creature within 10ft of it. Make a spell attack. On a hit deal 2d6 damage and pull the creature to the origin point of the vine. The vine must be placed on a solid surface. The vine dies and turns to dust after making the attack."
     },
     {
         "name": "Gusting Wind",
         "type": "spell",
-        "time": "One Turn",
+        "time": "1 Turn",
         "cost": "3",
         "range": "Self",
+        "duration": "1 minute",
         "description": "For a minute after casting this invocation you can use your turn to attack a creature within 60 feet with a blast of air. The target must make a reflex save or take 1d8 damage and be pushed back 10 feet."
+    },
+    {
+        "name": "Heat Metal",
+        "type": "spell",
+        "time": "1 Turn",
+        "cost": "8",
+        "range": "120ft",
+        "duration": "1 minute",
+        "description": "All sources of metal within 30 ft. of a point you chose within range glow red hot. Any creature touching the metal can make a reflex save or take 3d12 fire damage. If it cannot drop or otherwise move to avoid the damage, the creature does not make a saving throw and simply takes 3d12 fire damage. On each subsequent turn you can use your main action to maintain the spell, dealing 3d8 fire damage to any creature still touching the metal."
     },
     {
         "name": "Ice Slice",
         "type": "spell",
-        "time": "One Turn",
+        "time": "1 Turn",
         "cost": "3",
         "range": "200 ft,",
+        "duration": "1 minute",
         "description": "You summon 4 circular disks of ice that you can shoot at any target in range. Make a spell attack for each disk. On a hit the target takes 1d12 slashing damage. You can spend up to 3 additional points to summon an additional disk per point spent. This invocation can be used to slice through objects."
     },
     {
@@ -387,6 +471,7 @@
         "time": "Instant",
         "cost": "10",
         "range": "Self",
+        "duration": "varies",
         "description": "An inferno bursts out from you. Every creature within 100 ft of you (not including you) must succeed on a reflex save or take 10d8 fire damage. On a passed save they take half damage. Any creature that takes damage or anything else within the sphere is set on fire (d8). Once you cast this invocation you can spend 2 points and your next turn to maintain it, dealing 4d8 on a failed save, half on a pass, to anything still within the area (including yourself)."
     },
     {
@@ -395,6 +480,7 @@
         "time": "1 minute",
         "cost": "4",
         "range": "Touch",
+        "duration": "1 minute",
         "description": "A creature you touch becomes invisible for 1 minute. This spell ends when the targeted creature attacks or casts a spell. If you pay 8 the spell only ends at the end of the minute or if dispelled."
     },
     {
@@ -402,6 +488,7 @@
         "type": "spell",
         "time": "1 minute",
         "cost": "8",
+        "duration": "1 minute",
         "description": "For the next minute you are invulnerable to all damage. If you spend 4 extra points you can instead target a creature you touch."
     },
     {
@@ -410,15 +497,17 @@
         "time": "None",
         "cost": "6",
         "range": "Self",
+        "duration": "instantaneous",
         "description": "You deal 1d6 damage to yourself. You select a creature within sight that is taking damage from one of your spells. You teleport to their location and they take 8d12 damage as you explode from their wound."
     },
     {
         "name": "Lightning Bolt",
         "type": "spell",
-        "time": "Two turns",
-        "cost": "2",
+        "time": "2 turns",
+        "cost": "3",
         "range": "a 30 feet line.",
-        "description": "Every creature in the line must make a reflex save or take 6d8 damage. A creature that passes takes half damage. You must succeed on a fortitude save or take 3d8 damage. You take no damage on a pass."
+        "duration": "instantaneous",
+        "description": "Every creature in the line must make a reflex save or take 5d8 damage. A creature that passes takes half damage. You must succeed on a fortitude save or take 3d8 damage. You take no damage on a pass."
     },
     {
         "name": "Lightning Fog",
@@ -426,6 +515,7 @@
         "time": "1 minute",
         "cost": "6",
         "range": "100 ft.",
+        "duration": "1 minute",
         "description": "You create a thick fog that crackles with lightning. Chose a point within range. Everything within 40 ft. is obscured by the fog. Any creature that starts it turn within the fog must succeed a reflex save or take 1d8 damage."
     },
     {
@@ -440,13 +530,13 @@
     {
         "name": "Madness",
         "type": "spell",
-        "time": "One Turn",
+        "time": "1 Turn",
         "cost": "3",
         "range": "One creature within 30 ft.",
         "description": "The creature must make a will save or go mad, rolling on the major madness table to determine the type of madness."
     },
     {
-        "name": "Peirce Defence",
+        "name": "Pierce Defence",
         "type": "spell",
         "time": "1 turn",
         "cost": "2",
@@ -468,7 +558,11 @@
         "type": "spell",
         "time": " 1 minute",
         "cost": "6",
-        "description": "You create a small spider in the palm of your hand. You can have this spider bite a target of your choosing. The target must make a fortitude save or take 6d12 damage."
+        "duration": "instantaneous or 24 hours",
+        "description": [
+            "You create a small spider in the palm of your hand. You can have this spider bite a target of your choosing. The target must make a fortitude save or take 6d12 poison damage.",
+            "If this damage would kill the target you can instead chose to paralyse them for 24 hours or knock them unconscious and slow their metabolism, so that they appear dead for 24 hours. A DC 25 medicine check is required to know if they are alive during this time."
+        ]
     },
     {
         "name": "Rain of Blood",
@@ -476,7 +570,8 @@
         "time": "1 turn",
         "cost": "3",
         "range": "Self",
-        "description": "It rains blood in a 120 ft radius. The ground turns to difficult terrain and every creature within that area gains takes 1d8 damage at the start of every round for a minute."
+        "duration": "1 minute",
+        "description": "It rains blood in a 120 ft radius. The ground turns to difficult terrain and every creature aside from the caster that starts their turn within that area takes 1d8 slashing damage."
     },
     {
         "name": "Rend the Soul",
@@ -484,7 +579,17 @@
         "time": "2 turns.",
         "cost": "10",
         "range": "30 ft.",
+        "duration": "instantaneous",
         "description": "A creature within range must succeed on a fortitude save or take 8d8 damage. If this damage causes a wound it causes an extra wound of the same class. If a creature is knocked out or killed by this invocation it must succeed on a will save or have its soul rent in twain, dying instantly and being unable to be revived or come back in any way. A creature that has no soul is immune to this invocation."
+    },
+    {
+        "name": "Rock Wall",
+        "type": "spell",
+        "time": "1 turn.",
+        "cost": "2",
+        "range": "Self",
+        "duration": "1 minute",
+        "description": "You create a square pillar that is 5 ft wide and 10ft high. You can either create the pillar next to you or underneath you, propelling yourself 10 ft in the air. This block can be used as cover and when you cast it you can immediately take cover."
     },
     {
         "name": "Shadow Armour",
@@ -492,7 +597,8 @@
         "time": "1 minute",
         "cost": "3",
         "range": "Self",
-        "description": "You create shadowy armour that lasts until the end of your next long rest. Your armour class is 13 + your dexterity as long as you are not wearing any armour or using a shield. You gain 5 defence. When a creature makes a melee attack against you while you have this armour you can spend this defence to force your attacker to roll a reflex save or take 1d6 damage per defence lost. You can spend one point to regain this defence as a turn."
+        "duration": "Until next long rest",
+        "description": "You create shadowy armour that lasts until the end of your next long rest. Your armour class is 13 + your dexterity as long as you are not wearing any armour or using a shield. You gain 5 defence. When a creature makes a melee attack against you while you have this armour you can spend this defence to force your attacker to roll a reflex save or take 1d6 necrotic damage per defence lost. You can spend one point to regain this defence as your main action."
     },
     {
         "name": "Shadow Bolt",
@@ -500,6 +606,7 @@
         "time": "1 turn",
         "cost": "1",
         "range": "150 ft.",
+        "duration": "instantaneous",
         "description": "You fire a bolt of darkness at a target within range. Make a spell attack. On a hit you deal 3d8 necrotic damage."
     },
     {
@@ -512,17 +619,42 @@
         "description": "You target a creature within range with a clearly defined shadow. You pin their shadow to the ground. They cannot move more than 5ft from their shadow. They take 2d6 damage at the start of their turn while trapped like this. They can attempt to tear away from their shadow by making a will save. On a pass they are freed and take 6d6 damage and permanently lose their shadow."
     },
     {
+        "name": "Shard Swarm",
+        "type": "spell",
+        "time": "2 Turns",
+        "cost": "12",
+        "range": "400ft",
+        "duration": "varies",
+        "description": "You summon a swarm of sharp ice shards that shoot towards an area to eviscerate anyone who is in the way. Select a point within range. Every creature within 60ft of that point must succeed on a reflex save or take 8d8 piercing/cold damage and be pinned in place by the shards as long as there is some ground for the shards to stick into. On a successful save the creature takes half damage and is not pinned. A pinned creature is restrained until they break the ice shards trapping them. Each 5 ft square of shards has an AC of 10, 10 defence, 1 wound, take double damage from fire damage, and counts as difficult terrain. These sharps melt over a few hours, depending on the temperature."
+    },
+    {
         "name": "Shape Water",
         "type": "spell",
-        "time": "One Turn",
+        "time": "1 Turn",
         "cost": "1",
-        "description": "You can control a small creek or pond. You can part the water, freeze it, or cause it to flood. Any creatures in the water when you freeze it must make a reflex save or have to spend a turn freeing themselves from the ice."
+        "duration": "instantaneous",
+        "description": [
+            "You can control a small creek or pond. You can part the water, freeze it, or cause it to flood. This effect lasts for one minute and is limited to a 20ft cube unless you cause a flood, in which the amount of water doubles, potentially making it flow outside the 20ft cube.",
+            "Any creatures in the water when you freeze it must make a reflex save or are restrained until they free themselves by making a strength check against your DC with their main action. If you cause the water to flood it can sweep away light objects or cause areas of difficult terrain."
+        ]
+    },
+    {
+        "name": "Shield Shard",
+        "type": "spell",
+        "time": "None",
+        "cost": "4",
+        "duration": "1 turn",
+        "description": [
+            "When an enemy you can see attacks you, you can create a barrier of metal from the air. This barrier grants you a +4 bonus to armour class against that attack.",
+            "On your next turn you can use a bonus action to throw the shield at an enemy within 30 ft. of you. Make a spell attack or a weapon attack. On a hit the creature takes 1d10 + either your weapon attack modifier or your spellcasting ability modifier, slashing damage."
+        ]
     },
     {
         "name": "Shield of Cold",
         "type": "spell",
-        "time": "One Turn",
+        "time": "1 Turn",
         "cost": "3",
+        "range": "Self",
         "duration": "1 minute.",
         "description": "While this spell is active you have a +2 bonus to armour class. In addition, whenever a creature makes a melee attack against you, they must roll a fortitude save or take 1d6 cold damage."
     },
@@ -530,9 +662,23 @@
         "name": "Shield of Force",
         "type": "spell",
         "time": "None",
-        "cost": "4",
+        "cost": "3",
         "range": "Self",
+        "duration": "instantaneous",
         "description": "When hit with an attack you can cast this invocation, gaining +6 armour class against the triggering attack and all other attacks until the end of your next turn."
+    },
+    {
+        "name": "Spider Form",
+        "type": "spell",
+        "time": "1 turn",
+        "cost": "6",
+        "range": "Self",
+        "duration": "10 minutes",
+        "description": [
+            "You transform yourself into a monstrous spider. You gain 10 defence and your wound limit increases by 1. You gain spider climb. You also increase your strength score by 2 and gain a bite attack.",
+            "This attack uses strength or dexterity and deals 2d8 piercing damage on a hit. If this attack wounds the target, it must succeed on a fortitude save or take an additional 3d6 poison damage.",
+            "If you cast vomit spiders while in spider form it costs 1 less and deals an extra dice of damage."
+        ]
     },
     {
         "name": "Stone Form",
@@ -541,7 +687,7 @@
         "cost": "6",
         "range": "Self",
         "duration": "1 hour",
-        "description": "You create a shell of stone and dirt. You gain +4 armour class, resistance to bps damage, Immunity to fire damage and 20 defence. Once this defence is depleted or the duration ends, the spell ends."
+        "description": "You create a shell of stone and dirt. You gain +4 armour class, resistance to bludgeoning, slashing, and piercing damage, immunity to fire damage, and an extra 20 defence. Once this defence is depleted, the spell ends."
     },
     {
         "name": "Stride of Wind",
@@ -555,19 +701,28 @@
     {
         "name": "Sunlight",
         "type": "spell",
-        "time": "One Turn",
+        "time": "1 Turn",
         "cost": "6",
         "range": "90 ft.",
         "duration": "1 minute.",
         "description": "You chose a point within range. Bright light that counts as sunlight shines within 30ft of that point. Any undead within that area, or daemon with vulnerability to sunlight within that area, takes 4d8 damage at the start of any turn in which they are within the light."
     },
     {
+        "name": "Summon Blade",
+        "type": "spell",
+        "time": "1 bonus action",
+        "cost": "6",
+        "range": "90 ft.",
+        "duration": "1 minute.",
+        "description": "You summon a steel blade that floats in the air around you. When you cast this spell, and as a bonus action on any subsequent turn, you can send the blade flying at a creature within range. Make a spell attack against the target creature, on a hit the target takes 3d10 piercing damage. This attacks counts as a weapon attack for the purposes of any feats or abilities."
+    },
+    {
         "name": "Tsunami",
         "type": "spell",
         "time": "2 turns",
-        "cost": "3",
+        "cost": "18",
         "range": "300ft",
-        "description": "You select a body of water in range and cause it to expand and rush up to 100 ft in a direction of your choosing. Any creature hit by this wave must succeed on a reflex save or take 4d10 damage and be forced along with the water."
+        "description": "You select a body of water in range and cause it to expand and rush up to 200 ft in a direction of your choosing. Any creature hit by this wave must succeed on a reflex save or take 5d10 bludgeoning damage and be forced along with the water."
     },
     {
         "name": "Torment",
@@ -575,8 +730,11 @@
         "time": "2 turns",
         "cost": "6",
         "range": "120 ft.",
-        "duration": "1 minute.",
-        "description": "You can pick up to 8 creatures within range. Each creature must succeed on a will save or be wracked with pain. When they fail the save, and at the start of each of your turns, they take 4d8 damage. A creature being affected by this spell has disadvantage on all rolls and their movement speed is halved. At the end of their turn they can repeat the save, ending the effect on a success."
+        "duration": "1 minute",
+        "description": [
+            "You can pick up to 8 creatures within range. Each creature must succeed on a will save or be wracked with pain. When they fail the save, and at the start of each of your turns, they take 4d8 psychic damage.",
+            "A creature being affected by this spell has disadvantage on all rolls and their movement speed is halved. At the end of their turn they can repeat the save, ending the effect on a success."
+        ]
     },
     {
         "name": "Touch of Death",
@@ -584,6 +742,7 @@
         "time": "Two Turns",
         "cost": "6",
         "range": "One creature you touch.",
+        "duration": "instantaneous",
         "description": "The creature must make a fortitude save or take 1d6 mortal wounds. On a pass they instead take 1d6 minor wounds."
     },
     {
@@ -592,13 +751,16 @@
         "time": "One Turn",
         "cost": "4",
         "range": "One creature you touch.",
-        "description": "The creature must make a fort save or take 1d4 light wounds. On a pass they take half the number of wounds."
+        "duration": "instantaneous",
+        "description": "The creature must make a fort save or take 1d4 minor wounds. On a pass they take half the number of wounds."
     },
     {
         "name": "Vomit Spiders",
         "type": "spell",
         "time": "None",
         "cost": "3",
+        "range": "15ft cone",
+        "duration": "instantaneous",
         "description": "You vomit forth a wave of spiders. Any creature within a 15 ft cone in front of you must make a fortitude save or take 2d8 damage."
     },
     {
@@ -615,7 +777,11 @@
         "type": "spell",
         "time": "1 minute",
         "cost": "8",
-        "description": "You create a wall of thorns. The wall is 80 ft long, 5 ft wide and 10 ft high. A creature attempting to climb the wall takes 3d6 damage. Each 5 ft square of the wall has an armour class of 16, 80 defence and is destroyed if it takes a wound. Each section of the wall heals 1 defence per hour. The wall lasts for a week before it begins to degrade. You can permanently spend one point to have the wall not degrade."
+        "duration": "1 week or permanent",
+        "description": [
+            "You create a wall of thorns. The wall is 80 ft long, 5 ft wide and 10 ft high. A creature attempting to climb the wall takes 3d6 damage. Each 5 ft square of the wall has an armour class of 16, 80 defence and is destroyed if it takes a wound. Each section of the wall heals 1 defence per hour. The wall lasts for a week before it begins to degrade.",
+            "You can permanently spend one point to have the wall not degrade."
+        ]
     },
     {
         "name": "Water Form",
@@ -629,6 +795,7 @@
         "type": "spell",
         "time": "1 turn",
         "cost": "2",
+        "duration": "instantaneous",
         "description": "You make a whip from water and attack your foes. Make a spell attack. On a hit the target takes 3d6 damage and is moved 10 ft in any direction. You can spend an additional point to make an extra water whip as a bonus action."
     },
     {
@@ -646,6 +813,7 @@
         "time": "One turn",
         "cost": "2 or more",
         "range": "A creature you touch.",
+        "duration": "Next long rest",
         "description": "The creature you touch gains 5 additional defence per 2 points spent that lasts until your next long rest. This defence cannot be restored. This defence can still be used if the target is unconscious, surprised, or otherwise not allowed to use their full defence value. A creature can only benefit from one casting of warding at a time."
     },
     {
@@ -654,6 +822,7 @@
         "time": "One Turn",
         "cost": "3",
         "range": "80 ft.",
+        "duration": "varies",
         "description": [
             "Make a spell attack against a target in range. On a hit you deal 2d10 damage. If the target it hexed it takes 3d10. On a hit you can spend additional points to cause an additional effect.",
             "1 point: The target has disadvantage on the next attack it makes.",
@@ -689,13 +858,34 @@
     {
         "name": "Word of Protection",
         "type": "spell",
-        "time": "None",
+        "time": "bonus action",
         "cost": "2",
         "range": "40 feet.",
-        "description": "You utter a word of bolstering. You can restore 1d6+wisdom modifier defence to a creature within range. You can do this in addition to any other actions during this turn, but only once per turn."
+        "description": "You utter a word of bolstering as a bonus action. You can restore 1d6+wisdom modifier defence to a creature within range."
     },
     {
         "name": "Armour of the Deep",
+        "type": "ceremony",
+        "secret": "Secret of the Deep",
+        "description": "You spend an hour underwater in the ocean. At the end of this hour your charisma and wisdom are both reduced by 4. You gain an additional 10 defence, and always count as wearing steel half-plate for the purposes of determining armour class and damage reduction."
+    },
+    {
+        "name": "Archmage Soul",
+        "type": "ceremony",
+        "secret": "Secret of Arcane",
+        "description": [
+            "You attune your very soul to the secrets of magic. Your physical form weakens but your mind expands dramatically.",
+            "All invocation costs are reduced by 2.",
+            "Your strength, dexterity and constitution are reduced by 4.",
+            "Your intelligence, wisdom and charisma are increased by 4.",
+            "You can no longer use armour.",
+            "Your sanity score doubles. ",
+            "You gain magic resistance 5 and damage resistance 5.",
+            "If targeted by dispel magic or an antimagic field, you take a minor wound for each round you are in contact with it."
+        ]
+    },
+    {
+        "name": "Armor of the Deep",
         "type": "ceremony",
         "secret": "Secret of the Deep",
         "description": "You spend an hour underwater in the ocean. At the end of this hour your charisma and wisdom are both reduced by 4. You gain an additional 10 defence, and always count as wearing steel half-plate for the purposes of determining armour class and damage reduction."
@@ -727,10 +917,16 @@
         "description": "You pray over a dead body for a day and a night. At the end of the prayer your wound limit is reduced by 1. Permanently. The creature returns to life. Their wound limit is also reduced by 1. Permanently."
     },
     {
+        "name": "Blessing of the Flames",
+        "type": "ceremony",
+        "secret": "Secret of Fire",
+        "description": "You spend an hour preparing a large bonfire with special wood worth 10 gold. You stand on this bonfire and light it with magic. Each turn you stand in the fire you take 2d6 damage. Whenever you take this damage you must make a DC 23 will save. On a pass you take 6d8 damage as the fire erupts in a pillar of flame. If you survive this damage you become immune to fire damage."
+    },
+    {
         "name": "Call Rain",
         "type": "ceremony",
         "secret": "Secret of Water",
-        "description": "By spending an hour in meditation and spending 8 points you can call forth a rainstorm of epic significance. For 100 miles around you, it rains for weeks straight, flooding low lying areas and causing all outdoor areas to be difficult terrain. The rain and mist is so thick than no one can see further than 30 ft ahead of them. Any invocations you cast from the secret of water in this time deal double damage and cost 2 less."
+        "description": "By spending an hour in meditation and spending 8 points you can call forth a rainstorm of epic significance. For 100 miles around you, it rains for weeks straight, flooding low lying areas and causing all outdoor areas to be difficult terrain. The rain and mist is so thick than no one can see further than 30 ft ahead of them. Any invocations you cast from the secret of water in this time deal double damage and cost 2 less. You can only regain 1 point of the points spent on this spell per long rest."
     },
     {
         "name": "Call the Storm",
@@ -741,13 +937,14 @@
             "To call lighting you can spend 2 points to deal 4d8 to every creature within 10 ft of a point you pick within 150 ft."
         ]
     },
-	{
+    {
         "name": "Cauldron",
         "type": "ceremony",
         "secret": "Secret of Witchery",
         "description": [
-            "You create a cauldron with metal and wood worth 10 000 silver. In this cauldron you can brew concoctions if you have the alchemist feat or poisons if you have the poisoner feat. You can also create the following concoctions.",
-			"Each time you make a potion, poision, or concoction you fill your cauldron by 1. Once the cauldron hits 10 it is full and all potion, poison, concoction crafting costs are halved."
+            "You create a cauldron with metal, wood, and other reagents worth 10 000 silver. In this cauldron you can brew concoctions if you have the alchemist feat or poisons if you have the poisoner feat. You can also create the following concoctions:",
+            "Witch Blood, Essence of Fear,Old God’s Curse, Love Potion, Tongue of the Dragon, Essence of Youthfulness, Mask of Green",
+            "Each time you make a potion, poison, or concoction you fill your cauldron by 1. Some special concoctions take a charge. Once the cauldron hits 10 it is full and all potion, poison, concoction crafting costs are halved."
         ]
     },
     {
@@ -755,30 +952,69 @@
         "type": "ceremony",
         "secret": "Secret of Chaos",
         "description": [
-            "You sacrifice a living creature and attempt to contact a daemon. The type of daemon contacted depends on the quality of the sacrifice. ",
-            "The daemon appears within a chalk circle you draw. Once the daemon appears you must bind it with a knowledge daemons check. If successful you can have it complete a single task or answer a single question. Any additional task beyond the first increases the DC, as do long or difficult tasks. You cannot ask a daemon its true name or the true name of another daemon. ",
+            "You sacrifice a living creature and attempt to contact a daemon. The type of daemon contacted depends on the quality of the sacrifice.",
+            "The daemon appears within a chalk circle you draw. Once the daemon appears you must bind it with a knowledge daemons check. If successful you can have it complete a single task or answer a single question. Any additional task beyond the first increases the DC, as do long or difficult tasks. You cannot ask a daemon its true name or the true name of another daemon.",
             " If you fail the base check by 5 the daemon instead attacks you.",
-			"If you speak the daemons true name as part of the ceremony you gain advantage on the check and the daemon cannot attack you directly."
+            "If you speak the daemons true name as part of the ceremony you gain advantage on the check and the daemon cannot attack you directly."
         ],
         "img": "https://cdn.discordapp.com/attachments/507858027215323136/510054947384066051/unknown.png"
+    },
+    {
+        "name": "Create Spidren",
+        "type": "ceremony",
+        "secret": "Secret of Spiders",
+        "description": "With the aid of a willing spider you take an incapacitated humanoid and fuse the two bodies together. This ceremony takes 8 hours, during which you use materials worth 1800 silver. At the end of this ritual you permanently lose 2 defence. The created spidren is loyal to you, as are all its progeny."
     },
     {
         "name": "Create Undead",
         "type": "ceremony",
         "secret": "Secret of Death",
-        "description": "By taking an hour with a dead body you can grant it a semblance of life, creating a skeleton or zombie. This ritual requires you to carve your own flesh with a specially crafted you lose 1d3-1 defence permanently. If this defence loss would cause a wound the wound cannot be healed..dagger worth 1000 silver. Each time you cast this ceremony"
+        "description": "By taking an hour with a dead body you can grant it a semblance of life, creating a skeleton. This ritual requires you to carve your own flesh with a specially crafted dagger worth 1000 silver. Each time you cast this ceremony you lose 1d3-1 defence that cannot be regained until the skeleton you create is destroyed. If this defence loss would cause a wound the wound can also not be healed until the skeleton that you animate with this ceremony is destroyed."
     },
     {
         "name": "Daemon Sight",
         "type": "ceremony",
         "secret": "Secret of Daemons",
-        "description": "You cut out one of your eyes (your choice) and replace it with a gem worth 10 gold. Whenever you see a daemon within 100 ft of you (or further, if it is a big daemon) you intuitively know that it is a daemon and it has a distinctive red glow. You gain the one eyed flaw. If you already have the one eyed flaw you are blinded and can only see daemons."
+        "description": "You cut out one of your eyes (your choice) and replace it with a gem worth 10 gold. Whenever you see a daemon within 100 ft of you (or further, if it is a big daemon) you intuitively know that it is a daemon and it has a distinctive red glow. You gain the one-eyed drawback. If you already have the one-eyed drawback you are blinded and can only see daemons."
     },
     {
         "name": "Eyes from Beyond",
         "type": "ceremony",
         "secret": "Secret of Stars",
         "description": "You cut out your own eyes. You are blinded. You gain the ability to see everything within 120 feet of you. You see the true forms of anything within that distance. You can see invisible or hiding creatures within that distance."
+    },
+    {
+        "name": "Hag Transformation",
+        "type": "ceremony",
+        "secret": "Witchery",
+        "description": [
+            "When your cauldron reaches maximum power you can cast this ceremony. You need the following ingredients:",
+            "- You must take some sap from a dryad.",
+            "- You must take tears from a nymph.",
+            "- You must gather a flower of the world tree reborn and add a single petal from it.",
+            "- You must add your own blood. (2d8 damage to yourself).",
+            "- You must add an eye of a sentient being.",
+            "- You must add a unicorn tail hair.",
+            "- You must take a firstborn child and drown them in the cauldron.",
+            "Drinking this mixture will begin the transformation into a hag. Over the next month your body slowly transforms into that of a hag.",
+            "You can choose three of the following effects.",
+            "- A claw attack that deals 2d8 damage.",
+            "- +4 str",
+            "- +4 con",
+            "- Hair attack with 15ft reach, 1d10 damage. On a hit the target is grappled.",
+            "- All invocations cost 1 less. If the invocation costs 5 or more its cost is reduced by 2.",
+            "- You deepen your knowledge of 3 secrets of your choice. These can be any secrets you know, ignoring the normal restrictions from witchery.",
+            "- Child Sense – You can detect the presence of any young animals, humanoids, or other creatures within a mile.",
+            "- Cannibal – You can eat a sentient creature to regain a recovery dice.",
+            "Once you complete this ceremony, the transformation cannot be reversed or repeated.",
+            "The first effect occurs after the first week, the second occurs at the end of the third week and the last occurs at the end of the month."
+        ]
+    },
+    {
+        "name": "Heart of Steel",
+        "type": "ceremony",
+        "secret": "Secret of Steel",
+        "description": "You merge yourself with your weapons and armour, ensuring that you are never without protection. This process takes a week, during which you cannot eat or sleep. At the end of this ceremony you bind yourself with 1 steel or better weapon, one steel or better shield and one steel or better armour. You count as always wearing this armour, and your skin becomes hard and metallic in places. You can have your sword and/or shield spring out of your flesh at will and return as your main action. Your charisma and constitution scores are permanently reduced by 2 each time you perform this ritual."
     },
     {
         "name": "Lichdom",
@@ -797,6 +1033,21 @@
         "type": "ceremony",
         "secret": "Saint of Plants",
         "description": "By spending a day and night fasting and meditating, you invigorate the lands around you. This increases crop yields by 20%, makes animals calmer and forests stronger for a year. For each location you cast this on beyond the first you take a wisdom penalty of 2, that lasts until the year is up or the spell ends for some other reason."
+    },
+    {
+        "name": "Scion of the Daemon Lords",
+        "type": "ceremony",
+        "secret": "Secret of Daemon Summoning",
+        "description": [
+            "You swear your soul to a daemon lord. Any daemon you summon that serves that daemon lord willingly fails its save against your binding invocation and will do its best to serve you in any way.",
+            "Your maximum sanity is permanently halved. Your sanity is reduced to 1."
+        ]
+    },
+    {
+        "name": "Soul of Ice",
+        "type": "ceremony",
+        "secret": "Secret of Ice",
+        "description": "You spend a night outside in the cold, naked and without flames or other source of warmth. If you survive the night you become immune to cold damage and sanity damage."
     },
     {
         "name": "Stone Building",
@@ -831,7 +1082,11 @@
         "name": "Voodoo",
         "type": "ceremony",
         "secret": "Witchery",
-        "description": "You mix the blood of a being you have gathered with dirt from a graveyard to make a clay doll. This ceremony drains 4 intelligence points and requires the killing of a small animal. When complete you can use the doll to target the creature with a spell with the range of touch."
+        "description": [
+            "You mix the blood of a being you have gathered, with dirt from a graveyard, and 50 silver worth of arcane reagents to make a clay doll. This ceremony drains 4 points from your casting ability score and requires the killing of a small animal. When complete you can use the doll to target the creature with a spell with the range of touch. Another creature can also use a voodoo doll you create, but all spells cast through it cost 2 extra points.",
+            "The blood must have been gathered within the last week and the doll stops working after a month.",
+            "The casting ability points spent cannot be regained for a week."
+        ]
     },
     {
         "name": "Wings",
@@ -849,14 +1104,14 @@
         "name": "Bonfire",
         "type": "ritual",
         "casting time": "10 minutes",
-        "description": "You create a bonfire out of thin air that lasts for 8 hours. While you are within 60 feet of this bonfire all invocations from the secret of fire cost one less point of casting ability score."
+        "description": "You create a bonfire out of thin air that lasts for 8 hours. While any friendly creature is within 60 feet of this bonfire all invocations from the secret of fire cost one less point of casting ability score for that creature. This reduction ignores the normal limits for minimum spell costs."
     },
     {
         "name": "Cast the Bones",
         "type": "ritual",
         "casting time": "10 minutes",
         "description": [
-            "You search into the future, gaining some insight into the future. If you attempt to cast this ritual more than once per downtime you have an increased chance of incorrect results.",
+            "You search, gaining some insight into the future. If you attempt to cast this ritual more than once per downtime you have an increased chance of incorrect results.",
             "The insight gained from this ritual could be a phrase or a single word. Or just a feeling of wrongness or rightness. You can attempt to ask the bones a specific question but there is a 50% change there will be no answer and the casting of the ritual is wasted."
         ]
     },
@@ -865,16 +1120,29 @@
         "type": "ritual",
         "casting time": "10 minutes",
         "description": [
-            "You attempt to influence the weather around you. Make a check using your casting ability score. ",
-            " The change happens over an hour. The weather changes at half the speed for the rest of the day if changing back to the original weather. You can only cast this once per day. ",
+            "You attempt to influence the weather around you. Make a check using your casting ability score.",
+            "The change happens over an hour. The weather changes at half the speed for the rest of the day if changing back to the original weather. You can only cast this once per day. ",
             " Example Weathers include Cyclone, Bad storm, Storm, Mild Storm , Heavy Rain, Rain, Drizzle, Heavy Cloud, Light Clouds, Clear"
-        ]
+        ],
+        "img": "https://cdn.discordapp.com/attachments/507858027215323136/513873925768347850/unknown.png"
     },
     {
         "name": "Create Trickle",
         "type": "ritual",
         "casting time": "1 hour",
         "description": "You attempt to pull water forth from the ground. Depending on the terrain you can get water for 0 to 8 people, as determined by your GM and random chance."
+    },
+    {
+        "name": "Detect Magic",
+        "type": "ritual",
+        "casting time": "10 minutes",
+        "description": "You can see faint auras around items, locations, or people affected by magic for an hour. By concentrating on the aura for 10 minutes you can determine the strength and type of spell. More complex spells may require a spellcraft or arcana check. You can learn the origin of the spell, what secret it belongs to (if any) and its rough power level."
+    },
+    {
+        "name": "Eagle Eyes",
+        "type": "ritual",
+        "casting time": "1 hour",
+        "description": "For the next 4 hours you have advantage on perception checks."
     },
     {
         "name": "Forest Sense",
@@ -886,7 +1154,7 @@
         "name": "Gentle Repose",
         "type": "ritual",
         "casting time": "1 hour",
-        "description": "You perform a ritual over a dead body to keep it from decomposing or becoming an undead. As part of this ritual you must place a coin on each eye. The body then is protected for a week."
+        "description": "You perform a ritual over a dead body to keep it from decomposing or becoming an undead. As part of this ritual you must place a coin on each eye. The body then will not decompose for a week and cannot be raised or turned into an undead during that time."
     },
     {
         "name": "Healing Chant",
@@ -907,16 +1175,16 @@
         "description": "You touch an object. For the next hour, or until you dismiss it, the object shines brightly, shining light 60 ft around it."
     },
     {
+        "name": "Mage Armor",
+        "type": "ritual",
+        "casting time": "1 hour",
+        "description": "One target you touch gains a +2 bonus to armour class as long as they are not wearing medium or heavy armour or using a shield. This bonus lasts until the end of your next long rest. You can only grant this bonus to one creature at a time. If you cast this ritual before another casting of mage armour wears off the original casting is cancelled."
+    },
+    {
         "name": "Mage Armour",
         "type": "ritual",
         "casting time": "1 hour",
-        "description": "One target you touch gains a +2 bonus to armour class until the end of your next long rest. You can only grant this bonus to one creature at a time. If you cast this ritual before another casting of mage armour wears off the original casting is cancelled."
-    },
-    {
-        "name": "Detect Magic",
-        "type": "ritual",
-        "casting time": "10 minutes",
-        "description": "You can see faint auras around items, locations, or people affected by magic for an hour. By concentrating on the aura for 10 minutes you can determine the strength and type of spell. More complex spells may require a spellcraft or arcana check. You can learn the origin of the spell, what secret it belongs to (if any) and its rough power level."
+        "description": "One target you touch gains a +2 bonus to armour class as long as they are not wearing medium or heavy armour or using a shield. This bonus lasts until the end of your next long rest. You can only grant this bonus to one creature at a time. If you cast this ritual before another casting of mage armour wears off the original casting is cancelled."
     },
     {
         "name": "Moonlight Dancing",
@@ -925,10 +1193,22 @@
         "description": "Can only be cast on a full moon. Instead of long resting you can find a place of natural power, such as standing stones, a waterfall, or similar, and perform a ritual that involves naked dancing in the moonlight. Every participant in this ritual gains a +1 to every 2d10 roll for the next week."
     },
     {
+        "name": "Protection",
+        "type": "ritual",
+        "casting time": "10 minutes",
+        "description": "A creature you touch gains protection from daemons for the next hour. It gains +2 armour class against any attack from a daemon and +2 to saves against effects from daemons."
+    },
+    {
+        "name": "Read Magic",
+        "type": "ritual",
+        "casting time": "1 minute",
+        "description": "You spend some time preparing, focusing on magical writing, glyph, or runes you can touch. At the end of the minute you magically gain an understanding as to their function."
+    },
+    {
         "name": "Shroud",
         "type": "ritual",
         "casting time": "10 minutes",
-        "description": "Target you touch may add your intelligence modifier at the time of casting to all stealth checks for an hour as shadows hide and conceal them."
+        "description": "A target you touch may add a bonus of half your intelligence modifier at the time of casting to all stealth checks for an hour as shadows hide and conceal them. You can only have one creature gaining this benefit at one time."
     },
     {
         "name": "Stone Skin",
@@ -937,15 +1217,18 @@
         "description": "For the next hour your skin is hard and stone like. Your movement speed is reduced by 10 ft and you have resistance to slashing and piercing damage."
     },
     {
+        "name": "Strengthen Metal",
+        "type": "ritual",
+        "casting time": "1 hour",
+        "description": [
+            "You strengthen a metal object you touch. It gains 5 defence and 1 additional wound. Any armour (but not shields) you touch gains a + 1 bonus to armour class. You can cast this on a number of items equal to your maximum casting ability modifier. Every second time you cast this ritual, your casting ability score is reduced by 1 for the duration of the spell. This bonus lasts for a week or until you cast this ritual and exceed your limit.",
+            "A firearm strengthened in this way can ignore one misfire that would require the weapon to be repaired. The first misfire result of 4 or lower instead counts as a 5."
+        ]
+    },
+    {
         "name": "Taste the Blood",
         "type": "ritual",
         "casting time": "1 minutes",
         "description": "You taste some blood, learning some details of the creature it came from. You can learn the species, gender and rough age of the creature the blood is from as well as how long ago the blood was taken from the creature."
-    },
-    {
-        "name": "Read Magic",
-        "type": "ritual",
-        "casting time": "1 minute",
-        "description": "You spend some time preparing, focusing on magical writing or runes you can touch. At the end of the minute you magically gain an understanding as to their function."
     }
 ]
