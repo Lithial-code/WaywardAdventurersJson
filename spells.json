@@ -36,6 +36,15 @@
         "description": "For the duration no spell or magical effect can occur within 15 ft of you. You can spend an extra 4 to instead cast this invocation on a point within 60 ft of you."
     },
     {
+        "name": "Amanita Ocreata",
+        "type": "spell",
+        "time": "2 turns",
+        "cost": "18",
+        "range": "1000 ft",
+        "duration": "1 hour",
+        "description": "A creature you target must make a fortitude save or become infested with a colony of poisonous mushrooms. Their movement speed is immediately halved, and they are poisoned for the duration. Every 10 minutes, or whenever they take damage, they must succeed on another fortitude or take a minor wound."
+    },
+    {
         "name": "Arcane Bolt",
         "type": "spell",
         "time": "One Turn",
@@ -52,6 +61,16 @@
         "range": "120 ft.",
         "duration": "instantaneous",
         "description": "One (non-native) daemon of your choice within range must succeed a will save or be forced back to chaos. You can target up to 3 additional daemons by paying 4 points per extra daemon. A daemon currently touching a material it is weak to has disadvantage on the save against this spell."
+    },
+    {
+        "name": "Beetle Armour",
+        "altname": "Beetle Armor",
+        "type": "spell",
+        "time": "1 minute",
+        "cost": "4",
+        "range": "self",
+        "duration": "4 hours",
+        "description": "You grow a set of steel chain that you can use. You ignore any dexterity penalty from this armour. You can spend additional points to have the spell last for an extra 2 hours per points spent."
     },
     {
         "name": "Bind Imp",
@@ -328,6 +347,15 @@
         ]
     },
     {
+        "name": "Creeping Fungus",
+        "type": "spell",
+        "time": "1 turn",
+        "cost": "2",
+        "range": "120 feet",
+        "duration": "Instantaneous",
+        "description": "A creature you chose within range must succeed a fortitude save or take 4d8 poison damage. On a successful save it takes half damage. An undead target cannot reduce the damage from this invocation.."
+    },
+    {
         "name": "Darkness",
         "type": "spell",
         "time": "1 turn",
@@ -439,6 +467,15 @@
         "description": "You create a vine at a point in range which lashes out at a creature within 10ft of it. Make a spell attack. On a hit deal 2d6 damage and pull the creature to the origin point of the vine. The vine must be placed on a solid surface. The vine dies and turns to dust after making the attack."
     },
     {
+        "name": "Grow Insects",
+        "type": "spell",
+        "time": "1 minute",
+        "cost": "6",
+        "range": "60 ft.",
+        "duration": "1 hour",
+        "description": "You grow up to 5 insects in size, creating giant versions of them. These insects follow your commands and can be used as mounts."
+    },
+    {
         "name": "Gusting Wind",
         "type": "spell",
         "time": "1 Turn",
@@ -473,6 +510,18 @@
         "range": "Self",
         "duration": "varies",
         "description": "An inferno bursts out from you. Every creature within 100 ft of you (not including you) must succeed on a reflex save or take 10d8 fire damage. On a passed save they take half damage. Any creature that takes damage or anything else within the sphere is set on fire (d8). Once you cast this invocation you can spend 2 points and your next turn to maintain it, dealing 4d8 on a failed save, half on a pass, to anything still within the area (including yourself)."
+    },
+    {
+        "name": "Instant Decay",
+        "type": "spell",
+        "time": "2 turns",
+        "cost": "10",
+        "range": "60 ft",
+        "duration": "Instantaneous",
+        "description": [
+            "One creature within range must succeed a fortitude save or take 8d8 necrotic damage and have their maximum defence reduced by this amount. Any wounds causes by this damage can only be healed by magic.",
+            "A creature killed by this spell or an already dead body targeted by this spell cannot be raised by necromancy. You can target an already dead body for a cost of 2."
+        ]
     },
     {
         "name": "Invisibility",
@@ -593,6 +642,7 @@
     },
     {
         "name": "Shadow Armour",
+        "altname": "Shadow Armor",
         "type": "spell",
         "time": "1 minute",
         "cost": "3",
@@ -715,6 +765,24 @@
         "range": "90 ft.",
         "duration": "1 minute.",
         "description": "You summon a steel blade that floats in the air around you. When you cast this spell, and as a bonus action on any subsequent turn, you can send the blade flying at a creature within range. Make a spell attack against the target creature, on a hit the target takes 3d10 piercing damage. This attacks counts as a weapon attack for the purposes of any feats or abilities."
+    },
+    {
+        "name": "Summon Swarm",
+        "type": "spell",
+        "time": "1 turn",
+        "cost": "6",
+        "range": "600 ft.",
+        "duration": "1 minute.",
+        "description": "You summon a swarm of insects within range."
+    },
+    {
+        "name": "Swarm Cloud",
+        "type": "spell",
+        "time": "1 turn",
+        "cost": "3",
+        "range": "60 ft.",
+        "duration": "1 minute.",
+        "description": "You create an area of swarming insects in a 10ft cube within range. This swarm has 5 defence and 1 wound but only takes damage from area of effect attacks or large attacks. This swarm blocks line of sight and any creature that starts its turn within the area must make a fortitude save or take 1d6 poison damage."
     },
     {
         "name": "Tsunami",
@@ -865,6 +933,7 @@
     },
     {
         "name": "Armour of the Deep",
+        "altname": "Armor of the Deep",
         "type": "ceremony",
         "secret": "Secret of the Deep",
         "description": "You spend an hour underwater in the ocean. At the end of this hour your charisma and wisdom are both reduced by 4. You gain an additional 10 defence, and always count as wearing steel half-plate for the purposes of determining armour class and damage reduction."
@@ -883,12 +952,6 @@
             "You gain magic resistance 5 and damage resistance 5.",
             "If targeted by dispel magic or an antimagic field, you take a minor wound for each round you are in contact with it."
         ]
-    },
-    {
-        "name": "Armor of the Deep",
-        "type": "ceremony",
-        "secret": "Secret of the Deep",
-        "description": "You spend an hour underwater in the ocean. At the end of this hour your charisma and wisdom are both reduced by 4. You gain an additional 10 defence, and always count as wearing steel half-plate for the purposes of determining armour class and damage reduction."
     },
     {
         "name": "Awaken Plant",
@@ -1017,6 +1080,12 @@
         "description": "You merge yourself with your weapons and armour, ensuring that you are never without protection. This process takes a week, during which you cannot eat or sleep. At the end of this ceremony you bind yourself with 1 steel or better weapon, one steel or better shield and one steel or better armour. You count as always wearing this armour, and your skin becomes hard and metallic in places. You can have your sword and/or shield spring out of your flesh at will and return as your main action. Your charisma and constitution scores are permanently reduced by 2 each time you perform this ritual."
     },
     {
+        "name": "Lasting Death",
+        "type": "ceremony",
+        "secret": "Secret of Mushrooms",
+        "description": "You become part mushroom, you have resistance to necrotic damage. Whenever you cause a wound to an undead creature that wound cannot be healed by any means."
+    },
+    {
         "name": "Lichdom",
         "type": "ceremony",
         "secret": "Secret of Death",
@@ -1073,6 +1142,12 @@
         ]
     },
     {
+        "name": "Swarm Form",
+        "type": "ceremony",
+        "secret": "Secret of Insects",
+        "description": "You change the nature of your body, partially turning into a hivemind swarm of insects. You gain +2 fortitude and dexterity but -4 strength and charisma. All spells in the secret of insects have their costs reduced by 1. As your main action you can transform into a swarm of insects and fly 120 ft, ignoring any attacks of opportunities."
+    },
+    {
         "name": "Sword Dance",
         "type": "ceremony",
         "secret": "Saint of Blades",
@@ -1099,6 +1174,12 @@
         "type": "ritual",
         "casting time": "1 minute",
         "description": "You ward a campsite, warning you if someone attacks. Until the next dawn, or you leave the area, if any person, monster, or large beast enters within 60ft of your campfire you are immediately alerted."
+    },
+    {
+        "name": "Brew Mycelium",
+        "type": "ritual",
+        "casting time": "1 hour",
+        "description": "You spend an hour in the morning to create a number of semi-magic mushrooms equal to your wisdom modifier. These mushrooms last until the end of the day. A creature can eat this mushroom as an action to regain 1d3 defence. These mushrooms do not count as food for the purpose of eating for sustenance."
     },
     {
         "name": "Bonfire",
@@ -1147,6 +1228,12 @@
     {
         "name": "Forest Sense",
         "type": "ritual",
+        "casting time": "10 minutes",
+        "description": "For the next hour you have advantage on tracking or perception checks as long as you are touching a living plant that is touching a system of plants that are connected in some way, for example a forest or grassland."
+    },
+    {
+        "name": "Forest Sense",
+        "type": "ritual",
         "casting time": "10 Minutes",
         "description": "For the next hour you have advantage on tracking or perception checks as long as you are touching a living plant that is touching a system of plants that are connected in some way, for example a forest or grassland."
     },
@@ -1175,13 +1262,8 @@
         "description": "You touch an object. For the next hour, or until you dismiss it, the object shines brightly, shining light 60 ft around it."
     },
     {
-        "name": "Mage Armor",
-        "type": "ritual",
-        "casting time": "1 hour",
-        "description": "One target you touch gains a +2 bonus to armour class as long as they are not wearing medium or heavy armour or using a shield. This bonus lasts until the end of your next long rest. You can only grant this bonus to one creature at a time. If you cast this ritual before another casting of mage armour wears off the original casting is cancelled."
-    },
-    {
         "name": "Mage Armour",
+        "altname": "Mage Armor",
         "type": "ritual",
         "casting time": "1 hour",
         "description": "One target you touch gains a +2 bonus to armour class as long as they are not wearing medium or heavy armour or using a shield. This bonus lasts until the end of your next long rest. You can only grant this bonus to one creature at a time. If you cast this ritual before another casting of mage armour wears off the original casting is cancelled."
@@ -1203,6 +1285,12 @@
         "type": "ritual",
         "casting time": "1 minute",
         "description": "You spend some time preparing, focusing on magical writing, glyph, or runes you can touch. At the end of the minute you magically gain an understanding as to their function."
+    },
+    {
+        "name": "Signs of Nature",
+        "type": "ritual",
+        "casting time": "10 minutes",
+        "description": "You spend 10 minutes observing nature. You gain some insight into monsters or undead in the area and can make a good guess of what the weather will do in the next few hours."
     },
     {
         "name": "Shroud",

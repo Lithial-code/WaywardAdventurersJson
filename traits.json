@@ -45,6 +45,11 @@
     "description": "You gain resistance to sanity damage."
   },
   {
+    "name": "Fae Touched",
+    "type": "",
+    "description": "You once had an encounter with a fae. Once per long rest you can gain advantage on a save against an enthral effect."
+  },
+  {
     "name": "Heavy Drinker",
     "type": "",
     "description": "You have a high tolerance to alcohol and it takes twice as much to get you drunk. You get +2 on fortitude saves against poison."
@@ -178,6 +183,11 @@
     "description": "You are deaf or extremely hard of hearing. You automatically fail any check to hear something and are immune to any effect based on sound. You and your fellow party members can select a sign language as one of your bonus languages."
   },
   {
+    "name": "Fae Addled",
+    "type": "",
+    "description": "You once had an encounter with a fae. You have disadvantage on saves against enthral effects."
+  },
+  {
     "name": "Foolhardy",
     "type": "",
     "description": "You cannot dodge or take cover."
@@ -196,6 +206,11 @@
     "name": "Insane",
     "type": "",
     "description": "You see the world in a different light to most people. Whenever you take sanity damage you take twice as much and whenever your maximum sanity is reduced the reduction is also doubled. When you roll on a madness table you can roll twice and select which result to use."
+  },
+  {
+    "name": "Kidnapped",
+    "type": "",
+    "description": "You were taken into the fae as a child. You have disadvantage on all charisma checks with non-fae."
   },
   {
     "name": "Disgraced",

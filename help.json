@@ -1,0 +1,90 @@
+[
+    {
+        "name":"action",
+        "help":"This command lets you search a list of all the actions you can take in a turn. * command available"
+    },
+    {
+        "name":"alchemy",
+        "help":"This command lets you search a list of all the alchemical items in the game. * command available"
+    },
+    {
+        "name":"autoroll",
+        "help":"This command lets you automatically roll on any of the games tables without having to look them up. Available tables can be view with the * command"
+    },
+    {
+        "name":"class",
+        "help":"This command lets you search a list of all the classes in the game. * command available"
+    },
+    {
+        "name":"condition",
+        "help":"This command lets you search a list of all the conditions in the game. * command available"
+    },
+    {
+        "name":"curse",
+        "help":"This command lets you search a list of all the curses in the game. * command available"
+    },
+    {
+        "name":"feat",
+        "help":"This command lets you search a list of all the feats in the game. * command available"
+    },
+    {
+        "name":"glyph",
+        "help":"This command lets you search a list of all the glyphs in the game. * command available"
+    },
+    {
+        "name":"Help",
+        "help":"This is the command you are currently using. adding any command as an argument will tell you what that command does as well as any special formatting required to make it work * command available. "
+    },
+    {
+        "name":"item",
+        "help":"This command lets you search a list of all the items in the game. * command available"
+    },
+    {
+        "name":"race",
+        "help":"This command lets you search a list of all the races in the game. * command available"
+    },
+    {
+        "name":"secret",
+        "help":"This command lets you search a list of all the secrets in the game. * command available"
+    },
+    {
+        "name":"spell",
+        "help":"This command lets you search a list of all the spells in the game. * command available"
+    },
+    {
+        "name":"traits",
+        "help":"This command lets you search a list of all the traits in the game. * command available"
+    },
+    {
+        "name":"roll",
+        "help":"This command lets roll ttrpg dice. The format is xdx where the x's are numbers. You can add d,dl or kh to drop drop lowest dice or k,kh or dl to drop the highest dice. You can also use ! after the dice to make the dice explode or add, subtract, multiply or divide the dice"
+    },
+    {
+        "name":"rollstats",
+        "help":"This command rolls 4d6d 6 times to build a stat array for most ttrpgs. You can also use another dice formula as the arg to change what dice are rolled"
+    },
+    {
+        "name":"multiroll",
+        "help":"This command is the roll command but you can prefix your roll with a number to do it x number of times"
+    },
+    {
+        "name":"createchannel",
+        "help":"This command creates two channels and a role named for args[0]. anyone mentioned with this command will also be assigned the role. This command only works for people with the West Marches DM role"
+    },
+    {
+        "name":"delete",
+        "help":"This command can only be used in the IC channel of any expedition pair. It deletes both channels and the role assigned to those channels. This command only works for people with the West Marches DM role"
+    },
+    {
+        "name":"link",
+        "help":"This command provides a link to the most recent copy of the rules pdf"
+    },
+    {
+        "name":"support",
+        "help":"This command provides a link to the patreon for those people with an abundance of gold who want to support this project"
+    },
+    {
+        "name":"westmarches",
+        "help":"This command will give you the westmarches role providing you are on a server that has such a role"
+    }
+]

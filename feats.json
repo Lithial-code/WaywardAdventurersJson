@@ -120,6 +120,26 @@
     ]
   },
   {
+    "name": "Druidic Knowledge",
+    "type": "",
+    "prerequisite": "Wis 16, Mage or Divine Secrets",
+    "description": [
+      "You learn druidic and one secret from the druid secret list.",
+      "Whenever you gain a level you may learn another secret from this list instead of your normal secret list.",
+      "If you are a mage you can elect to change your casting ability to wisdom. Once you make this decision you cannot change it back."
+    ]
+  },
+  {
+    "name": "Druidic Weapons",
+    "type": "",
+    "prerequisite": "Warrior or Priest",
+    "description": [
+      "You learn forgotten druidic weapon techniques.",
+    "When using a quarterstaff, sickle, or club you can use wisdom for attack and damage rolls with that weapon.",
+    "You gain +1 wisdom"
+    ]
+  },
+  {
     "name": "Dagger Expert",
     "type": "",
     "prerequisite": "Weapon Master: Dagger",
@@ -204,6 +224,25 @@
       "2: Rogue, Warrior, Priest",
       "3: Warrior, Priest, Level 3",
       "4: Rage OR Warrior level 7"
+    ]
+  },
+  {
+    "name": "Fae Mind",
+    "type": "",
+    "prerequisite": "Intimate Relationship with a Fae",
+    "description": [
+      "Your mind shifts a little, becoming more faelike.",
+      "You have advantage on saves against enthral and fascination.",
+      "Once per downtime as a reaction, you can separate your mind from your brain. For the next hour you ignore psychic and sanity damage, ignore any madness or confusion effects, and become immune to enthral and fascination."
+    ]
+  },
+  {
+    "name": "Fae Specialist",
+    "type": "",
+    "prerequisite": "Intelligence 14, Level 5",
+    "description": [
+      "You have mastered the art of hunting and killing fae.",
+      "You have advantage on knowledge checks about fae and deal additional damage equal to your intelligence modifier to fae."
     ]
   },
   {
@@ -360,8 +399,8 @@
     "prerequisite": "Priest or Warrior",
     "description": [
       "You defend your allies with your trusty shield, not just yourself.",
-      "While wearing a shield you can, once per round, grant your bonus to AC from your shield to an ally adjacent to you. You lose the bonus ac from your shield until the end of your next turn.",
-      "While using a shield you gain an additional +2 bonus to armour class, even while shielding another."
+      "While wearing a shield you can grant your bonus to AC from your shield to an ally adjacent to you when they are attacked. You lose the bonus AC from you would normally gain from your shield until the end of your next turn.",
+      "All shields provide an additional + 1 armour class."
     ]
   },
   {

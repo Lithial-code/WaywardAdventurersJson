@@ -236,5 +236,13 @@
 		"stat": "none",
 		"flaw": "none",
 		"bonus": "Can swap parent race traits. see phb pg 25 for more details"
+	},
+	{
+		"name": "Faeborn",
+		"type": "special",
+		"race": "Human \n Elf",
+		"stat": "+2 dex, +2 cha",
+		"flaw": "You cannot use weapons made of iron or steel and any weapons that are made of iron or steel deal an extra 1d6 damage on a hit.",
+		"bonus": "You have advantage on saving throws against any effect that would enthral you."
 	}
 ]
