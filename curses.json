@@ -12,7 +12,7 @@
   {
     "name": "Debilitating Pain",
     "type": "",
-    "description": "A creature with the curse of debilitating pain never stops feeling any pain they feel. Any time they take a wound they must make a will save or take 1d6 sanity damage. The DC is 10 + any wound taken after this curse. For each wound taken the dice also increased by one size."
+    "description": "A creature with the curse of debilitating pain never stops feeling any pain they feel. Any time they take a wound they must make a Mental Save or take 1d6 sanity damage. The DC is 10 + the number of wounds taken since gaining this curse. For each wound taken the dice also increased by one size."
   },
   {
     "name": "Polymorph",

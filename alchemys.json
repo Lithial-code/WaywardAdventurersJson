@@ -27,7 +27,7 @@
     {
         "name": "Smelling Salts (DC 10)",
         "type":"",
-        "description": "These smelling salts can be administered as an action to a creature over its wound limit. The creature can ignore one wound for 10 minutes but is stunned during that time. Consecutive used can be dangerous."
+        "description": "These smelling salts can be administered as an action to a creature over its wound limit. The creature can ignore one wound for 10 minutes but is stunned during that time. Consecutive uses can be dangerous."
     },
     {
         "name": "Stone to Flesh (DC 25)",

@@ -47,7 +47,7 @@
     {
         "name": "Arcane Bolt",
         "type": "spell",
-        "time": "One Turn",
+        "time": "1 Turn",
         "cost": "2",
         "range": "One creature within 120 feet.",
         "duration": "instantaneous",
@@ -163,7 +163,7 @@
     {
         "name": "Blind Foe",
         "type": "spell",
-        "time": "One Turn",
+        "time": "1 Turn",
         "cost": "3",
         "range": "One creature within 150 feet.",
         "duration": "until dispelled",
@@ -253,7 +253,7 @@
     {
         "name": "Cackle",
         "type": "spell",
-        "time": "None.",
+        "time": "1 bonus action.",
         "cost": "3",
         "range": "60ft",
         "duration": "1 minute",
@@ -280,7 +280,7 @@
     {
         "name": "Cause Wound",
         "type": "spell",
-        "time": "One Turn",
+        "time": "1 Turn",
         "cost": "2",
         "range": "One creature within 30 feet.",
         "duration": "instantaneous",
@@ -298,11 +298,22 @@
     {
         "name": "Cone of Fire",
         "type": "spell",
-        "time": "One Turn",
+        "time": "1 Turn",
         "cost": "3",
         "range": "20 feet cone.",
         "duration": "instantaneous",
         "description": "All creatures within the cone must succeed on a reflex save or take 4d8 fire damage. On a successful save the creature takes half damage."
+    },
+    {
+        "name": "Confusing Spores",
+        "type": "spell",
+        "time": "1 turn",
+        "cost": "5",
+        "range": "200 ft",
+        "duration": "1 minute",
+        "description": 
+            "Chose a point within range. A 30ft radius sphere around this point is filled with toxic spores that cloud the mind of anyone who breathes them in. Any creatures that start their turn within the area, or take a breath within the area later, must succeed a fortitude save or take 2d8 poison damage and be confused for an hour."
+        
     },
     {
         "name": "Control Undead",
@@ -433,7 +444,7 @@
     {
         "name": "Flight",
         "type": "spell",
-        "time": "None",
+        "time": "1 bonus action",
         "cost": "5",
         "range": "Self",
         "duration": "1 hour.",
@@ -451,11 +462,11 @@
     {
         "name": "Gather the Blood",
         "type": "spell",
-        "time": "One Turn",
+        "time": "1 Turn",
         "cost": "2",
         "range": "A creature within 60 feet.",
         "duration": "instantaneous",
-        "description": "The target must make a reflex save or take 1d6 damage. If the target can bleed it is cut and the blood is magically transported to your hand."
+        "description": "The target must make a reflex save or take 1d6 piercing damage. If the target can bleed it is cut and takes an extra 3d6 necrotic damage and the blood is magically teleported to your hand. On successful save the target takes half damage. If the target is already bleeding the target has disadvantage on the save."
     },
     {
         "name": "Grasping Vine",
@@ -505,7 +516,7 @@
     {
         "name": "Inferno",
         "type": "spell",
-        "time": "Instant",
+        "time": "1 turn",
         "cost": "10",
         "range": "Self",
         "duration": "varies",
@@ -543,7 +554,7 @@
     {
         "name": "Leap Through Blood",
         "type": "spell",
-        "time": "None",
+        "time": "1 bonus action",
         "cost": "6",
         "range": "Self",
         "duration": "instantaneous",
@@ -645,7 +656,7 @@
         "altname": "Shadow Armor",
         "type": "spell",
         "time": "1 minute",
-        "cost": "3",
+        "cost": "4",
         "range": "Self",
         "duration": "Until next long rest",
         "description": "You create shadowy armour that lasts until the end of your next long rest. Your armour class is 13 + your dexterity as long as you are not wearing any armour or using a shield. You gain 5 defence. When a creature makes a melee attack against you while you have this armour you can spend this defence to force your attacker to roll a reflex save or take 1d6 necrotic damage per defence lost. You can spend one point to regain this defence as your main action."
@@ -663,10 +674,10 @@
         "name": "Shadow Trap",
         "type": "spell",
         "time": " 1 turn",
-        "cost": "5",
+        "cost": "3",
         "range": "60 ft.",
         "duration": "1 minute",
-        "description": "You target a creature within range with a clearly defined shadow. You pin their shadow to the ground. They cannot move more than 5ft from their shadow. They take 2d6 damage at the start of their turn while trapped like this. They can attempt to tear away from their shadow by making a will save. On a pass they are freed and take 6d6 damage and permanently lose their shadow."
+        "description": "You target a creature within range with a clearly defined shadow. The target must make a reflex save or have their shadow pinned to the ground. They cannot move more than 5ft from their shadow. They take 1d8 necrotic/untyped damage at the start of their turn while trapped like this. They can attempt to tear away from their shadow by making a will save. On a pass they are freed and take 3d8 necrotic/untyped damage and lose their shadow for a week."
     },
     {
         "name": "Shard Swarm",
@@ -825,11 +836,11 @@
     {
         "name": "Vomit Spiders",
         "type": "spell",
-        "time": "None",
+        "time": "1 bonus action",
         "cost": "3",
         "range": "15ft cone",
         "duration": "instantaneous",
-        "description": "You vomit forth a wave of spiders. Any creature within a 15 ft cone in front of you must make a fortitude save or take 2d8 damage."
+        "description": "You vomit forth a wave of spiders. Any creature within a 15 ft cone in front of you must make a fortitude save or take 2d8 poison/piercing damage. The creatures take half damage on a successful save."
     },
     {
         "name": "Wall of Fire",
@@ -904,7 +915,7 @@
         "time": "None",
         "cost": "2",
         "range": "Touch",
-        "duration": "1 minute",
+        "duration": "1 turn",
         "description": "A creature you touch gain +10 ft movement speed and becomes immune to attacks of opportunity."
     },
     {
@@ -1050,28 +1061,9 @@
         "name": "Hag Transformation",
         "type": "ceremony",
         "secret": "Witchery",
-        "description": [
-            "When your cauldron reaches maximum power you can cast this ceremony. You need the following ingredients:",
-            "- You must take some sap from a dryad.",
-            "- You must take tears from a nymph.",
-            "- You must gather a flower of the world tree reborn and add a single petal from it.",
-            "- You must add your own blood. (2d8 damage to yourself).",
-            "- You must add an eye of a sentient being.",
-            "- You must add a unicorn tail hair.",
-            "- You must take a firstborn child and drown them in the cauldron.",
-            "Drinking this mixture will begin the transformation into a hag. Over the next month your body slowly transforms into that of a hag.",
-            "You can choose three of the following effects.",
-            "- A claw attack that deals 2d8 damage.",
-            "- +4 str",
-            "- +4 con",
-            "- Hair attack with 15ft reach, 1d10 damage. On a hit the target is grappled.",
-            "- All invocations cost 1 less. If the invocation costs 5 or more its cost is reduced by 2.",
-            "- You deepen your knowledge of 3 secrets of your choice. These can be any secrets you know, ignoring the normal restrictions from witchery.",
-            "- Child Sense – You can detect the presence of any young animals, humanoids, or other creatures within a mile.",
-            "- Cannibal – You can eat a sentient creature to regain a recovery dice.",
-            "Once you complete this ceremony, the transformation cannot be reversed or repeated.",
-            "The first effect occurs after the first week, the second occurs at the end of the third week and the last occurs at the end of the month."
-        ]
+        "description": 
+            "When your cauldron reaches maximum power you can cast this ceremony. You need the following ingredients: \n - You must take some sap from a dryad.\n - You must take tears from a nymph.\n - You must gather a flower of the world tree reborn and add a single petal from it.\n - You must add your own blood. (2d8 damage to yourself).\n - You must add an eye of a sentient being.\n - You must add a unicorn tail hair.\n - You must take a firstborn child and drown them in the cauldron.\n Drinking this mixture will begin the transformation into a hag. Over the next month your body slowly transforms into that of a hag.\n You can choose three of the following effects.\n- A claw attack that deals 2d8 damage.\n- +4 str\n- +4 con\n - Hair attack with 15ft reach, 1d10 damage. On a hit the target is grappled.\n- All invocations cost 1 less. If the invocation costs 5 or more its cost is reduced by 2.\n- You deepen your knowledge of 3 secrets of your choice. These can be any secrets you know, ignoring the normal restrictions from witchery.\n- Child Sense – You can detect the presence of any young animals, humanoids, or other creatures within a mile.\n- Cannibal – You can eat a sentient creature to regain a recovery dice.\n Once you complete this ceremony, the transformation cannot be reversed or repeated.\n The first effect occurs after the first week, the second occurs at the end of the third week and the last occurs at the end of the month."
+        
     },
     {
         "name": "Heart of Steel",

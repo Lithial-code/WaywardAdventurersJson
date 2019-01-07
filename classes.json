@@ -4,14 +4,14 @@
 		"type": "",
 		"Warrior Extra Attack": "A warrior can attack twice a turn. This extra attack stacks with other abilities that grant additional attacks.",
 		"Warrior Fighting Skills": "A warrior can add a bonus equal to half their level, minimum 1, to weapon attack rolls.",
-		"Warrior Armour Mastery": "A warrior starts with the Medium Armour Feat but does not gain the +1 strength bonus of that feat.",
+		"Warrior Armour Mastery": "A warrior starts with the Medium Armour Feat, including the +1 strength bonus of that feat. You can, with permission from your GM swap this feat for any feat with warrior as a prerequisite.",
 		"Warrior Starting Attributes": [
 			"A warrior has a wound limit of 3.",
-			"A warrior has defence equal to their constitution modifier + 8."
+			"A warrior has defence equal to their constitution modifier + 10."
 		],
 		"Warrior Saves": [
-			"Major Save: Fortitude ",
-			"Minor Save: Will"
+			"Major Save: Resistance",
+			"Minor Save: Mental"
 		]
 	},
 	{
@@ -26,33 +26,38 @@
 		"Mage Spell Attack Mastery": "A mage can add a bonus equal to half their level, minimum 1, to any spell attacks.",
 		"Mage Starting Attributes": [
 			"A mage has a wound limit of 2.",
-			" A mage has defence equal to their constitution modifier + 5.",
+			"A mage has defence equal to their constitution modifier + 7.",
 			"A mage gains an additional 2 sanity  and an additional +1 sanity at each odd level."
 		],
 		"Mage Casting Ability Score": "A mage’s casting ability score is intelligence.",
 		"Mage  Saves": [
-			"Major Save: Will",
-			"Minor Save: Fortitude"
+			"Major Save: Mental",
+			"Minor Save: Avoidance"
+		],
+		"Mage Arcane Attack":[
+			"A mage can harness their innate magic to make bolt of force that slices into their foes.",
+			"Once per turn, the mage can roll a spell attack against a target within 100 ft in the place of an attack. On a hit the target takes 1d6 + the mages casting ability score modifier damage. This damage is piercing or slashing. At level 5 the mage can make two arcane attacks in a turn. When you learn a secret you may change the damage type of this attack. This ability needs a channel."
 		]
+
 	},
 	{
 		"name": "Priest",
 		"type": "",
 		"Divine Healing": [
-			"The priest can use a turn to call on their god to heal a single minor wound with a touch. You can also use this on an enemies turn when you are wounded. ",
-			" Once you use this ability you cannot use it again until you finish a downtime. ",
-			" When you reach level 4 you can cure a minor or major wound with this touch.When you reach level 8 you can use this ability after you complete a long rest, instead of a downtime."
+			"The priest can use their main action to move up to their movement speed and to call on their god to heal a single minor wound with a touch. You can also use this on an enemies turn when you are wounded, instantly negating the wound. Once you use this ability you cannot use it again until you finish a downtime.",
+			"When you reach level 4 you can cure a minor or major wound with this touch.",
+			"When you reach level 8 you can use this ability after you complete a long rest, instead of a downtime."
 		],
 		"Priest Bonus Feat": "A priest starts the game with a bonus feat. This feat must have priest as a prerequisite.",
 		"Priest Spell Attack Mastery": "A priest can add a bonus equal to half their level, minimum 1, to any spell attacks.",
 		"Priest Starting Attributes": [
 			"A priest has a wound limit of 3. ",
-			"A priest has defence equal to their constitution modifier + 7."
+			"A priest has defence equal to their constitution modifier + 10."
 		],
 		"Priest Casting Ability Score": "A priest’s casting ability score is wisdom.",
 		"Priest Saves": [
-			"Major Save: Will",
-			"Minor Save: Reflex"
+			"Major Save: Mental",
+			"Minor Save: Resistance"
 		]
 	},
 	{
@@ -61,15 +66,15 @@
 		"Extra Rogue Skills": "The rogue can select two additional skills to be trained in.",
 		"Rogue Starting Attributes": [
 			"A rogue has a wound limit of 2",
-			"A rogue has defence equal to their constitution modifier + 6"
+			"A rogue has defence equal to their constitution modifier + 8"
 		],
 		"Rogue Bonus Feat":"A rogue starts the game with a bonus feat. This feat must have rogue as a prerequisite.",
 		"Fighting Dirty": "A rogue can add a bonus of half their level, minimum 1 to attack rolls.",
 		"Get the Drop": "A rogue gains advantage on attacks against targets who are surprised or stunned.",
-		"Rogue Talents": "A rogue gains a bonus equal to half their level, minimum 1, to stealth checks and checks to unlock locks or disarm traps. ",
+		"Rogue Talents": "A rogue gains a bonus equal to half their level, minimum 1, to stealth tests and tests to unlock locks or disarm traps. ",
 		"Rogue Saves": [
-			"Major Save: Reflex",
-			"Minor Save: Will"
+			"Major Save: Avoidance",
+			"Minor Save: Mental"
 		]
 	}
 ]

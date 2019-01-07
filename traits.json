@@ -12,12 +12,12 @@
   {
     "name": "Arcane Crafter",
     "type": "",
-    "description": "During your downtime you can attempt to create wands and scrolls. You count as trained for checks for crafting such items."
+    "description": "During your downtime you can attempt to create wands and scrolls. You count as trained for tests for crafting such items."
   },
   {
     "name": "Blacksmith",
     "type": "",
-    "description": "During your downtime you can attempt to create metal weapons and armour. You count as trained for checks for crafting such items."
+    "description": "During your downtime you can attempt to create metal weapons and armour. You count as trained for tests for crafting such items."
   },
   {
     "name": "Cautious",
@@ -27,7 +27,7 @@
   {
     "name": "Cute",
     "type": "",
-    "description": "You are cute, gaining +2 on charisma checks against people who are/would be/could be attracted to you."
+    "description": "You are cute, gaining +2 on charisma tests against people who are/would be/could be attracted to you."
   },
   {
     "name": "City Dweller",
@@ -52,7 +52,7 @@
   {
     "name": "Heavy Drinker",
     "type": "",
-    "description": "You have a high tolerance to alcohol and it takes twice as much to get you drunk. You get +2 on fortitude saves against poison."
+    "description": "You have a high tolerance to alcohol and it takes twice as much to get you drunk. You get +2 on resistance saves against poison."
   },
   {
     "name": "Heirloom Weapon",
@@ -135,7 +135,7 @@
   {
     "name": "Tinkerer",
     "type": "",
-    "description": "You can create small mechanical items. You count as trained for checks for crafting such items."
+    "description": "You can create small mechanical items. You count as trained for tests for crafting such items."
   },
   {
     "name": "Well-Travelled",
@@ -143,14 +143,19 @@
     "description": "You learn 2 more languages, from the common or rare list."
   },
   {
+    "name": "Young Start",
+    "type": "",
+    "description": "You have started your adventuring life much younger than usual. You cannot take more than 2 starting traits, including this one. You take a -2 penalty to strength, constitution, and wisdom scores but a +2 bonus to dexterity and charisma scores."
+  },
+  {
     "name": "Addiction",
     "type": "",
-    "description": "You are addicted to a certain substance. For every day you do not intake the substance you must make a DC 20 fort save or have disadvantage on all attacks, saves and ability checks for that day, or until you intake the substance."
+    "description": "You are addicted to a certain substance. For every day you do not intake the substance you must make a DC 20 fort save or have disadvantage on all attacks, saves and ability tests for that day, or until you intake the substance."
   },
   {
     "name": "Anger Issues",
     "type": "",
-    "description": "You have disadvantage on all social checks besides intimidation."
+    "description": "You have disadvantage on all social tests besides intimidation."
   },
   {
     "name": "Blood Thirsty",
@@ -175,12 +180,12 @@
   {
     "name": "Combat Paralysis",
     "type": "",
-    "description": "You must pass a DC 15 will save at the start of combat in order to act on the first turn."
+    "description": "You must pass a DC 15 mental save at the start of combat in order to act on the first turn."
   },
   {
     "name": "Deaf",
     "type": "",
-    "description": "You are deaf or extremely hard of hearing. You automatically fail any check to hear something and are immune to any effect based on sound. You and your fellow party members can select a sign language as one of your bonus languages."
+    "description": "You are deaf or extremely hard of hearing. You automatically fail any test to hear something and are immune to any effect based on sound. You and your fellow party members can select a sign language as one of your bonus languages."
   },
   {
     "name": "Fae Addled",
@@ -195,7 +200,7 @@
   {
     "name": "Haemophilia",
     "type": "",
-    "description": "You have -2 on fortitude saves to heal wounds."
+    "description": "You have -2 on resistance saves to heal wounds."
   },
   {
     "name": "Illiterate",
@@ -210,7 +215,7 @@
   {
     "name": "Kidnapped",
     "type": "",
-    "description": "You were taken into the fae as a child. You have disadvantage on all charisma checks with non-fae."
+    "description": "You were taken into the fae as a child. You have disadvantage on all charisma tests with non-fae."
   },
   {
     "name": "Disgraced",
@@ -235,7 +240,7 @@
   {
     "name": "Lost an Eye",
     "type": "",
-    "description": "You have disadvantage on perception checks."
+    "description": "You have disadvantage on perception tests."
   },
   {
     "name": "Nervous",
@@ -286,5 +291,40 @@
     "name": "Weak Willed",
     "type": "",
     "description": "You are not as strong willed as other people. Your wisdom score is reduced by 2"
+  },
+  {
+    "name": "Stage Fright",
+    "type": "",
+    "description": "You suffer disadvantage on charisma and wisdom tests when in or in front of large crowds."
+  },
+  {
+    "name": "Phobia",
+    "type": "",
+    "description": "You have an intense fear of a certain creature or effect, for example: fire, spiders, heights. When confronted with the object of your phobia you must make a DC 15 Mental Save or take 1 irresistible sanity damage and be frightened for a round."
+  },
+  {
+    "name": "Lack of Confidence",
+    "type": "",
+    "description": "Whenever you fail a test you have a -5 penalty on that skill for an hour."
+  },
+  {
+    "name": "Forgetful",
+    "type": "",
+    "description": "Whenever you stay at a location for more than an hour you must make a DC 10 Mental Save or leave an item behind, such as a few coins, a small dagger or similar. If you critically fail this test you might instead leave an important weapon or piece of information instead."
+  },
+  {
+    "name": "Dark Mark",
+    "type": "",
+    "description": "You have a symbol of an evil god or other dark entity burned into your flesh. You have disadvantage and a -2 penalty on all charisma tests with decent people. You are charged an extra 100% for all goods and services."
+  }, 
+   {
+    "name": "Hedonist",
+    "type": "",
+    "description": "Each day you do not spent at least an hour in pleasurable activities you must make DC 15 Mental Save or have disadvantage on initiative and perception tests for the next day."
+  },
+  {
+    "name": "Slow on the Uptake",
+    "type": "",
+    "description": "You have disadvantage on initiative tests or perception tests to spot hidden enemies or traps."
   }
 ]

@@ -253,17 +253,17 @@
     ],
     "Supreme":[
         {
-            "1": "Shell.\\n You cannot take any action. Any creature can pull you along at half speed."
+            "1": "Shell.\n You cannot take any action. Any creature can pull you along at half speed."
           },
           {
-            "2": "Babbling.\\nYou constantly babble intolerantly. You have disadvantage on stealth checks and saying anything takes 3 times as long as normal. If you try to cast a spell it has a 50% chance of failing as you cast it, unless it does not require you to speak."
+            "2": "Babbling.\nYou constantly babble intolerantly. You have disadvantage on stealth checks and saying anything takes 3 times as long as normal. If you try to cast a spell it has a 50% chance of failing as you cast it, unless it does not require you to speak."
           },
           {
-            "3": "Totem. \\n You choose a totem, while more than 30 ft. from the totem you have disadvantage on every roll. If the totem is destroyed you must roll on the minor, major and supreme madness tables."
+            "3": "Totem. \n You choose a totem, while more than 30 ft. from the totem you have disadvantage on every roll. If the totem is destroyed you must roll on the minor, major and supreme madness tables."
           },
           {
      
-            "4": "Night Terrors. \\n The madness has crept into your subconscious and you have awful night terrors when you sleep. Whenever you take a long rest, roll a d6. On a 1, you do not gain the benefits of a long rest."
+            "4": "Night Terrors. \n The madness has crept into your subconscious and you have awful night terrors when you sleep. Whenever you take a long rest, roll a d6. On a 1, you do not gain the benefits of a long rest."
           },
           {
         
@@ -271,23 +271,23 @@
           },
           {
            
-            "6": "Permanent Damage. \\n Your wisdom score is permanently reduced by 2."
+            "6": "Permanent Damage. \n Your wisdom score is permanently reduced by 2."
           },
           {
           
-            "7": "Sanguine Fascination. \\n You become infatuated with blood and will go out of your way to observe bleeding wounds regardless of the context."
+            "7": "Sanguine Fascination. \n You become infatuated with blood and will go out of your way to observe bleeding wounds regardless of the context."
           },
           {
          
-            "8": "Aggressive. \\n You must always attack an enemy if there is an opportunity to do so. At the end of any combat you must succeed at a DC 15 will save or attack whatever creatures are around you."
+            "8": "Aggressive. \n You must always attack an enemy if there is an opportunity to do so. At the end of any combat you must succeed at a DC 15 will save or attack whatever creatures are around you."
           },
           {
           
-            "9": "Paranoid. \\n You do not trust anyone. You cannot be a willing target of any spell and cannot sleep while there are other creatures around."
+            "9": "Paranoid. \n You do not trust anyone. You cannot be a willing target of any spell and cannot sleep while there are other creatures around."
           },
           {
 
-            "10": "Merciless. \\n You cannot leave an enemy alive."
+            "10": "Merciless. \n You cannot leave an enemy alive."
           }
     ]
 }

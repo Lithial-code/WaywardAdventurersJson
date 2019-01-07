@@ -64,10 +64,16 @@
     ]
   },
   {
+    "name": "Cast on the Move",
+    "type": "",
+    "prerequisite": "Mage or Priest",
+    "description": "When you take the cast a spell action you can move up to your movement speed instead of 5 ft."
+  },
+  {
     "name": "Combined Crafter",
     "type": "",
     "prerequisite": "At least 2 crafting skills/abilities.",
-    "description": "You can combine your crafting abilities  to make more advanced items. For example: \n Blacksmith + arcane crafter = magical weapons. \n Tinkerer + glyphs = Magic creations \n Blacksmith + Tinkerer = Trick Weapons"
+    "description": "You can combine your crafting abilities to make more advanced items. For example: \n Blacksmith + arcane crafter = magical weapons. \n    Tinkerer + glyphs = Magic creations \n Blacksmith + Tinkerer = Trick Weapons \n You learn an additional crafting trait."
   },
   {
     "name": "Combat Healer",
@@ -164,7 +170,7 @@
     "description": [
       "You are a well-practiced climber.",
       "While climbing you have advantage on check to not fall or to catch another character that is falling.",
-      "You gain +1 strength. You can climb twice as fast as normal people."
+      "You gain +1 strength. You gain a +5 bonus on climb checks to climb quickly and cannot critically fail a climb check."
     ]
   },
   {
@@ -306,7 +312,7 @@
     "prerequisite": "Wisdom 16",
     "description": [
       "You are in tune with nature.",
-      "You can communicate with animals on a basic level. You can also attempt to tame animals."
+      "You can communicate with animals on a basic level. You can also attempt to tame wild animals. You have advantage on skill checks to interact socially with animals and may use wisdom in place of charisma for these checks."
     ]
   },
   {
@@ -410,7 +416,8 @@
     "description": [
       "Your words bolster your allies to greater heights.",
       "Once per downtime you can invigorate your allies with a 10-minute speech. Chose up to 10 creatures you can see.",
-      "Each creature regains 2d6 defence. In addition, each creature increases their wound limit by one (for determining unconsciousness only), can ignore one level of exhaustion and gains +2 on attack rolls and save DCs for the next 2 hours. A creature can only gain this benefit once per downtime."
+      "Each creature regains 2d6 defence. In addition, each creature increases their wound limit by one (for determining unconsciousness only), can ignore one level of exhaustion and gains +2 on attack rolls and save DCs for the next 2 hours. A creature can only gain this benefit once per downtime.",
+      "You can use this ability as a main action, but the benefits are decreased. You can only choose 6 targets, each regains 1d6 defence, gains +1 to attack rolls, and ignores one level of defence for an hour."
     ]
   },
   {
@@ -487,7 +494,7 @@
   {
     "name": "Sharpshooter",
     "type": "",
-    "prerequisite": "Warrior or Rogue",
+    "prerequisite": "Warrior, Rogue or Martial Clergy",
     "description": [
       "You have learned to attack at great range, striking your enemies long before they reach you.",
       "Double your range with any ranged attacks."
@@ -535,8 +542,16 @@
     "prerequisite": "Warrior or Priest",
     "description": [
       "You are able to avoid and absorb damage with great skill.",
-      "You gain an extra 4 defence.",
-      "You can take this feat twice if you are a warrior."
+      "You gain an extra 4 defence and gain DR 1."
+    ]
+  },
+  {
+    "name": "Tougher",
+    "type": "",
+    "prerequisite": "Warrior, Tough, Level 5",
+    "description": [
+      "You are able to avoid and absorb damage with great skill.",
+      "You gain an extra 6 defence."
     ]
   },
   {
@@ -645,9 +660,19 @@
     "name": "Expert Defender",
     "type": "",
     "prerequisite": "Defender",
+    "description": 
+      "You gain another 3 defence. When an enemy attacks another creature while adjacent to you, you can interpose yourself between the attacker and the target. The attacker instead attacks you, and you can immediately make a melee attack against the attacker, giving them disadvantage on the triggering attack as normal. You can use this attack in addition to the attack from defender, but not both against the same creature."
+    
+  },
+  {
+    "name": "Endless Rage",
+    "type": "",
+    "prerequisite": "Improved Rage, Warrior, Level 10",
     "description": [
-      "You gain another 2 defence.",
-      "When an enemy attacks another creature while adjacent to you, you can interpose yourself between the attacker and the target. The attacker instead attacks you, and afterwards you can make a melee attack against the attacker, as per the defender feat. If this attack hits the attacker has disadvantage on their next attack this turn, no matter the target."
+      "Your rage is unending and violent.",
+      "Your rages last for 10 minutes.",
+      "If you have no rages left, you can rage whenever you have been the target of a spell or attack in the previous round.",
+      "Whenever you are not raging your melee weapon attacks using strength deal an additional 2 damage."
     ]
   },
   {
@@ -685,6 +710,12 @@
       "Your rage becomes less taxing and more effective",
       "You can rage an extra time per long rest. While raging your extra damage on each hit increases to 5."
     ]
+  },
+  {
+    "name": "Mindless Rage",
+    "type": "",
+    "prerequisite": "Improved Rage, Level 7",
+    "description":"While raging you are immune to psychic and sanity damage, fascination, enthral and mind reading. You have advantage on any mind affecting effects."
   },
   {
     "name": "Monkey Grip",
@@ -755,8 +786,9 @@
     "type": "",
     "prerequisite": "Warrior",
     "description": [
-      "Your strikes can muddy your opponents' thoughts, leaving them vulnerable and unable to retaliate.",
-      "Once per short rest you can attempt to stun a creature you hit with an attack. They must succeed on a fortitude save or be stunned until the end of their next round."
+      "Your strikes can muddy your opponents’ thoughts, leaving them vulnerable and unable to retaliate.",
+      "You can attempt to stun a creature you hit with an attack. They must succeed on a fortitude save or be stunned until the end of their next round.",
+      "You can use this ability a number of times equal to half your strength score, minimum 1, per short rest."
     ]
   },
   {
@@ -780,9 +812,9 @@
   {
     "name": "Two Weapon Extra Attack",
     "type": "",
-    "prerequisite": "Extra Attack, Two Weapon Fighter",
+    "prerequisite": "Two Weapon Fighter, Level 5",
     "description": [
-      "When dual wielding you can make an attack with your off-hand weapon whenever you attack with your main weapon instead of just once per turn."
+      "When dual wielding you can make an attack with your off-hand weapon whenever you attack with your main weapon during your turn."
     ]
   },
   {
@@ -808,7 +840,20 @@
     "prerequisite": "Warrior.",
     "description": [
       "You always seems to know where your enemies will strike, allowing you to avoid the worst of their attacks.",
-      "While not wearing armour and not using a shield you can add either your intelligence modifier or wisdom modifier to your AC and reflex saves."
+      "While not wearing armour and not using a shield you can add either your intelligence modifier or wisdom modifier to your AC and reflex saves. You also gain a bonus to AC and DR equal to half your level."
+    ]
+  },
+  {
+    "name": "Vow of Asceticism",
+    "type": "",
+    "prerequisite": "Warrior, Wisdom 18",
+    "description": [
+      "You give up on worldly possessions to gain almost supernatural combat prowess.",
+      "You cannot own any items aside from a quarterstaff, two sets of basic clothes, a waterskin, a sack for food and plain food.",
+      "You must give away all your current possessions to the poor or to a charity, not your party, unless doing so would endanger the world/the person you are giving the items to. You cannot keep any treasure you find, though you still must take a share of any loot your party finds to give to the poor and needy (not your party).",
+      "At level 4 your unarmed attacks deal 1d8 damage and count as silvered for the purpose of overcoming damage resistance.",
+      "At level 8 your unarmed attacks deal 1d10 damage and the damage from them cannot be reduced or resisted.",
+      "You gain a bonus to armour class equal to half your level."
     ]
   },
   {
@@ -946,6 +991,15 @@
     ]
   },
   {
+    "name": "Saint of Innovation",
+    "type": "",
+    "prerequisite": "Priest, Divine Secrets,Must be taken at Level 1",
+    "description": [
+      "You follow a god of innovation or knowledge. Your casting ability score is changed to intelligence. You may select the secret of steel or the secret of glyphs as one of your secrets from divine secrets and both secrets are added to your list of secrets you can select when levelling up.",
+      "You gain a bonus equal to half your level to either crafting checks or knowledge checks, chosen when you select this feat."
+    ]
+  },
+  {
     "name": "Arcane Recovery",
     "type": "",
     "prerequisite": "Mage",
@@ -959,8 +1013,8 @@
     "type": "",
     "prerequisite": "Mage, human or elf",
     "description": [
-      "You can spend 2 points of intelligence to grant yourself a +1 bonus on attack roles with bows for a minute. While you have this bonus you can spend two points of intelligence to deal an extra 2d8 damage of a type granted by your known secrets.",
-      "The spent intelligence can be regained the same was as points spent on casting spells."
+      "You can spend 2 points of intelligence to grant yourself a +1 bonus on attack rolls with bows or crossbows for a minute. While you have this bonus you can spend two points of intelligence to deal an extra 2d8 damage of a type granted by your known secrets.",
+      "The spent intelligence can be regained the same way as points spent on casting spells."
     ]
   },
   {
@@ -991,13 +1045,13 @@
   {
     "name": "Advanced Blood Magic",
     "type": "",
-    "prerequisite": "Blood Magic, Level 3",
+    "prerequisite": "Blood Magic, Level 5",
     "description": [
       "Your mastery of blood improves.",
 
-      "When casting an invocation, you can decrease its cost by 2 or 3, taking 2d6 or 3d6 damage respectively. When casting an invocation from the secret of blood you can deal an additional 3d8 damage to your target by dealing 2d6 to yourself.",
+      "When casting an invocation, you can decrease its cost by 2 or 3, taking 2d6-2 or 3d6-3 damage respectively. When casting an invocation from the secret of blood you can deal an additional 3d8 damage to your target by dealing 2d6 damage to yourself.",
 
-      "Any invocations from the secret of blood have their cost reduced by twice the normal amount when using your own blood.",
+      "Any invocations from the secret of blood have their cost reduced by twice the normal amount when using your own blood. This reduction ignores the normal limits for minimum spell costs.",
 
       "Damage you deal to yourself cannot be reduced or ignored."
     ]
@@ -1072,7 +1126,7 @@
     "type": "",
     "prerequisite": "Witchery",
     "description": [
-      "You can use your main action to hex a target, gaining various benefits. While hexed the target has disadvantage on saving throws against your spells.",
+      "You can use 2 witchery points and your main action to hex a target, gaining various benefits. While hexed, the target has disadvantage on saving throws against your spells.",
 
       "When you select this feat, you may choose one of the following options for your hex. Every second level you gain after taking this feat you can select another option. You can only have one target hexed at a time. A hex lasts for a number of hours equal to your level. At level 9 your hex lasts for a day.",
 
@@ -1080,7 +1134,7 @@
 
       "- Baleful Hex. Whenever the target takes damage, they take an additional 1d8 damage.",
 
-      "- Burning Hex. The target feels like it is on fire. They take 1d6 psychic damage every minute they arehexed.",
+      "- Burning Hex. The target feels like it is on fire. They take 1d6 psychic damage every minute they are hexed and within your line of sight. The target always knows which direction you are in while this hex is active.",
       
       "- Suggestive Hex. All charisma checks against the target have advantage."
     ]
@@ -1214,21 +1268,11 @@
     ]
   },
   {
-    "name": "Expert Stealth",
+    "name": "Expert Rogue Talents",
     "type": "",
     "prerequisite": "Rogue",
     "description": [
-      "Your bonus to stealth from rogue talents increases to be equal to your level.",
-      "You gain a +1 bonus to dexterity."
-    ]
-  },
-  {
-    "name": "Expert Trapmaster",
-    "type": "",
-    "prerequisite": "Requirement: Rogue",
-    "description": [
-      "Your bonus to checks from rogue talents to unlock locks or disarm traps increases to be equal to your level.",
-      "You gain a +1 bonus to dexterity."
+      "Your bonus to stealth, unlock locks, or disarm traps from rogue talents increases to be equal to your level."
     ]
   },
   {
@@ -1263,7 +1307,8 @@
     "prerequisite": "Speedy, Rogue",
     "description": [
       "You can move more quickly than others.",
-      "Your movement speed is increased by 10ft."
+      "Your movement speed is increased by 10ft.",
+      "When you use the sneak action you can move up to twice your movement speed."
     ]
   },
   {
@@ -1274,6 +1319,18 @@
       "You focus on one skill, honing your ability to extraordinary levels.",
       "You gain a bonus to one skill equal to your level. You must be trained in this skill.",
       "You have advantage on skill checks involving this skill."
+    ]
+  },
+  {
+    "name": "Skill Tricks",
+    "type": "",
+    "prerequisite": "Rogue",
+    "description": [
+      "You have learned to use your skills in combat for increased effectiveness. Each skill trick has a prerequisite skill.",
+      "Select 3 tricks from the following list, if you do not have the prerequisite for a skill trick you want you may save this selection until later.",
+      "**Acrobatic Tumble** \n*Acrobatics 12* \nYou can avoid an AoO by making an acrobatics checks equal to the attack roll of whoever is trying to attack you",
+      "**Fast Hands** \n*Sleight of Hand 10* \nYou can use a concoction or tinkering item that normally takes a main action to use as a bonus action.",
+      "**Wall Run** \n*Climb 12 or Acrobatics 15* \nYou can climb directly along a wall or up a sheer surface for one round before falling (if you don’t end somewhere you can climb or stand)."
     ]
   },
   {

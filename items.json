@@ -214,7 +214,7 @@
 		"type": "Weapon",
 		"dice": "d8",
 		"damage type": "Piercing",
-		"range": "500 ft.",
+		"range": "400 ft.",
 		"cost (sp)": "400",
 		"properties": "Two Handed, Ranged",
 		"special": " None"
@@ -234,7 +234,7 @@
 		"type": "Weapon",
 		"dice": "d12",
 		"damage type": "Piercing",
-		"range": "450 ft.",
+		"range": "600 ft.",
 		"cost (sp)": "900",
 		"properties": "Loading, Ranged",
 		"special": "None"
@@ -244,7 +244,7 @@
 		"type": "Weapon",
 		"dice": "2d8",
 		"damage type": "Piercing",
-		"range": "200 ft.",
+		"range": "150 ft.",
 		"cost (sp)": "1200",
 		"properties": "Light, Loading, Misfire, Ranged",
 		"special": "None"
@@ -254,7 +254,7 @@
 		"type": "Weapon",
 		"dice": "2d12",
 		"damage type": "Piercing",
-		"range": "300 ft.",
+		"range": "400 ft.",
 		"cost (sp)": "2500",
 		"properties": "Loading, Two Handed, Misfire, Ranged",
 		"special": "None"
@@ -264,7 +264,7 @@
 		"type": "Weapon",
 		"dice": "d4",
 		"damage type": "Bludgeoning",
-		"range": "600 ft.",
+		"range": "300 ft.",
 		"cost (sp)": "6",
 		"properties": "Loading, Ranged",
 		"special": " None"

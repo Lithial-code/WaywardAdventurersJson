@@ -50,7 +50,7 @@
 		"subrace": "Sea Born",
 		"stat": "+2 any 2 stats",
 		"bonus": "+1 skill or +2 languages",
-		"substat": "+1 wisdom",
+		"substat": "+2 wisdom or +2 cha or +1 wis & cha",
 		"skill": "+2 seacraft",
 		"flaw": "none"
 	},
@@ -105,7 +105,7 @@
 		"subrace": "Sea",
 		"stat": "+2 dexterity, +1 int or +1 wis",
 		"bonus": "low-light vision, 35 speed, adv vs disease/poison, swim speed, water breathing",
-		"substat": "+2 charisma",
+		"substat": "+2 charisma or +2 wisdom or +1 wis & cha",
 		"skill": "none",
 		"flaw": "half defense from recovery dice"
 	},
@@ -217,7 +217,7 @@
 		"name": "Dragon Blood",
 		"type": "special",
 		"race": "Human \n Elf",
-		"stat": "+2 int",
+		"stat": "+3 int",
 		"bonus": "+1 AC",
 		"flaw": "-2 con, -2 wis"
 	},
@@ -242,7 +242,7 @@
 		"type": "special",
 		"race": "Human \n Elf",
 		"stat": "+2 dex, +2 cha",
-		"flaw": "You cannot use weapons made of iron or steel and any weapons that are made of iron or steel deal an extra 1d6 damage on a hit.",
+		"flaw": "-2 con, You cannot use weapons, armour, or tools made of iron or steel and any weapons that are made of iron or steel deal an extra 2d6 damage on a hit against you.",
 		"bonus": "You have advantage on saving throws against any effect that would enthral you."
 	}
 ]
