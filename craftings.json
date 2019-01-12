@@ -1,0 +1,221 @@
+[
+    {
+        "name": "Silver Essence (DC 12)",
+        "type": "Concoction",
+        "cost": "500sp",
+        "description": "Use your main action to coat your weapon with this silver essence. You weapon counts as silvered for the next minute."
+    },
+    {
+        "name": "Restorative Draught (DC 20)",
+        "type": "Concoction",
+        "cost": "1500sp",
+        "description": "The drinker can spend a restoration dice as if they had a short rest."
+    },
+    {
+        "name": "Throwing Fire (DC 12)",
+        "type": "Concoction",
+        "cost": "300sp",
+        "description": "Make a ranged attack, on a hit deal 2d4 fire damage. Range: 20 ft."
+    },
+    {
+        "name": "Flash Powder (DC 15)",
+        "type": "Concoction",
+        "cost": "750sp",
+        "description": "This powder ignites and produces a bright flash, any creature within 5ft of the powder must make a Resistance Save or be blinded for 1d3 rounds."
+    },
+    {
+        "name": "Smoke Bombs (DC 10)",
+        "type": "Concoction",
+        "cost": "200sp",
+        "description": "This bomb creates a 15 ft. sphere of dark smoke."
+    },
+    {
+        "name": "Smelling Salts (DC 10)",
+        "type": "Concoction",
+        "cost": "100sp",
+        "description": "These smelling salts can be administered as an action to a creature over its wound limit. The creature can ignore one wound for 10 minutes but is stunned during that time. Consecutive uses can be dangerous."
+    },
+    {
+        "name": "Stone to Flesh (DC 25)",
+        "type": "Concoction",
+        "cost": "2500sp",
+        "description": "*Requires blood from a creature or plant with the power to petrify.* /n This disgusting mixture can save those turned to stone by some monsters."
+    },
+    {
+        "name": "Elixir of Luck (DC 25)",
+        "type": "Concoction",
+        "cost": "4000sp",
+        "description": "Drinking this elixir grants you advantage on all saves, tests, and attacks for an hour. Drinking this more than once a week requires a DC 20 Mental Save to avoid being addicted to it."
+    },
+    {
+        "name": "Golden Tongue (DC 20)",
+        "type": "Concoction",
+        "cost": "5000sp",
+        "description": "Drinking this golden syrupy liquid grants advantage and a +5 bonus on all charisma tests for a day."
+    },
+    {
+        "name": "Firendus (DC 18)",
+        "type": "Concoction",
+        "cost": "3500sp",
+        "description": "The drinker is immune to fire damage for a day, but water deals 2d8 damage per round on contact."
+    },
+    {
+        "name": "Kalma's Touch (DC 30)",
+        "type": "Concoction",
+        "cost": "5000sp",
+        "description": "The drinker must succeed at a DC 40 Resistance Save or die instantly."
+    },
+    {
+        "name": "Witch Blood (DC 20)",
+        "type": "Cauldron",
+        "cost": "2000sp",
+        "description": "The drinker gains 20 defence that cannot be regained."
+    },
+    {
+        "name": "Essence of Fear (DC 18)",
+        "type": "Cauldron",
+        "cost": "1500sp",
+        "description": "The drinker can choose a target to make a Mental Save or be frightened of the drinker for a minute."
+    },
+    {
+        "name": "Old God’s Curse (DC 30)",
+        "type": "Cauldron",
+        "cost": "12000sp",
+        "description": "The drinker can select a creature to curse. The drinker must have blood, hair, nail clippings or other body parts of the target, or be able to see the target. The drinker knows the exact location of the target, has advantage against any attacks against them. The target has disadvantage on all attack rolls, ability tests and saves until the curse is lifted."
+    },
+    {
+        "name": "Love Potion (DC 15)",
+        "type": "Cauldron",
+        "cost": "800sp",
+        "description": "The creature develops a deep infatuation with the next creature it sees."
+    },
+    {
+        "name": "Tongue of the Dragon (DC 20)",
+        "type": "Cauldron",
+        "cost": "300sp",
+        "description": "As a bonus action after drinking this potion you can cast cone of fire, breathing flames from your mouth."
+    },
+    {
+        "name": "Essence of Youthfulness (DC 18)",
+        "type": "Cauldron",
+        "cost": "900sp",
+        "description": "The drinker does not age for a month after drinking this potion. \n Special Ingredients: One baby."
+    },
+    {
+        "name": "Mask of Green (DC 15)",
+        "type": "Cauldron",
+        "cost": "1000sp",
+        "description": "Animals and plants will not attack the drinker for a day."
+    },
+    {
+        "name": "Ariticeack",
+        "type": "Poison",
+        "cost": "",
+        "description": "This poison, brewed from the Ariti flower, inhibits magical power in those who take it. Any spells cast while poisoned by Artiticack cost 1 extra spellcasting ability point."
+    },
+    {
+        "name": "Thanadel",
+        "type": "Poison",
+        "cost": "",
+        "description": "When ingested, this poison forces the target to make a DC 20 Resistance Save or take 1d4 mortal wound."
+    },
+    {
+        "name": "Daemonbane",
+        "type": "Poison",
+        "cost": "",
+        "description": [
+            "This plant was a gift from the gods and causes immense pain in any daemons it comes into contact with.",
+            "A vial of this poison can be thrown at a daemon. On a hit it deals 2d12 damage. It can also be applied to a weapon. For one minute any hit with that weapon against a daemon deals an extra 1d8 damage."
+        ]
+    },
+    {
+        "name": "Stolen Venom",
+        "type": "Poison",
+        "cost": "",
+        "description": "This poison is harvested from a creature with venom. It can be applied to a weapon. For the next minute the weapon deals an extra 2d6 poison damage on a hit."
+    },
+    {
+        "name": "Waeberry",
+        "type": "Poison",
+        "cost": "",
+        "description": [
+            "This berry, identical to a blueberry in every way, leads to horrific vomiting, internal bleeding, and death.",
+            "1 hour after a creature eats this berry, they must make a DC 15 Resistance Save or take 1d2 minor wounds and be poisoned for 24 hours. After another hour the creature must make a DC 18 Resistance Save or take a major wound. \nAfter the 3rd hour the creature must make a final Resistance Save at DC 20 or take a mortal wound."
+        ]
+    },
+    {
+        "name": "Hastab",
+        "type": "Poison",
+        "cost": "",
+        "description": "This purple leafed plant causes vivid hallucinations when taken. It draws the taker to the field of dreams."
+    },
+    {
+        "name": "Clockwork Spider (Basic)",
+        "type":"Tinkering",
+        "cost": "500sp",
+        "description": "The clockwork spider is a tiny device that can be wound up and released to walk forward. A useful distraction."
+    },
+    {
+        "name": "Stun Spider",
+        "type":"Tinkering",
+        "cost": "800 sp + glyph",
+        "description": "Requires a glyph trap. \n   This spider-like contraption can be attached to a living thing, at which point it will deliver a stunning shock at regular intervals."
+    },
+    {
+        "name": "Fold Out Shield",
+        "type":"Tinkering",
+        "cost": "3x base shield cost",
+        "description": "This shield folds into a solid chunk and is spring load to fold out when needed. You can activate this shield as a free action, even in response to being attacked as long as you are aware of the attacker. Packing away the shield takes a minute."
+    },
+    {
+        "name": "Ward Stone",
+        "type":"Tinkering",
+        "cost": "",
+        "description": "This stone has a one-time shield of protective energy. When you are attacked you can activate this shield, granting yourself a +2 bonus to armour class and 10 temporary defence. Both the bonus to armour class and defence vanish at the end of your next turn."
+    },
+    {
+        "name": "Flame/Ice/Storm Stone",
+        "type":"Tinkering",
+        "cost": "",
+        "description": "These stones hold elemental energy within them. When broken, they release the energy in an explosive burst."
+    },
+    {
+        "name": "Lowlight Goggles",
+        "type":"Tinkering",
+        "cost": "5500sp",
+        "description": "Requires Secret of Shadows \n These goggles grant the wearer low light vision. However they will blind the user if exposed to bright light. DC 12 Resistance Save to avoid."
+    },
+    {
+        "name": "Quickflame",
+        "type":"Tinkering",
+        "cost": "50sp",
+        "description": "This torch instantly lights when activated, using no action."
+    },
+    {
+        "name": "Grapple Gun",
+        "type":"Tinkering",
+        "cost": "12000sp",
+        "description": [
+        "This crossbow-like device fires a grappling hook with a rope attached.",
+        "As a bonus action the wielder can grapple to a point within 30ft. Once fired, the grapple gun takes a main action to reset."
+    ]
+    },
+    {
+        "name": "Quick Release Armour",
+        "type":"Tinkering",
+        "cost": "2x base armour",
+        "description": "This armour takes 10 times as long to put on but can be taken off as a main action."
+    },
+    {
+    "name": "Holy Water",
+    "type":"Priests only",
+    "cost": "100sp",
+    "description": "A bottle of holy water can be thrown and deals 2d6 holy/radiant damage to creatures that are weak to holy damage on a hit."
+    },
+    {
+    "name": "Holy Oil",
+    "type":"Priests only",
+    "cost": "500sp",
+    "description": "Holy oil is more difficult to make. It requires 500 silver worth of crafting progress from a priest using their spell attack modifier. Holy oil can be applied to a weapon or up to 10 projectiles, where it lasts for a minute, making the weapon count as holy for that time."
+    }
+]

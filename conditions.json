@@ -100,5 +100,15 @@
       "Sometimes known as charmed, a creature that is enthralled cannot attack the creature that is enthralling it, the enthralling creature has advantage on any charisma tests against the enthralled creature and the enthralled creature regards the enthraller as a friend or trusted companion.",
       "Often effects that enthral a target will have additional effects"
     ]
+  },
+  {
+    "name": "Surprised",
+    "type": "",
+    "description": [
+      "When a combat begins one side might be surprised by the other, if they are unaware of their attackers, or if they are not expecting an assault.",
+      "If a creature is surprised at the start of combat, they cannot take a combat turn until they are aware of a threat. Once a surprised creature has started its turn it is no longer surprised.",
+      "A surprised creature cannot take actions outside of its turn.",
+      "A creature ceases to be surprised once it acts."
+    ]
   }
 ]

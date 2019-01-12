@@ -214,7 +214,7 @@
 		"type": "Weapon",
 		"dice": "d8",
 		"damage type": "Piercing",
-		"range": "400 ft.",
+		"range": "300 ft.",
 		"cost (sp)": "400",
 		"properties": "Two Handed, Ranged",
 		"special": " None"
@@ -224,10 +224,20 @@
 		"type": "Weapon",
 		"dice": "d10",
 		"damage type": "Piercing",
-		"range": "800 ft.",
+		"range": "600 ft.",
 		"cost (sp)": "600",
 		"properties": "Heavy, Two Handed, Ranged",
 		"special": "None"
+	},
+	{
+		"name": "Greatbow",
+		"type": "Weapon",
+		"dice": "2d6",
+		"damage type": "Piercing",
+		"range": "800 ft.",
+		"cost (sp)": "1000",
+		"properties": "Heavy, Two Handed, Ranged",
+		"special": "Needs at least 16 str, uses str for damage."
 	},
 	{
 		"name": "Crossbow",
@@ -246,7 +256,7 @@
 		"damage type": "Piercing",
 		"range": "150 ft.",
 		"cost (sp)": "1200",
-		"properties": "Light, Loading, Misfire, Ranged",
+		"properties": "Light, Loading, Misfire(5), Ranged",
 		"special": "None"
 	},
 	{
@@ -256,7 +266,7 @@
 		"damage type": "Piercing",
 		"range": "400 ft.",
 		"cost (sp)": "2500",
-		"properties": "Loading, Two Handed, Misfire, Ranged",
+		"properties": "Loading, Two Handed, Misfire(3), Ranged",
 		"special": "None"
 	},
 	{
@@ -391,10 +401,10 @@
 		"name": "Studded Leather",
 		"type": "Armour",
 		"base ac": "13",
-		"dex penalty": "1",
+		"dex penalty": "0",
 		"damage reduction": "1",
 		"damage type": "Light",
-		"max dex bonus": "4",
+		"max dex bonus": "5",
 		"cost (sp)": "1300"
 	},
 	{
@@ -405,7 +415,7 @@
 		"damage reduction": "2",
 		"damage type": "Medium",
 		"max dex bonus": "3",
-		"cost (sp)": "500"
+		"cost (sp)": "400"
 	},
 	{
 		"name": "Chain",
@@ -415,7 +425,7 @@
 		"damage reduction": "2",
 		"damage type": "Medium",
 		"max dex bonus": "3",
-		"cost (sp)": "700"
+		"cost (sp)": "600"
 	},
 	{
 		"name": "Steel Chain",
@@ -425,27 +435,27 @@
 		"damage reduction": "2",
 		"damage type": "Medium",
 		"max dex bonus": "3",
-		"cost (sp)": "2000"
+		"cost (sp)": "1200"
 	},
 	{
 		"name": "Breastplate",
 		"type": "Armour",
-		"base ac": "17",
+		"base ac": "16",
 		"dex penalty": "3",
 		"damage reduction": "3",
 		"damage type": "Medium",
 		"max dex bonus": "3",
-		"cost (sp)": "3000"
+		"cost (sp)": "2000"
 	},
 	{
 		"name": "Steel Breastplate",
 		"type": "Armour",
-		"base ac": "18",
+		"base ac": "17",
 		"dex penalty": "3",
 		"damage reduction": "4",
 		"damage type": "Medium",
 		"max dex bonus": "3",
-		"cost (sp)": "8000"
+		"cost (sp)": "3600"
 	},
 	{
 		"name": "Rusted Half Plate",
@@ -455,17 +465,17 @@
 		"damage reduction": "3",
 		"damage type": "Heavy",
 		"max dex bonus": "0",
-		"cost (sp)": "2500"
+		"cost (sp)": "1100"
 	},
 	{
 		"name": "Half Plate",
 		"type": "Armour",
-		"base ac": "18",
+		"base ac": "17",
 		"dex penalty": "3",
 		"damage reduction": "4",
 		"damage type": "Heavy",
 		"max dex bonus": "0",
-		"cost (sp)": "12 000"
+		"cost (sp)": "2800"
 	},
 	{
 		"name": "Steel Half Plate",
@@ -475,7 +485,7 @@
 		"damage reduction": "5",
 		"damage type": "Heavy",
 		"max dex bonus": "0",
-		"cost (sp)": "24 000"
+		"cost (sp)": "4100"
 	},
 	{
 		"name": "Full Plate",
@@ -485,7 +495,7 @@
 		"damage reduction": "6",
 		"damage type": "Heavy",
 		"max dex bonus": "0",
-		"cost (sp)": "150 000"
+		"cost (sp)": "8000"
 	},
 	{
 		"name": "Steel Full Plate",
@@ -495,7 +505,7 @@
 		"damage reduction": "6",
 		"damage type": "Heavy",
 		"max dex bonus": "0",
-		"cost (sp)": "400 000"
+		"cost (sp)": "15000"
 	},
 	{
 		"name": "Wooden Shield",
@@ -525,44 +535,44 @@
 		"damage reduction": "2",
 		"damage type": "Heavy",
 		"max dex bonus": "None",
-		"cost (sp)": "4000"
+		"cost (sp)": "2300"
 	},
 	{
 		"name": "Riding Horse",
 		"type": "Mount",
-		"speed": "40ft",
-		"cost (sp)": "550",
-		"carry capacity":"5"
+		"speed": "50ft",
+		"cost (sp)": "750",
+		"carry capacity":"20"
 	},
 	{
 		"name": "War Horse",
 		"type": "Mount",
-		"speed": "50ft",
-		"cost (sp)": "800",
-		"carry capacity":"6",
+		"speed": "60ft",
+		"cost (sp)": "1800",
+		"carry capacity":"24",
 		"special": "When you perform a charge with a melee attack on a warhorse and move 40ft in a straight line before you hit your target you deal an extra 2d6 damage on a hit as you trample your foe with the horse. You can only deal this damage once per turn."
 	},
 	{
 		"name": "Noble Horse",
 		"type": "Mount",
-		"speed": "60ft",
-		"cost (sp)": "9000",
-		"carry capacity":"5",
+		"speed": "70ft",
+		"cost (sp)": "5000",
+		"carry capacity":"20",
 		"special": "When you perform a charge with a melee attack on a noble horse and move 30ft in a straight line before you hit your target you deal an extra 3d6 damage on a hit as you trample your foe with the horse. You can only deal this damage once per turn."
 	},
 	{
 		"name": "Pack Horse",
 		"type": "Mount",
 		"speed": "30ft",
-		"cost (sp)": "300",
-		"carry capacity":"7"
+		"cost (sp)": "350",
+		"carry capacity":"28"
 	},
 	{
 		"name": "Donkey",
 		"type": "Mount",
 		"speed": "20ft",
-		"cost (sp)": "150",
-		"carry capacity":"4"
+		"cost (sp)": "200",
+		"carry capacity":"16"
 	},
 	{
 		"name": "Rope",
@@ -648,7 +658,7 @@
 		"description": "Once per downtime you can regain 1d4 intelligence as your main action."
 	},
 	{
-		"name": "Wand of Wand",
+		"name": "Wand of Fire",
 		"type": "Magic",
 		"cost (sp)": "1000",
 		"description": [
@@ -682,7 +692,7 @@
 		"name": "Porter",
 		"type": "Hireling",
 		"cost (sp)": "25 per day",
-		"description":"Carries 2 weight loot"
+		"description":"Carries 8 weight loot"
 	},
 	{
 		"name": "Scout",

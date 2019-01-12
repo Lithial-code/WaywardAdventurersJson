@@ -1,15 +1,17 @@
 [
     {
         "name": "Abjure Daemon",
+        "components": "Verbal, Channel",
         "type": "spell",
         "time": "1 turn.",
         "cost": "4",
         "range": "30ft",
         "duration": "1 hour",
-        "description": "Select one daemon within range. It must make a fortitude save or be frightened of you for duration. A daemon frightened from this invocation takes double damage from your or your allies. You can target an additional daemon by spending 3 points per additional daemon."
+        "description": "Select one daemon within range. It must make a resistance save or be frightened of you for duration. A daemon frightened from this invocation takes double damage from your or your allies. You can target an additional daemon by spending 3 points per additional daemon."
     },
     {
         "name": "Abjuring Ward",
+        "components": "Verbal, Channel, Focus",
         "type": "spell",
         "time": "1 turn.",
         "cost": "5",
@@ -19,15 +21,17 @@
     },
     {
         "name": "Agony",
+        "components": "Verbal, Channel",
         "type": "spell",
         "time": "1 turn",
         "cost": "4",
         "range": "touch",
         "duration": "instantaneous",
-        "description": "A creature you touch must make a will save. On a successful save they take 1d3-1 minor wounds. On a failure or take 1d4 minor wounds. In addition, if the saving throw is failed the target has  disadvantage on all attack rolls, ability checks and saving throws while the creature has a wound caused by this spell."
+        "description": "A creature you touch must make a Mental save. On a successful save they take 1d3-1 minor wounds. On a failure or take 1d4 minor wounds. In addition, if the saving throw is failed the target has  disadvantage on all attack rolls, ability tests and saving throws while the creature has a wound caused by this spell."
     },
     {
         "name": "Antimagic Field",
+        "components": "Verbal, Channel, Gesture",
         "type": "spell",
         "time": "1 minute",
         "cost": "8",
@@ -37,15 +41,17 @@
     },
     {
         "name": "Amanita Ocreata",
+        "components": "Verbal, Channel",
         "type": "spell",
         "time": "2 turns",
         "cost": "18",
         "range": "1000 ft",
         "duration": "1 hour",
-        "description": "A creature you target must make a fortitude save or become infested with a colony of poisonous mushrooms. Their movement speed is immediately halved, and they are poisoned for the duration. Every 10 minutes, or whenever they take damage, they must succeed on another fortitude or take a minor wound."
+        "description": "A creature you target must make a resistance save or become infested with a colony of poisonous mushrooms. Their movement speed is immediately halved, and they are poisoned for the duration. Every 10 minutes, or whenever they take damage, they must succeed on another fortitude or take a minor wound."
     },
     {
         "name": "Arcane Bolt",
+        "components": "Verbal, Channel",
         "type": "spell",
         "time": "1 Turn",
         "cost": "2",
@@ -55,16 +61,18 @@
     },
     {
         "name": "Banish Daemon",
+        "components": "Verbal, Channel",
         "type": "spell",
         "time": "1 turn",
         "cost": "6",
         "range": "120 ft.",
         "duration": "instantaneous",
-        "description": "One (non-native) daemon of your choice within range must succeed a will save or be forced back to chaos. You can target up to 3 additional daemons by paying 4 points per extra daemon. A daemon currently touching a material it is weak to has disadvantage on the save against this spell."
+        "description": "One (non-native) daemon of your choice within range must succeed a mental save or be forced back to chaos. You can target up to 3 additional daemons by paying 4 points per extra daemon. A daemon currently touching a material it is weak to has disadvantage on the save against this spell."
     },
     {
         "name": "Beetle Armour",
         "altname": "Beetle Armor",
+        "components": "Verbal, Channel",
         "type": "spell",
         "time": "1 minute",
         "cost": "4",
@@ -74,13 +82,14 @@
     },
     {
         "name": "Bind Imp",
+        "components": "Verbal, Gesture(2)",
         "type": "spell",
         "time": "1 minute",
         "cost": "4",
         "range": "30 ft.",
         "duration": "1 week",
         "description": [
-            "An Imp within range must succeed on a will save or be bound to your will for a week. An imp you have not summoned yourself has advantage and a +5 bonus to this save.",
+            "An Imp within range must succeed on a mental save or be bound to your will for a week. An imp you have not summoned yourself has advantage and a +5 bonus to this save.",
             "Speaking the imps true name will give it disadvantage and a -5 penalty on this save.",
             "Once bound, the imp must obey your commands to the letter, though it will seek to subvert them to the best of its ability. Treating an imp well can cause it to become friendlier and obey your commands more leniently.",
             "You cannot force an imp to reveal its true name or the true name of any other daemon."
@@ -88,13 +97,14 @@
     },
     {
         "name": "Bind Lesser Daemon",
+        "components": "Verbal, Gesture(2)",
         "type": "spell",
         "time": "10 minutes",
         "cost": "8",
         "range": "30 ft.",
         "duration": "1 week",
         "description": [
-            "A lesser daemon within range must succeed on a will save or be bound to your will for a week. A lesser daemon you have not summoned yourself has advantage and a +10 bonus to this save.",
+            "A lesser daemon within range must succeed on a mental save or be bound to your will for a week. A lesser daemon you have not summoned yourself has advantage and a +10 bonus to this save.",
             "Speaking the lesser daemons true name will give it disadvantage and a -10 penalty on this save.",
             "Once bound, the lesser daemon must obey your commands to the letter, though it will seek to subvert them to the best of its ability. Treating a lesser daemon well can cause it to become friendlier and obey your commands more leniently.",
             "You cannot force a lesser daemon to reveal its true name or the true name of any other daemon."
@@ -102,13 +112,14 @@
     },
     {
         "name": "Bind Greater Daemon",
+        "components": "Verbal, Gesture(2)",
         "type": "spell",
         "time": "1 hour",
         "cost": "20",
         "range": "15 ft.",
         "duration": "1 week",
         "description": [
-            "A greater daemon within range must succeed on a will save or be bound to your will for a week. A greater daemon you have not summoned yourself has advantage and a +15 bonus to this save.",
+            "A greater daemon within range must succeed on a mental save or be bound to your will for a week. A greater daemon you have not summoned yourself has advantage and a +15 bonus to this save.",
             "Speaking the greater daemons true name will give it disadvantage and a -15 penalty on this save.",
             "Once bound, the greater daemon must obey your commands to the letter, though it will seek to subvert them to the best of its ability.",
             "You cannot force a greater daemon to reveal its true name or the true name of any other daemon."
@@ -116,20 +127,32 @@
     },
     {
         "name": "Bind Daemon Lord",
+        "components": "Verbal, Gesture(2)",
         "type": "spell",
         "time": "1 Day",
         "cost": "50",
         "range": "5 ft.",
         "duration": "1 week",
         "description": [
-            "A daemon lord within range must succeed on a will save or be bound to your will for a week. A daemon lord you have not summoned yourself has advantage and a +25 bonus to this save.",
+            "A daemon lord within range must succeed on a mental save or be bound to your will for a week. A daemon lord you have not summoned yourself has advantage and a +25 bonus to this save.",
             "Speaking the daemon lords true name will give it disadvantage and a -25 penalty on this save.",
             "Once bound, the daemon lord must obey your commands to the letter, though it will seek to subvert them to the best of its ability.",
             "You cannot force a daemon lord to reveal its true name or the true name of any other daemon."
         ]
     },
     {
+        "name": "Bird Attack",
+        "components": "Verbal, Channel",
+        "type": "spell",
+        "time": "1 turn",
+        "cost": "10",
+        "range": "Infinite",
+        "duration": "Instantaneous",
+        "description": "This invocation requires you to have the bird scout invocation active. You can select one creature within 60 ft. of your bird scout and make a spell attack against them as your bird flies through them with a burst of magic. If the target is unaware of the nature of the bird scout you have advantage on this attack. On a hit the creature takes 6d8 + your casting ability score modifier damage."
+    },
+    {
         "name": "Bird Scout",
+        "components": "Verbal, Channel",
         "type": "spell",
         "time": "1 minute",
         "cost": "2",
@@ -144,67 +167,74 @@
     },
     {
         "name": "Blade from the Void",
+        "components": "Verbal",
         "type": "spell",
         "time": "none.",
         "cost": "5",
         "range": "self",
         "duration": "1 minute",
-        "description": "On your turn, before making an attack, you can cast this invocation, summoning a blade made from void energies. This blade has the light property. It deals 3d10 damage on a hit, and the wounds from this weapon are slow healing. Medicine checks and fortitude saves to heal them have disadvantage. Once per turn, when you make an attack with this blade, you can spend 2 points to make an extra attack against the same target."
+        "description": "On your turn, before making an attack, you can cast this invocation, summoning a blade made from void energies. This blade has the light property. It deals 3d10 damage on a hit, and the wounds from this weapon are slow healing. Medicine tests and resistance saves to heal them have disadvantage. Once per turn, when you make an attack with this blade, you can spend 2 points to make an extra attack against the same target."
     },
     {
         "name": "Bleed",
+        "components": "Verbal, Channel",
         "type": "spell",
         "time": "1 turn",
         "cost": "2",
         "range": "30 ft.",
         "duration": "1d4 rounds.",
-        "description": "A creature within range must make a fortitude save or take 2d12 damage immediately and an additional 1d12 damage for the next 1d4 rounds on your turn."
+        "description": "A creature within range must make a resistance save or take 2d12 damage immediately and an additional 1d12 damage for the next 1d4 rounds on your turn."
     },
     {
         "name": "Blind Foe",
+        "components": "Verbal, Channel",
         "type": "spell",
         "time": "1 Turn",
         "cost": "3",
         "range": "One creature within 150 feet.",
         "duration": "until dispelled",
-        "description": "The target must succeed on a fortitude save or be blinded until either the caster decides to remove it, or they are targeted by a spell that removes curses or is otherwise uncursed."
+        "description": "The target must succeed on a resistance save or be blinded until either the caster decides to remove it, or they are targeted by a spell that removes curses or is otherwise uncursed."
     },
     {
         "name": "Blinding Light",
+        "components": "Verbal, Channel",
         "type": "spell",
         "time": "1 turn",
         "cost": "3",
         "range": "120 ft",
         "duration": "1 minute",
-        "description": "You create a burst of light within range. Each creature within 15 ft of a point you choose must succeed on a fortitude save or take 2d8 damage and be blinded for a minute. At the end of each of their turns they can roll the save again, ending the effect on a success."
+        "description": "You create a burst of light within range. Each creature within 15 ft of a point you choose must succeed on a resistance save or take 2d8 damage and be blinded for a minute. At the end of each of their turns they can roll the save again, ending the effect on a success."
     },
     {
         "name": "Bloodsplosion",
+        "components": "Verbal, Channel",
         "type": "spell",
         "time": "1 turn",
         "cost": "7",
         "range": "150 ft",
         "duration": "instantaneous",
         "description": [
-            "Chose a creature that is bleeding within range. The creature must make a fortitude save or take 1d4 major wounds as the bleeding cuts explode with blood.",
-            "Every creature within 15 ft. of the target creature, not including the target, must make a reflex save 3d12 damage, taking half the amount on a successful save.",
-            "If the initial target passes the fortitude save it instead takes 1d4 minor wounds and the surrounding creature must make a reflex save against 3d8 damage, half on a success."
+            "Chose a creature that is bleeding within range. The creature must make a resistance save or take 1d4 major wounds as the bleeding cuts explode with blood.",
+            "Every creature within 15 ft. of the target creature, not including the target, must make a avoidance save 3d12 damage, taking half the amount on a successful save.",
+            "If the initial target passes the resistance save it instead takes 1d4 minor wounds and the surrounding creature must make a avoidance save against 3d8 damage, half on a success."
         ]
     },
     {
         "name": "Blizzard",
+        "components": "Verbal, Channel, Gesture, Focus",
         "type": "spell",
         "time": "3 turns.",
         "cost": "24",
         "range": "self",
         "duration": "1 hour",
         "description": [
-            "You summon an intense blizzard around yourself. The area within 1 mile of you becomes difficult terrain. All creatures in the open must succeed a fortitude save or take 2d8 cold damage and be slowed. You are immune to this damage. Any number of your allies can be granted advantage on this save. The area is also heavily obscured by wind and snow.",
-            "While the blizzard is active you can use a bonus action and spend a point to cause an area of the blizzard to worsen. Chose a point within 600 feet, any creatures within 30 ft of the point must make a fortitude save or take 4d8 cold damage."
+            "You summon an intense blizzard around yourself. The area within 1 mile of you becomes difficult terrain. All creatures in the open must succeed a resistance save or take 2d8 cold damage and be slowed. You are immune to this damage. Any number of your allies can be granted advantage on this save. The area is also heavily obscured by wind and snow.",
+            "While the blizzard is active you can use a bonus action and spend a point to cause an area of the blizzard to worsen. Chose a point within 600 feet, any creatures within 30 ft of the point must make a resistance save or take 4d8 cold damage."
         ]
     },
     {
         "name": "Bolster",
+        "components": "Verbal, Channel, Focus",
         "type": "spell",
         "time": "2 turn.",
         "cost": "5",
@@ -217,6 +247,7 @@
     },
     {
         "name": "Boulder",
+        "components": "Gesture",
         "type": "spell",
         "time": "1 turn.",
         "cost": "1",
@@ -229,15 +260,17 @@
     },
     {
         "name": "Burning Light",
+        "components": "Verbal, Channel",
         "type": "spell",
         "time": "1 Turn",
         "cost": "4",
         "range": "Self",
         "duration": "instantaneous",
-        "description": "You burn with divine radiance. Every creature of your choice within 60 ft of you must make a fortitude save or take 4d12 fire damage and be set on fire (1d12). You also take this damage."
+        "description": "You burn with divine radiance. Every creature of your choice within 60 ft of you must make a resistance save or take 4d12 fire damage and be set on fire (1d12). You also take this damage."
     },
     {
         "name": "Call of the Deep",
+        "components": "Verbal, Gesture(2), Focus",
         "type": "spell",
         "time": "1 turn",
         "cost": "8",
@@ -252,24 +285,27 @@
     },
     {
         "name": "Cackle",
+        "components": "Verbal",
         "type": "spell",
         "time": "1 bonus action.",
         "cost": "3",
         "range": "60ft",
         "duration": "1 minute",
-        "description": "All creatures within range must succeed a will save or be frightened of you for one minute. Any creature frightened by this spell takes an extra 1d6 damage from any attack or spell that deals damage to them."
+        "description": "All creatures within range must succeed a mental save or be frightened of you for one minute. Any creature frightened by this spell takes an extra 1d6 damage from any attack or spell that deals damage to them."
     },
     {
         "name": "Cacophonous Chorus",
+        "components": "Verbal, Channel",
         "type": "spell",
         "time": "1 turn",
         "cost": "4",
         "range": "60 ft.",
         "duration": "1 hour",
-        "description": "All creatures within 20 ft of a point you chose within range must make a will save or take 2d8 damage and be deafened for an hour. The area is also filled with birds and feathers for a round and blocks line of sight."
+        "description": "All creatures within 20 ft of a point you chose within range must make a mental save or take 2d8 damage and be deafened for an hour. The area is also filled with birds and feathers for a round and blocks line of sight."
     },
     {
         "name": "Call the Flock",
+        "components": "Verbal, Channel",
         "type": "spell",
         "time": "10 minutes",
         "cost": "5",
@@ -279,44 +315,57 @@
     },
     {
         "name": "Cause Wound",
+        "components": "Verbal, Channel",
         "type": "spell",
         "time": "1 Turn",
         "cost": "2",
         "range": "One creature within 30 feet.",
         "duration": "instantaneous",
-        "description": "The target must make a fortitude save or suffer a minor wound. If the fortitude save is failed by at least 5 points they instead take a major wound."
+        "description": "The target must make a resistance save or suffer a minor wound. If the resistance save is failed by at least 5 points they instead take a major wound."
     },
     {
         "name": "Chain Daemon",
+        "components": "Verbal, Channel",
         "type": "spell",
         "time": "1 turn.",
         "cost": "4",
         "range": "60ft.",
         "duration": "instantaneous",
-        "description": "One daemon you see is surrounded with silver chains. It must succeed on a reflex save or take 10d8 silvered damage and be restrained. If restrained it can attempt to break the chains at the end of its turn by making a strength check against your DC. On a failed attempt it takes 2d8 silver damage."
+        "description": "One daemon you see is surrounded with silver chains. It must succeed on a avoidance save or take 10d8 silvered damage and be restrained. If restrained it can attempt to break the chains at the end of its turn by making a strength test against your DC. On a failed attempt it takes 2d8 silver damage."
     },
     {
         "name": "Cone of Fire",
+        "components": "Verbal, Channel",
         "type": "spell",
         "time": "1 Turn",
         "cost": "3",
         "range": "20 feet cone.",
         "duration": "instantaneous",
-        "description": "All creatures within the cone must succeed on a reflex save or take 4d8 fire damage. On a successful save the creature takes half damage."
+        "description": "All creatures within the cone must succeed on a avoidance save or take 4d8 fire damage. On a successful save the creature takes half damage."
     },
     {
         "name": "Confusing Spores",
+        "components": "Verbal, Channel",
         "type": "spell",
         "time": "1 turn",
         "cost": "5",
         "range": "200 ft",
         "duration": "1 minute",
-        "description": 
-            "Chose a point within range. A 30ft radius sphere around this point is filled with toxic spores that cloud the mind of anyone who breathes them in. Any creatures that start their turn within the area, or take a breath within the area later, must succeed a fortitude save or take 2d8 poison damage and be confused for an hour."
-        
+        "description": "Chose a point within range. A 30ft radius sphere around this point is filled with toxic spores that cloud the mind of anyone who breathes them in. Any creatures that start their turn within the area, or take a breath within the area later, must succeed a resistance save or take 2d8 poison damage and be confused for an hour."
+    },
+    {
+        "name": "Control Foe",
+        "components": "Verbal, Channel, Focus, Gesture",
+        "type": "spell",
+        "time": "2 turns",
+        "cost": "14",
+        "range": "1000ft",
+        "duration": "1 minute",
+        "description": "A creature within range must succeed on a Mental Save or be enthralled by you for the duration. While enthralled in this way you can control it utterly. On its turn you can dictate exactly what actions it should perform, but you do not act on your next turn. You can also use a bonus action to give it a one sentence order, which it obeys to the best of its ability. Whenever it takes damage, if you try to make it do something clearly suicidal or at the end of its turn, it can attempt the Mental Save again, ending the effect on a success. If the save is from being hurt it gains advantage, and if it is from a suicidal order it gains a +5 bonus to that save and all future saves against this casting of the invocation."
     },
     {
         "name": "Control Undead",
+        "components": "Verbal, Channel, Gesture",
         "type": "spell",
         "time": "1 minute",
         "cost": "1",
@@ -328,7 +377,21 @@
         ]
     },
     {
+        "name": "Countercharm",
+        "components": "Verbal, Channel",
+        "type": "spell",
+        "time": "1 turn",
+        "cost": "5",
+        "range": "60 ft.",
+        "duration": "10 minutes",
+        "description": [
+            "As a reaction to something attempting to charm a creature within range you can begin to play a song. All creatures that can hear the song have advantage and a + 2 bonus against fascination and enthral effects.",
+            " You may spend an extra 10 points to make any creature that hears your countercharm immune to enthral and fascinate effects."
+        ]
+    },
+    {
         "name": "Counterspell",
+        "components": "Verbal, Channel, Focus",
         "type": "spell",
         "time": "None",
         "cost": "Varies",
@@ -338,6 +401,7 @@
     },
     {
         "name": "Create Passage",
+        "components": "Gesture(2)",
         "type": "spell",
         "time": "1 turn",
         "cost": "1",
@@ -347,27 +411,30 @@
     },
     {
         "name": "Create Water",
+        "components": "Verbal, Channel",
         "type": "spell",
         "time": "1 turn.",
         "cost": "4",
         "range": "60ft",
         "duration": "instantaneous",
         "description": [
-            "You create a deluge of water that erupts within range. Anyone within 20 ft of where the water appears must succeed on a reflex save or take 2d10 bludgeoning damage and be knocked 10ft away from the eruption and knocked prone. The area within 20 ft of the eruption point becomes wet, creating difficult or slippery terrain, depending on what was there before. This water is murky and undrinkable.",
+            "You create a deluge of water that erupts within range. Anyone within 20 ft of where the water appears must succeed on a avoidance save or take 2d10 bludgeoning damage and be knocked 10ft away from the eruption and knocked prone. The area within 20 ft of the eruption point becomes wet, creating difficult or slippery terrain, depending on what was there before. This water is murky and undrinkable.",
             "You can also cast this invocation to create drinking water for up to 5 people for a day."
         ]
     },
     {
         "name": "Creeping Fungus",
+        "components": "Verbal, Channel",
         "type": "spell",
         "time": "1 turn",
         "cost": "2",
         "range": "120 feet",
         "duration": "Instantaneous",
-        "description": "A creature you chose within range must succeed a fortitude save or take 4d8 poison damage. On a successful save it takes half damage. An undead target cannot reduce the damage from this invocation.."
+        "description": "A creature you chose within range must succeed a resistance save or take 4d8 poison damage. On a successful save it takes half damage. An undead target cannot reduce the damage from this invocation.."
     },
     {
         "name": "Darkness",
+        "components": "Verbal, Channel",
         "type": "spell",
         "time": "1 turn",
         "cost": "2",
@@ -377,6 +444,7 @@
     },
     {
         "name": "Defensive Barrier",
+        "components": "Verbal, Channel",
         "type": "spell",
         "time": "1 turn",
         "cost": "2",
@@ -385,7 +453,18 @@
         "description": "You grant a creature or object you touch a defensive barrier that grants the creature an additional 10 points of defence that last for an hour. You can only have one such barrier active at a time. While the barrier still has at least 1 point of defence left you can refill it by spending one point and touching it as a main action."
     },
     {
+        "name": "Discordant Chord",
+        "components": "Verbal, Channel",
+        "type": "spell",
+        "time": "1 turn",
+        "cost": "2",
+        "range": "60 feet",
+        "duration": "Instantaneous",
+        "description": "You play a painful chord, harming the ears and mind of a creature within range. The creature must succeed a will or Resistance Save (your choice) or take 3d8 psychic/piercing damage. On a successful save they take half damage."
+    },
+    {
         "name": "Dispel Magic",
+        "components": "Verbal, Channel",
         "type": "spell",
         "time": "1 Minute",
         "cost": "Varies",
@@ -393,20 +472,22 @@
         "duration": "instantaneous",
         "description": [
             "WARNING: This spell is heavily reliant on GM fiat",
-            "You attempt to dispel one magical effect in range. If the spell is the result of a ritual with no cost, it is dispelled. Otherwise roll a spellcraft check, DC 10 + spell cost + misc. modifiers. If you pass this check you can spend intelligence equal to the cost to dispel it."
+            "You attempt to dispel one magical effect in range. If the spell is the result of a ritual with no cost, it is dispelled. Otherwise roll a spellcraft test, DC 10 + spell cost + misc. modifiers. If you pass this test you can spend intelligence equal to the cost to dispel it."
         ]
     },
     {
         "name": "Divine Radiance",
+        "components": "Verbal, Channel",
         "type": "spell",
         "time": "1 Turn",
         "cost": "2",
         "range": "One creature within 40 ft.",
         "duration": "instantaneous",
-        "description": "The target must make a reflex save or take 4d8 radiant damage."
+        "description": "The target must make a avoidance save or take 4d8 radiant damage."
     },
     {
         "name": "Elemental Ward",
+        "components": "Verbal, Channel",
         "type": "spell",
         "time": "1 turn",
         "cost": "2",
@@ -416,24 +497,40 @@
     },
     {
         "name": "Entangling Ground",
+        "components": "Verbal, Channel",
         "type": "spell",
         "time": "1 turn",
         "cost": "3",
         "range": "120 ft.",
         "duration": "10 minutes.",
-        "description": "The area in a 60 ft radius around a point in range becomes difficult terrain for the duration. You can move normally within the area. You can spend 2 points to grant your allies the same power. While standing in the area you can use your turn to cause the ground to attempt to restrain up to 3 creatures within the area. The creatures you target must succeed on a reflex save or be restrained until the end of your next turn."
+        "description": "The area in a 60 ft radius around a point in range becomes difficult terrain for the duration. You can move normally within the area. You can spend 2 points to grant your allies the same power. While standing in the area you can use your turn to cause the ground to attempt to restrain up to 3 creatures within the area. The creatures you target must succeed on a avoidance save or be restrained until the end of your next turn."
+    },
+    {
+        "name": "Fascinate",
+        "components": "Verbal, Channel, Focus",
+        "type": "spell",
+        "time": "1 Turn",
+        "cost": "2",
+        "range": "200 feet",
+        "duration": "10 minutes",
+        "description": [
+            "A creature within range must succeed on a Mental Save or be fascinated for the duration. A creature fascinated in this way cannot move away from you and cannot move within 60ft. It cannot make any attacks while fascinated. If the creature takes damage from your or your allies the spell ends.",
+            "You can spend up to 6 additional points to fascinate one additional creature per two points spent."
+        ]
     },
     {
         "name": "Fireball",
+        "components": "Verbal, Channel",
         "type": "spell",
         "time": "2 turns",
         "cost": "5",
         "range": "100 ft.",
         "duration": "instantaneous + 1 minute",
-        "description": "You fling a line of energy to a point in range. At that point a ball of fire erupts in a 30 ft. sphere. Any creature within the sphere must succeed on a reflex save or take 6d8 fire damage. On a passed save they take half damage. Any creature that takes damage or anything else within the sphere is set on fire (d4 per round for a minute or until the creature or another creatures uses its main action to move up to double its movement speed and put out the flames)."
+        "description": "You fling a line of energy to a point in range. At that point a ball of fire erupts in a 30 ft. sphere. Any creature within the sphere must succeed on a avoidance save or take 6d8 fire damage. On a passed save they take half damage. Any creature that takes damage or anything else within the sphere is set on fire (d4 per round for a minute or until the creature or another creatures uses its main action to move up to double its movement speed and put out the flames)."
     },
     {
         "name": "Flame Bolt",
+        "components": "Verbal, Channel",
         "type": "spell",
         "time": "1 Turn",
         "cost": "1",
@@ -443,6 +540,7 @@
     },
     {
         "name": "Flight",
+        "components": "Verbal, Channel, Gesture,Focus",
         "type": "spell",
         "time": "1 bonus action",
         "cost": "5",
@@ -452,6 +550,7 @@
     },
     {
         "name": "Freezing Blast",
+        "components": "Verbal, Channel",
         "type": "spell",
         "time": "1 turn",
         "cost": "2",
@@ -461,15 +560,17 @@
     },
     {
         "name": "Gather the Blood",
+        "components": "Verbal, Channel",
         "type": "spell",
         "time": "1 Turn",
         "cost": "2",
         "range": "A creature within 60 feet.",
         "duration": "instantaneous",
-        "description": "The target must make a reflex save or take 1d6 piercing damage. If the target can bleed it is cut and takes an extra 3d6 necrotic damage and the blood is magically teleported to your hand. On successful save the target takes half damage. If the target is already bleeding the target has disadvantage on the save."
+        "description": "The target must make a avoidance save or take 1d6 piercing damage. If the target can bleed it is cut and takes an extra 3d6 necrotic damage and the blood is magically teleported to your hand. On successful save the target takes half damage. If the target is already bleeding the target has disadvantage on the save."
     },
     {
         "name": "Grasping Vine",
+        "components": "Verbal, Channel",
         "type": "spell",
         "time": "1 turn",
         "cost": "1",
@@ -479,6 +580,7 @@
     },
     {
         "name": "Grow Insects",
+        "components": "Verbal, Channel",
         "type": "spell",
         "time": "1 minute",
         "cost": "6",
@@ -488,24 +590,37 @@
     },
     {
         "name": "Gusting Wind",
+        "components": "Verbal, Channel",
         "type": "spell",
         "time": "1 Turn",
         "cost": "3",
         "range": "Self",
         "duration": "1 minute",
-        "description": "For a minute after casting this invocation you can use your turn to attack a creature within 60 feet with a blast of air. The target must make a reflex save or take 1d8 damage and be pushed back 10 feet."
+        "description": "For a minute after casting this invocation you can use your turn to attack a creature within 60 feet with a blast of air. The target must make a avoidance save or take 1d8 damage and be pushed back 10 feet."
+    },
+    {
+        "name": "Harmony",
+        "components": "Verbal, Channel",
+        "type": "spell",
+        "time": "2 turns",
+        "cost": "9",
+        "range": "120 ft.",
+        "duration": "1 day",
+        "description": "All creatures within range must succeed on a Mental Save or be enthralled by you until they take damage. While enthralled they cannot willingly cause harm to another creature."
     },
     {
         "name": "Heat Metal",
+        "components": "Verbal, Channel",
         "type": "spell",
         "time": "1 Turn",
         "cost": "8",
         "range": "120ft",
         "duration": "1 minute",
-        "description": "All sources of metal within 30 ft. of a point you chose within range glow red hot. Any creature touching the metal can make a reflex save or take 3d12 fire damage. If it cannot drop or otherwise move to avoid the damage, the creature does not make a saving throw and simply takes 3d12 fire damage. On each subsequent turn you can use your main action to maintain the spell, dealing 3d8 fire damage to any creature still touching the metal."
+        "description": "All sources of metal within 30 ft. of a point you chose within range glow red hot. Any creature touching the metal can make a avoidance save or take 3d12 fire damage. If it cannot drop or otherwise move to avoid the damage, the creature does not make a saving throw and simply takes 3d12 fire damage. On each subsequent turn you can use your main action to maintain the spell, dealing 3d8 fire damage to any creature still touching the metal."
     },
     {
         "name": "Ice Slice",
+        "components": "Verbal, Channel, Gesture",
         "type": "spell",
         "time": "1 Turn",
         "cost": "3",
@@ -515,27 +630,30 @@
     },
     {
         "name": "Inferno",
+        "components": "Verbal, Channel",
         "type": "spell",
         "time": "1 turn",
         "cost": "10",
         "range": "Self",
         "duration": "varies",
-        "description": "An inferno bursts out from you. Every creature within 100 ft of you (not including you) must succeed on a reflex save or take 10d8 fire damage. On a passed save they take half damage. Any creature that takes damage or anything else within the sphere is set on fire (d8). Once you cast this invocation you can spend 2 points and your next turn to maintain it, dealing 4d8 on a failed save, half on a pass, to anything still within the area (including yourself)."
+        "description": "An inferno bursts out from you. Every creature within 100 ft of you (not including you) must succeed on a avoidance save or take 10d8 fire damage. On a passed save they take half damage. Any creature that takes damage or anything else within the sphere is set on fire (d8). Once you cast this invocation you can spend 2 points and your next turn to maintain it, dealing 4d8 on a failed save, half on a pass, to anything still within the area (including yourself)."
     },
     {
         "name": "Instant Decay",
+        "components": "Verbal, Channel",
         "type": "spell",
         "time": "2 turns",
         "cost": "10",
         "range": "60 ft",
         "duration": "Instantaneous",
         "description": [
-            "One creature within range must succeed a fortitude save or take 8d8 necrotic damage and have their maximum defence reduced by this amount. Any wounds causes by this damage can only be healed by magic.",
+            "One creature within range must succeed a resistance save or take 8d8 necrotic damage and have their maximum defence reduced by this amount. Any wounds causes by this damage can only be healed by magic.",
             "A creature killed by this spell or an already dead body targeted by this spell cannot be raised by necromancy. You can target an already dead body for a cost of 2."
         ]
     },
     {
         "name": "Invisibility",
+        "components": "Verbal, Channel, Gesture",
         "type": "spell",
         "time": "1 minute",
         "cost": "4",
@@ -545,14 +663,16 @@
     },
     {
         "name": "Invulnerability",
+        "components": "Verbal, Channel, Focus",
         "type": "spell",
         "time": "1 minute",
-        "cost": "8",
+        "cost": "12",
         "duration": "1 minute",
         "description": "For the next minute you are invulnerable to all damage. If you spend 4 extra points you can instead target a creature you touch."
     },
     {
         "name": "Leap Through Blood",
+        "components": "Verbal, Channel",
         "type": "spell",
         "time": "1 bonus action",
         "cost": "6",
@@ -562,41 +682,73 @@
     },
     {
         "name": "Lightning Bolt",
+        "components": "Verbal, Channel",
         "type": "spell",
         "time": "2 turns",
         "cost": "3",
         "range": "a 30 feet line.",
         "duration": "instantaneous",
-        "description": "Every creature in the line must make a reflex save or take 5d8 damage. A creature that passes takes half damage. You must succeed on a fortitude save or take 3d8 damage. You take no damage on a pass."
+        "description": "Every creature in the line must make a avoidance save or take 5d8 damage. A creature that passes takes half damage. You must succeed on a resistance save or take 3d8 damage. You take no damage on a pass."
     },
     {
         "name": "Lightning Fog",
+        "components": "Verbal, Channel",
         "type": "spell",
         "time": "1 minute",
         "cost": "6",
         "range": "100 ft.",
         "duration": "1 minute",
-        "description": "You create a thick fog that crackles with lightning. Chose a point within range. Everything within 40 ft. is obscured by the fog. Any creature that starts it turn within the fog must succeed a reflex save or take 1d8 damage."
+        "description": "You create a thick fog that crackles with lightning. Chose a point within range. Everything within 40 ft. is obscured by the fog. Any creature that starts it turn within the fog must succeed a avoidance save or take 1d8 damage."
     },
     {
         "name": "Maddening Darkness",
+        "components": "Verbal, Channel, Focus",
         "type": "spell",
         "time": "2 turns",
         "cost": "6",
         "range": "60 ft",
         "duration": "1 minute",
-        "description": "You create an 30ft sphere of darkness. Any creature that enters the darkness must make a will save or take 1d6 sanity damage and be frightened. Any create that breaks within the darkness must roll twice on the break tables and take the lowest result."
+        "description": "You create an 30ft sphere of darkness. Any creature that enters the darkness must make a mental save or take 1d6 sanity damage and be frightened. Any create that breaks within the darkness must roll twice on the break tables and take the lowest result."
     },
     {
         "name": "Madness",
+        "components": "Verbal, Channel",
         "type": "spell",
         "time": "1 Turn",
         "cost": "3",
         "range": "One creature within 30 ft.",
-        "description": "The creature must make a will save or go mad, rolling on the major madness table to determine the type of madness."
+        "description": "The creature must make a mental save or go mad, rolling on the major madness table to determine the type of madness."
+    },
+    {
+        "name": "Major Charm",
+        "components": "Verbal, Gesture (2)",
+        "type": "spell",
+        "time": "2 Turn",
+        "cost": "12",
+        "range": "Touch.",
+        "description": "The creature you touch must succeed a Mental Save or be enthralled by you for the duration or until they take damage. "
+    },
+    {
+        "name": "Mass Charm",
+        "components": "Verbal, Channel",
+        "type": "spell",
+        "time": "1 minute",
+        "cost": "22",
+        "range": "300 ft.",
+        "description": "All creatures within range must make a Mental Save or be enthralled by you for the duration."
+    },
+    {
+        "name": "Minor Charm",
+        "components": "Verbal",
+        "type": "spell",
+        "time": "1 turn",
+        "cost": "3",
+        "range": "120 ft.",
+        "description": "One creature within range must succeed on a Mental Save or be enthralled by you for the duration. You can spend additional points to extend the duration by 1 minute per point spent to a maximum of 10 minutes."
     },
     {
         "name": "Pierce Defence",
+        "components": "Verbal, Channel",
         "type": "spell",
         "time": "1 turn",
         "cost": "2",
@@ -606,6 +758,7 @@
     },
     {
         "name": "Plant Form",
+        "components": "Verbal, Channel, Focus",
         "type": "spell",
         "time": "1 minute",
         "cost": "8",
@@ -615,17 +768,19 @@
     },
     {
         "name": "Poison",
+        "components": "Gesture",
         "type": "spell",
         "time": " 1 minute",
         "cost": "6",
         "duration": "instantaneous or 24 hours",
         "description": [
-            "You create a small spider in the palm of your hand. You can have this spider bite a target of your choosing. The target must make a fortitude save or take 6d12 poison damage.",
-            "If this damage would kill the target you can instead chose to paralyse them for 24 hours or knock them unconscious and slow their metabolism, so that they appear dead for 24 hours. A DC 25 medicine check is required to know if they are alive during this time."
+            "You create a small spider in the palm of your hand. You can have this spider bite a target of your choosing. The target must make a resistance save or take 6d12 poison damage.",
+            "If this damage would kill the target you can instead chose to paralyse them for 24 hours or knock them unconscious and slow their metabolism, so that they appear dead for 24 hours. A DC 25 medicine test is required to know if they are alive during this time."
         ]
     },
     {
         "name": "Rain of Blood",
+        "components": "Verbal, Channel",
         "type": "spell",
         "time": "1 turn",
         "cost": "3",
@@ -635,15 +790,17 @@
     },
     {
         "name": "Rend the Soul",
+        "components": "Verbal, Channel",
         "type": "spell",
         "time": "2 turns.",
         "cost": "10",
         "range": "30 ft.",
         "duration": "instantaneous",
-        "description": "A creature within range must succeed on a fortitude save or take 8d8 damage. If this damage causes a wound it causes an extra wound of the same class. If a creature is knocked out or killed by this invocation it must succeed on a will save or have its soul rent in twain, dying instantly and being unable to be revived or come back in any way. A creature that has no soul is immune to this invocation."
+        "description": "A creature within range must succeed on a resistance save or take 8d8 damage. If this damage causes a wound it causes an extra wound of the same class. If a creature is knocked out or killed by this invocation it must succeed on a mental save or have its soul rent in twain, dying instantly and being unable to be revived or come back in any way. A creature that has no soul is immune to this invocation."
     },
     {
         "name": "Rock Wall",
+        "components": "Gesture",
         "type": "spell",
         "time": "1 turn.",
         "cost": "2",
@@ -654,15 +811,17 @@
     {
         "name": "Shadow Armour",
         "altname": "Shadow Armor",
+        "components": "Verbal, Gesture",
         "type": "spell",
         "time": "1 minute",
         "cost": "4",
         "range": "Self",
         "duration": "Until next long rest",
-        "description": "You create shadowy armour that lasts until the end of your next long rest. Your armour class is 13 + your dexterity as long as you are not wearing any armour or using a shield. You gain 5 defence. When a creature makes a melee attack against you while you have this armour you can spend this defence to force your attacker to roll a reflex save or take 1d6 necrotic damage per defence lost. You can spend one point to regain this defence as your main action."
+        "description": "You create shadowy armour that lasts until the end of your next long rest. Your armour class is 13 + your dexterity as long as you are not wearing any armour or using a shield. You gain 5 defence. When a creature makes a melee attack against you while you have this armour you can spend this defence to force your attacker to roll a avoidance save or take 1d6 necrotic damage per defence lost. You can spend one point to regain this defence as your main action."
     },
     {
         "name": "Shadow Bolt",
+        "components": "Verbal, Channel",
         "type": "spell",
         "time": "1 turn",
         "cost": "1",
@@ -671,36 +830,50 @@
         "description": "You fire a bolt of darkness at a target within range. Make a spell attack. On a hit you deal 3d8 necrotic damage."
     },
     {
+        "name": "Shadow Step",
+        "components": "Verbal, Channel",
+        "type": "spell",
+        "time": "1 turn",
+        "cost": "3",
+        "range": "150 ft.",
+        "duration": "instantaneous",
+        "description": "You vanish and reappear at a point within 30 ft. If the start or end point is within shadows, you can double this distance. You can spend additional casting ability points to increase the distance. \n1 60 ft.\n       2 100 ft.\n 3 300 ft.\n 4 500 ft.\n    You can also spend double the points to cast this invocation as a bonus action."
+    },
+    {
         "name": "Shadow Trap",
+        "components": "Verbal, Channel",
         "type": "spell",
         "time": " 1 turn",
         "cost": "3",
         "range": "60 ft.",
         "duration": "1 minute",
-        "description": "You target a creature within range with a clearly defined shadow. The target must make a reflex save or have their shadow pinned to the ground. They cannot move more than 5ft from their shadow. They take 1d8 necrotic/untyped damage at the start of their turn while trapped like this. They can attempt to tear away from their shadow by making a will save. On a pass they are freed and take 3d8 necrotic/untyped damage and lose their shadow for a week."
+        "description": "You target a creature within range with a clearly defined shadow. The target must make a avoidance save or have their shadow pinned to the ground. They cannot move more than 5ft from their shadow. They take 1d8 necrotic/untyped damage at the start of their turn while trapped like this. They can attempt to tear away from their shadow by making a mental save. On a pass they are freed and take 3d8 necrotic/untyped damage and lose their shadow for a week."
     },
     {
         "name": "Shard Swarm",
+        "components": "Verbal, Channel, Gesture",
         "type": "spell",
         "time": "2 Turns",
         "cost": "12",
         "range": "400ft",
         "duration": "varies",
-        "description": "You summon a swarm of sharp ice shards that shoot towards an area to eviscerate anyone who is in the way. Select a point within range. Every creature within 60ft of that point must succeed on a reflex save or take 8d8 piercing/cold damage and be pinned in place by the shards as long as there is some ground for the shards to stick into. On a successful save the creature takes half damage and is not pinned. A pinned creature is restrained until they break the ice shards trapping them. Each 5 ft square of shards has an AC of 10, 10 defence, 1 wound, take double damage from fire damage, and counts as difficult terrain. These sharps melt over a few hours, depending on the temperature."
+        "description": "You summon a swarm of sharp ice shards that shoot towards an area to eviscerate anyone who is in the way. Select a point within range. Every creature within 60ft of that point must succeed on a avoidance save or take 8d8 piercing/cold damage and be pinned in place by the shards as long as there is some ground for the shards to stick into. On a successful save the creature takes half damage and is not pinned. A pinned creature is restrained until they break the ice shards trapping them. Each 5 ft square of shards has an AC of 10, 10 defence, 1 wound, take double damage from fire damage, and counts as difficult terrain. These sharps melt over a few hours, depending on the temperature."
     },
     {
         "name": "Shape Water",
+        "components": "Verbal, Gesture",
         "type": "spell",
         "time": "1 Turn",
         "cost": "1",
         "duration": "instantaneous",
         "description": [
             "You can control a small creek or pond. You can part the water, freeze it, or cause it to flood. This effect lasts for one minute and is limited to a 20ft cube unless you cause a flood, in which the amount of water doubles, potentially making it flow outside the 20ft cube.",
-            "Any creatures in the water when you freeze it must make a reflex save or are restrained until they free themselves by making a strength check against your DC with their main action. If you cause the water to flood it can sweep away light objects or cause areas of difficult terrain."
+            "Any creatures in the water when you freeze it must make a avoidance save or are restrained until they free themselves by making a strength test against your DC with their main action. If you cause the water to flood it can sweep away light objects or cause areas of difficult terrain."
         ]
     },
     {
         "name": "Shield Shard",
+        "components": "Verbal, Gesture",
         "type": "spell",
         "time": "None",
         "cost": "4",
@@ -712,15 +885,17 @@
     },
     {
         "name": "Shield of Cold",
+        "components": "Verbal, Channel",
         "type": "spell",
         "time": "1 Turn",
         "cost": "3",
         "range": "Self",
         "duration": "1 minute.",
-        "description": "While this spell is active you have a +2 bonus to armour class. In addition, whenever a creature makes a melee attack against you, they must roll a fortitude save or take 1d6 cold damage."
+        "description": "While this spell is active you have a +2 bonus to armour class. In addition, whenever a creature makes a melee attack against you, they must roll a resistance save or take 1d6 cold damage."
     },
     {
         "name": "Shield of Force",
+        "components": "Verbal, Gesture",
         "type": "spell",
         "time": "None",
         "cost": "3",
@@ -730,6 +905,7 @@
     },
     {
         "name": "Spider Form",
+        "components": "Verbal, Gesture",
         "type": "spell",
         "time": "1 turn",
         "cost": "6",
@@ -737,12 +913,13 @@
         "duration": "10 minutes",
         "description": [
             "You transform yourself into a monstrous spider. You gain 10 defence and your wound limit increases by 1. You gain spider climb. You also increase your strength score by 2 and gain a bite attack.",
-            "This attack uses strength or dexterity and deals 2d8 piercing damage on a hit. If this attack wounds the target, it must succeed on a fortitude save or take an additional 3d6 poison damage.",
+            "This attack uses strength or dexterity and deals 2d8 piercing damage on a hit. If this attack wounds the target, it must succeed on a resistance save or take an additional 3d6 poison damage.",
             "If you cast vomit spiders while in spider form it costs 1 less and deals an extra dice of damage."
         ]
     },
     {
         "name": "Stone Form",
+        "components": "Verbal, Channel",
         "type": "spell",
         "time": "1 minute",
         "cost": "6",
@@ -752,6 +929,7 @@
     },
     {
         "name": "Stride of Wind",
+        "components": "Verbal, Channel",
         "type": "spell",
         "time": "1 minute",
         "cost": "8",
@@ -761,6 +939,7 @@
     },
     {
         "name": "Sunlight",
+        "components": "Verbal, Channel",
         "type": "spell",
         "time": "1 Turn",
         "cost": "6",
@@ -770,6 +949,7 @@
     },
     {
         "name": "Summon Blade",
+        "components": "Verbal, Gesture",
         "type": "spell",
         "time": "1 bonus action",
         "cost": "6",
@@ -779,6 +959,7 @@
     },
     {
         "name": "Summon Swarm",
+        "components": "Verbal, Channel",
         "type": "spell",
         "time": "1 turn",
         "cost": "6",
@@ -788,44 +969,69 @@
     },
     {
         "name": "Swarm Cloud",
+        "components": "Verbal, Channel",
         "type": "spell",
         "time": "1 turn",
         "cost": "3",
         "range": "60 ft.",
         "duration": "1 minute.",
-        "description": "You create an area of swarming insects in a 10ft cube within range. This swarm has 5 defence and 1 wound but only takes damage from area of effect attacks or large attacks. This swarm blocks line of sight and any creature that starts its turn within the area must make a fortitude save or take 1d6 poison damage."
+        "description": "You create an area of swarming insects in a 10ft cube within range. This swarm has 5 defence and 1 wound but only takes damage from area of effect attacks or large attacks. This swarm blocks line of sight and any creature that starts its turn within the area must make a resistance save or take 1d6 poison damage."
+    },
+    {
+        "name": "Swift Jig",
+        "components": "Verbal, Channel, Focus",
+        "type": "spell",
+        "time": "1 turn",
+        "cost": "6",
+        "range": "30 ft.",
+        "duration": "1 minute.",
+        "description": "Up to three creatures within range have their movement speed doubled and gain an additional action on each of their turns. This additional action can be used to move up to the creature’s movement speed, make a single attack, cast a spell with a duration of a bonus action or dodge."
+    },
+    {
+        "name": "Thing from the Stars",
+        "components": "Verbal, Channel, Gesture",
+        "type": "spell",
+        "time": "1 turn",
+        "cost": "48",
+        "range": "200 ft",
+        "duration": "Instantaneous",
+        "description": "You open a hole in reality and allow the Thing from the Stars to emerge through it. You do not control the Thing from the Stars, you cannot banish the Thing from the Stars."
     },
     {
         "name": "Tsunami",
+        "components": "Verbal, Channel",
         "type": "spell",
         "time": "2 turns",
         "cost": "18",
         "range": "300ft",
-        "description": "You select a body of water in range and cause it to expand and rush up to 200 ft in a direction of your choosing. Any creature hit by this wave must succeed on a reflex save or take 5d10 bludgeoning damage and be forced along with the water."
+        "description": "You select a body of water in range and cause it to expand and rush up to 200 ft in a direction of your choosing. Any creature hit by this wave must succeed on a avoidance save or take 5d10 bludgeoning damage and be forced along with the water."
     },
     {
         "name": "Torment",
+        "components": "Verbal, Channel",
         "type": "spell",
         "time": "2 turns",
         "cost": "6",
         "range": "120 ft.",
         "duration": "1 minute",
         "description": [
-            "You can pick up to 8 creatures within range. Each creature must succeed on a will save or be wracked with pain. When they fail the save, and at the start of each of your turns, they take 4d8 psychic damage.",
+            "You can pick up to 8 creatures within range. Each creature must succeed on a mental save or be wracked with pain. When they fail the save, and at the start of each of your turns, they take 4d8 psychic damage.",
             "A creature being affected by this spell has disadvantage on all rolls and their movement speed is halved. At the end of their turn they can repeat the save, ending the effect on a success."
         ]
     },
     {
         "name": "Touch of Death",
+        "components": "Verbal, Channel",
         "type": "spell",
         "time": "Two Turns",
         "cost": "6",
         "range": "One creature you touch.",
         "duration": "instantaneous",
-        "description": "The creature must make a fortitude save or take 1d6 mortal wounds. On a pass they instead take 1d6 minor wounds."
+        "description": "The creature must make a resistance save or take 1d6 mortal wounds. On a pass they instead take 1d6 minor wounds."
     },
     {
         "name": "Touch of Pain",
+        "components": "Verbal, Channel",
         "type": "spell",
         "time": "One Turn",
         "cost": "4",
@@ -834,25 +1040,38 @@
         "description": "The creature must make a fort save or take 1d4 minor wounds. On a pass they take half the number of wounds."
     },
     {
+        "name": "Voice of the Gods",
+        "components": "Verbal",
+        "type": "spell",
+        "time": "1 minute",
+        "cost": "12",
+        "range": "60ft",
+        "duration": "1 day",
+        "description": "For the duration you gain a +10 bonus on all charisma tests and are immune to any effect that would force you to tell the truth."
+    },
+    {
         "name": "Vomit Spiders",
+        "components": "Verbal, Channel",
         "type": "spell",
         "time": "1 bonus action",
         "cost": "3",
         "range": "15ft cone",
         "duration": "instantaneous",
-        "description": "You vomit forth a wave of spiders. Any creature within a 15 ft cone in front of you must make a fortitude save or take 2d8 poison/piercing damage. The creatures take half damage on a successful save."
+        "description": "You vomit forth a wave of spiders. Any creature within a 15 ft cone in front of you must make a resistance save or take 2d8 poison/piercing damage. The creatures take half damage on a successful save."
     },
     {
         "name": "Wall of Fire",
+        "components": "Verbal, Channel, Focus",
         "type": "spell",
         "time": "2 turns.",
         "cost": "4",
         "range": "60 ft.",
         "duration": "1 minute (concentration)",
-        "description": "You create a line of fire 30ft long, 5 ft. thick and 15 ft. high within range. It can be straight or curved as you wish. Its base must be on a solid surface, but it does not need to be perpendicular to the ground. Any creature in the line must make a reflex save or take 3d8 damage. On a pass they take half damage and can move to either side of the wall. Any creature that moves into the wall, or starts its turn there takes 3d8 fire damage."
+        "description": "You create a line of fire 30ft long, 5 ft. thick and 15 ft. high within range. It can be straight or curved as you wish. Its base must be on a solid surface, but it does not need to be perpendicular to the ground. Any creature in the line must make a avoidance save or take 3d8 damage. On a pass they take half damage and can move to either side of the wall. Any creature that moves into the wall, or starts its turn there takes 3d8 fire damage."
     },
     {
         "name": "Wall of Thorns",
+        "components": "Verbal, Channel",
         "type": "spell",
         "time": "1 minute",
         "cost": "8",
@@ -864,6 +1083,7 @@
     },
     {
         "name": "Water Form",
+        "components": "Verbal, Channel",
         "type": "spell",
         "time": "1 minute",
         "cost": "10",
@@ -871,6 +1091,7 @@
     },
     {
         "name": "Water Whip",
+        "components": "Verbal, Gesture",
         "type": "spell",
         "time": "1 turn",
         "cost": "2",
@@ -879,6 +1100,7 @@
     },
     {
         "name": "Warding Wind",
+        "components": "Verbal, Channel",
         "type": "spell",
         "time": "None",
         "cost": "3",
@@ -888,6 +1110,7 @@
     },
     {
         "name": "Warding",
+        "components": "Verbal, Channel",
         "type": "spell",
         "time": "One turn",
         "cost": "2 or more",
@@ -897,6 +1120,7 @@
     },
     {
         "name": "Witch Bolt",
+        "components": "Verbal, Channel",
         "type": "spell",
         "time": "One Turn",
         "cost": "3",
@@ -905,12 +1129,13 @@
         "description": [
             "Make a spell attack against a target in range. On a hit you deal 2d10 damage. If the target it hexed it takes 3d10. On a hit you can spend additional points to cause an additional effect.",
             "1 point: The target has disadvantage on the next attack it makes.",
-            "2 point: The target must make a will save or be frightened of you for a round.",
-            "3 points: the target must make a fortitude save or be stunned for a round."
+            "2 point: The target must make a mental save or be frightened of you for a round.",
+            "3 points: the target must make a resistance save or be stunned for a round."
         ]
     },
     {
         "name": "Wind Step",
+        "components": "Verbal, Channel",
         "type": "spell",
         "time": "None",
         "cost": "2",
@@ -920,6 +1145,7 @@
     },
     {
         "name": "Word of Healing",
+        "components": "Verbal",
         "type": "spell",
         "time": "1 turn.",
         "cost": "4",
@@ -928,6 +1154,7 @@
     },
     {
         "name": "Word of Life",
+        "components": "Verbal",
         "type": "spell",
         "time": "1 turn",
         "cost": "8",
@@ -936,6 +1163,7 @@
     },
     {
         "name": "Word of Protection",
+        "components": "Verbal",
         "type": "spell",
         "time": "bonus action",
         "cost": "2",
@@ -994,7 +1222,7 @@
         "name": "Blessing of the Flames",
         "type": "ceremony",
         "secret": "Secret of Fire",
-        "description": "You spend an hour preparing a large bonfire with special wood worth 10 gold. You stand on this bonfire and light it with magic. Each turn you stand in the fire you take 2d6 damage. Whenever you take this damage you must make a DC 23 will save. On a pass you take 6d8 damage as the fire erupts in a pillar of flame. If you survive this damage you become immune to fire damage."
+        "description": "You spend an hour preparing a large bonfire with special wood worth 10 gold. You stand on this bonfire and light it with magic. Each turn you stand in the fire you take 2d6 damage. Whenever you take this damage you must make a DC 23 mental save. On a pass you take 6d8 damage as the fire erupts in a pillar of flame. If you survive this damage you become immune to fire damage."
     },
     {
         "name": "Call Rain",
@@ -1027,9 +1255,9 @@
         "secret": "Secret of Chaos",
         "description": [
             "You sacrifice a living creature and attempt to contact a daemon. The type of daemon contacted depends on the quality of the sacrifice.",
-            "The daemon appears within a chalk circle you draw. Once the daemon appears you must bind it with a knowledge daemons check. If successful you can have it complete a single task or answer a single question. Any additional task beyond the first increases the DC, as do long or difficult tasks. You cannot ask a daemon its true name or the true name of another daemon.",
-            " If you fail the base check by 5 the daemon instead attacks you.",
-            "If you speak the daemons true name as part of the ceremony you gain advantage on the check and the daemon cannot attack you directly."
+            "The daemon appears within a chalk circle you draw. Once the daemon appears you must bind it with a knowledge daemons test. If successful you can have it complete a single task or answer a single question. Any additional task beyond the first increases the DC, as do long or difficult tasks. You cannot ask a daemon its true name or the true name of another daemon.",
+            " If you fail the base test by 5 the daemon instead attacks you.",
+            "If you speak the daemons true name as part of the ceremony you gain advantage on the test and the daemon cannot attack you directly."
         ],
         "img": "https://cdn.discordapp.com/attachments/507858027215323136/510054947384066051/unknown.png"
     },
@@ -1061,9 +1289,7 @@
         "name": "Hag Transformation",
         "type": "ceremony",
         "secret": "Witchery",
-        "description": 
-            "When your cauldron reaches maximum power you can cast this ceremony. You need the following ingredients: \n - You must take some sap from a dryad.\n - You must take tears from a nymph.\n - You must gather a flower of the world tree reborn and add a single petal from it.\n - You must add your own blood. (2d8 damage to yourself).\n - You must add an eye of a sentient being.\n - You must add a unicorn tail hair.\n - You must take a firstborn child and drown them in the cauldron.\n Drinking this mixture will begin the transformation into a hag. Over the next month your body slowly transforms into that of a hag.\n You can choose three of the following effects.\n- A claw attack that deals 2d8 damage.\n- +4 str\n- +4 con\n - Hair attack with 15ft reach, 1d10 damage. On a hit the target is grappled.\n- All invocations cost 1 less. If the invocation costs 5 or more its cost is reduced by 2.\n- You deepen your knowledge of 3 secrets of your choice. These can be any secrets you know, ignoring the normal restrictions from witchery.\n- Child Sense – You can detect the presence of any young animals, humanoids, or other creatures within a mile.\n- Cannibal – You can eat a sentient creature to regain a recovery dice.\n Once you complete this ceremony, the transformation cannot be reversed or repeated.\n The first effect occurs after the first week, the second occurs at the end of the third week and the last occurs at the end of the month."
-        
+        "description": "When your cauldron reaches maximum power you can cast this ceremony. You need the following ingredients: \n - You must take some sap from a dryad.\n - You must take tears from a nymph.\n - You must gather a flower of the world tree reborn and add a single petal from it.\n - You must add your own blood. (2d8 damage to yourself).\n - You must add an eye of a sentient being.\n - You must add a unicorn tail hair.\n - You must take a firstborn child and drown them in the cauldron.\n Drinking this mixture will begin the transformation into a hag. Over the next month your body slowly transforms into that of a hag.\n You can choose three of the following effects.\n- A claw attack that deals 2d8 damage.\n- +4 str\n- +4 con\n - Hair attack with 15ft reach, 1d10 damage. On a hit the target is grappled.\n- All invocations cost 1 less. If the invocation costs 5 or more its cost is reduced by 2.\n- You deepen your knowledge of 3 secrets of your choice. These can be any secrets you know, ignoring the normal restrictions from witchery.\n- Child Sense – You can detect the presence of any young animals, humanoids, or other creatures within a mile.\n- Cannibal – You can eat a sentient creature to regain a recovery dice.\n Once you complete this ceremony, the transformation cannot be reversed or repeated.\n The first effect occurs after the first week, the second occurs at the end of the third week and the last occurs at the end of the month."
     },
     {
         "name": "Heart of Steel",
@@ -1081,13 +1307,13 @@
         "name": "Lichdom",
         "type": "ceremony",
         "secret": "Secret of Death",
-        "description": "You gather the blood of 13 children, who must die as a result of your bloodletting. You then spend a week creating a gem from their blood and 1000 gp worth of other materials. Once this is done you infuse the gem with the blood of a creature (normally yourself). The creature must make a DC 30 fortitude save. If it succeeds it becomes a lich. If it fails but beats a 20 it becomes a vampire. If it fails that too then it dies and can never be returned to life."
+        "description": "You gather the blood of 13 children, who must die as a result of your bloodletting. You then spend a week creating a gem from their blood and 1000 gp worth of other materials. Once this is done you infuse the gem with the blood of a creature (normally yourself). The creature must make a DC 30 resistance save. If it succeeds it becomes a lich. If it fails but beats a 20 it becomes a vampire. If it fails that too then it dies and can never be returned to life."
     },
     {
         "name": "Prayer of Healing",
         "type": "ceremony",
         "secret": "Saint of Life",
-        "description": "By taking an hour you can lend your strength to others. You can cure a number of wounds equal to your wisdom modifier times 2 (minor wounds take 1, major 2, mortal 3) and restore the defence of up to 8 targets within 60 feet of you. At the end of this ceremony you have -2 on all saves, attack rolls and ability check until your next downtime. If you cast this ceremony again before then the penalty increases to -4 and you then cannot use this ceremony until you complete a downtime."
+        "description": "By taking an hour you can lend your strength to others. You can cure a number of wounds equal to your wisdom modifier times 2 (minor wounds take 1, major 2, mortal 3) and restore the defence of up to 8 targets within 60 feet of you. At the end of this ceremony you have -2 on all saves, attack rolls and ability test until your next downtime. If you cast this ceremony again before then the penalty increases to -4 and you then cannot use this ceremony until you complete a downtime."
     },
     {
         "name": "Prayer of Prosperity",
@@ -1102,6 +1328,15 @@
         "description": [
             "You swear your soul to a daemon lord. Any daemon you summon that serves that daemon lord willingly fails its save against your binding invocation and will do its best to serve you in any way.",
             "Your maximum sanity is permanently halved. Your sanity is reduced to 1."
+        ]
+    },
+    {
+        "name": "Soul of Music",
+        "type": "ceremony",
+        "secret": "Secret of Music",
+        "description": [
+            "You spend a week to attune your soul to music, gaining the following benefits.",
+            "While singing or playing an instrument your DC and AC are both increased by 2 and you gain a +3 bonus on charisma tests."
         ]
     },
     {
@@ -1126,11 +1361,20 @@
         "secret": "Secret of the Storm",
         "description": [
             "You find a storm (or create one yourself). During the storm you mark yourself and call lightning to strike you. ",
-            " You must make 3 fortitude saves. ",
+            " You must make 3 resistance saves. ",
             " The first is DC 15, on a fail you take 1d6 minor wounds, on a pass you take half the number rolled. ",
             " The second is DC 20, on a fail you take 1d2 major wounds, on a pass you take one major wound. ",
             " The third is DC 25, on a fail you take a mortal wound. ",
             " If you are conscious after taking these wounds, then you can cast all spells from the secret of the storm at half cost and deal an extra 2 dice of damage. You are immune to lightning damage. These effects are permanent."
+        ]
+    },
+    {
+        "name": "Summon Creature",
+        "type": "ceremony",
+        "secret": "Secret of Summoning",
+        "description": [
+            "You spend 10 casting ability score points in an hour long ceremony to summon a creature based on the secrets you know.",
+            "Secret of Fire: Flame Elemental \n   Secret of Blood: Haelebact \n Secret of Stone: Stone Elemental \nSecret of Spiders: Giant Spiders \nSecret of Life: Avatar of Life"
         ]
     },
     {
@@ -1193,7 +1437,7 @@
         "type": "ritual",
         "casting time": "10 minutes",
         "description": [
-            "You attempt to influence the weather around you. Make a check using your casting ability score.",
+            "You attempt to influence the weather around you. Make a test using your casting ability score.",
             "The change happens over an hour. The weather changes at half the speed for the rest of the day if changing back to the original weather. You can only cast this once per day. ",
             " Example Weathers include Cyclone, Bad storm, Storm, Mild Storm , Heavy Rain, Rain, Drizzle, Heavy Cloud, Light Clouds, Clear"
         ],
@@ -1206,28 +1450,40 @@
         "description": "You attempt to pull water forth from the ground. Depending on the terrain you can get water for 0 to 8 people, as determined by your GM and random chance."
     },
     {
+        "name": "Create Golem Core",
+        "type": "ritual",
+        "casting time": "8 hours",
+        "description": "You create the core used to create a golem. This ritual consumes 150 silver worth of materials for its construction. More advanced golems require more complex core, costing additional resources and time. \n        See the golem entry in chapter 12 for more details."
+    },
+    {
         "name": "Detect Magic",
         "type": "ritual",
         "casting time": "10 minutes",
-        "description": "You can see faint auras around items, locations, or people affected by magic for an hour. By concentrating on the aura for 10 minutes you can determine the strength and type of spell. More complex spells may require a spellcraft or arcana check. You can learn the origin of the spell, what secret it belongs to (if any) and its rough power level."
+        "description": "You can see faint auras around items, locations, or people affected by magic for an hour. By concentrating on the aura for 10 minutes you can determine the strength and type of spell. More complex spells may require a spellcraft or arcana test. You can learn the origin of the spell, what secret it belongs to (if any) and its rough power level."
+    },
+    {
+        "name": "Disguise",
+        "type": "ritual",
+        "casting time": "1 hour",
+        "description": "You spend an hour spinning a disguise out of magic. For the next hour you appear as a humanoid creature you know. This includes voice and appearance."
     },
     {
         "name": "Eagle Eyes",
         "type": "ritual",
         "casting time": "1 hour",
-        "description": "For the next 4 hours you have advantage on perception checks."
+        "description": "For the next 4 hours you have advantage on perception tests."
     },
     {
         "name": "Forest Sense",
         "type": "ritual",
         "casting time": "10 minutes",
-        "description": "For the next hour you have advantage on tracking or perception checks as long as you are touching a living plant that is touching a system of plants that are connected in some way, for example a forest or grassland."
+        "description": "For the next hour you have advantage on tracking or perception tests as long as you are touching a living plant that is touching a system of plants that are connected in some way, for example a forest or grassland."
     },
     {
         "name": "Forest Sense",
         "type": "ritual",
         "casting time": "10 Minutes",
-        "description": "For the next hour you have advantage on tracking or perception checks as long as you are touching a living plant that is touching a system of plants that are connected in some way, for example a forest or grassland."
+        "description": "For the next hour you have advantage on tracking or perception tests as long as you are touching a living plant that is touching a system of plants that are connected in some way, for example a forest or grassland."
     },
     {
         "name": "Gentle Repose",
@@ -1279,6 +1535,12 @@
         "description": "You spend some time preparing, focusing on magical writing, glyph, or runes you can touch. At the end of the minute you magically gain an understanding as to their function."
     },
     {
+        "name": "Recovery",
+        "type": "ritual",
+        "casting time": "Short Rest or Long Rest",
+        "description": "During a long or short rest you can play music for an hour and allow your companions to roll a recovery dice to recover sanity at the rate of 3 points of recovery results to 1 point of sanity. Any unused points may be spent on healing defence as usual."
+    },
+    {
         "name": "Signs of Nature",
         "type": "ritual",
         "casting time": "10 minutes",
@@ -1288,7 +1550,7 @@
         "name": "Shroud",
         "type": "ritual",
         "casting time": "10 minutes",
-        "description": "A target you touch may add a bonus of half your intelligence modifier at the time of casting to all stealth checks for an hour as shadows hide and conceal them. You can only have one creature gaining this benefit at one time."
+        "description": "A target you touch may add a bonus of half your intelligence modifier at the time of casting to all stealth tests for an hour as shadows hide and conceal them. You can only have one creature gaining this benefit at one time."
     },
     {
         "name": "Stone Skin",

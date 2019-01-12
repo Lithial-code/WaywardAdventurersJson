@@ -45,9 +45,29 @@
     "description": "You gain resistance to sanity damage."
   },
   {
+    "name": "Distracting",
+    "type": "",
+    "description": "You draw the attention of others, both in combat and in social situations."
+  },
+  {
+    "name": "Distinctive",
+    "type": "",
+    "description": "You are easy to remember, for better or worse."
+  },
+  {
     "name": "Fae Touched",
     "type": "",
     "description": "You once had an encounter with a fae. Once per long rest you can gain advantage on a save against an enthral effect."
+  },
+  {
+    "name": "Forgettable Face",
+    "type": "",
+    "description": "Your face is easily forgettable, allowing you to blend into crowds, not arouse suspicion and other useful things."
+  },
+  {
+    "name": "Gunsmith",
+    "type": "",
+    "description": "During your downtime you can attempt to create firearms. You count as trained for tests for crafting such items."
   },
   {
     "name": "Heavy Drinker",
@@ -63,9 +83,19 @@
     ]
   },
   {
+    "name": "Leatherworker",
+    "type": "",
+    "description": "You work with leather to create armour and other useful things. You count as trained when making such items."
+  },
+  {
     "name": "Library Scholar",
     "type": "",
     "description": "Your upbringing among books and libraries allows you to always know where to find knowledge."
+  },
+  {
+    "name": "Lost Love",
+    "type": "",
+    "description": "Once upon a time you had a lover who you cared for deeply. Though time or fate has separated you, you still draw solace from your time together. You have advantage on Mental Saves against fear."
   },
   {
     "name": "Orphan",
@@ -243,9 +273,19 @@
     "description": "You have disadvantage on perception tests."
   },
   {
+    "name": "Mute",
+    "type": "",
+    "description": "You cannot speak. You and your fellow party members can select a sign language as one of your bonus languages."
+  },
+  {
     "name": "Nervous",
     "type": "",
     "description": "You have disadvantage on saves against fear."
+  },
+  {
+    "name": "Old",
+    "type": "",
+    "description": "You are older than most adventurers, and with this age comes a weakening of the body but a strengthening of the mind. You gain a +2 bonus to wisdom and a +1 bonus to intelligence. You gain a -2 penalty to strength, constitution, and dexterity."
   },
   {
     "name": "Physically Weak",

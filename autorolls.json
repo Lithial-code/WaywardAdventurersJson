@@ -4,7 +4,7 @@
             "1": "Catastrophic Misfire: You take 2d8 damage and the weapon takes a week to repair at half its value"
         },
         {
-            "2": "The weapon will take a long rest to repair for 10% of its base cost."
+            "2": "Bad Misfire: The weapon will take a long rest to repair for 10% of its base cost."
         },
         {
             "3": "Misfire: The weapon requires a short rest to be unjammed and repaired."
@@ -36,7 +36,7 @@
             "2": "You are knocked unconscious for 1d6 hours. If you take any damage you must roll a d10. If the roll is above a 7 you wake up."
         },
         {
-            "3": "You must succeed a fortitude save against your own DC or take a major wound, taking a minor wound on a pass."
+            "3": "You must succeed a resistance save against your own DC or take a major wound, taking a minor wound on a pass."
         },
         {
             "4": "You cast lightning bolt, including yourself in the area of effect."
@@ -45,7 +45,7 @@
             "5": "You cannot cast spells for 1d6 rounds."
         },
         {
-            "6": "A random creature within 30ft of you (including yourself) must succeed on a will save or be stunned for a minute. On each turn it can repeat the save, ending the stun on a success."
+            "6": "A random creature within 30ft of you (including yourself) must succeed on a mental save or be stunned for a minute. On each turn it can repeat the save, ending the stun on a success."
         },
         {
             "7": "You summon an imp in a random square 10ft from you. This imp is hostile to any creature near it and disappears when dead or after an hour."
@@ -75,7 +75,7 @@
             "15": "You regain 1 defence at the start of every round for a minute."
         },
         {
-            "16": "Pick a creature within 30ft of you. The target must succeed on a fortitude save or be deafened for a minute. You can choose to target an empty square if you wish, creating a loud boom instead."
+            "16": "Pick a creature within 30ft of you. The target must succeed on a resistance save or be deafened for a minute. You can choose to target an empty square if you wish, creating a loud boom instead."
         },
         {
             "17": "Pick a creature within 30ft of you. The creature has advantage on the next attack it makes within 1 minute."
@@ -84,7 +84,7 @@
             "18": "The next invocation you cast costs half its usual cost."
         },
         {
-            "19": "You can select a target within 30ft. The target must succeed a fortitude save or take a minor wound. If you cause a wound in this manner you may heal one minor wound."
+            "19": "You can select a target within 30ft. The target must succeed a resistance save or take a minor wound. If you cause a wound in this manner you may heal one minor wound."
         },
         {
             "20": "You instantly regain all your spent spellcasting ability points"
@@ -136,10 +136,10 @@
             "3": "Each time you take damage roll on the minor madness table. This effect lasts one round."
         },
         {
-            "4": "The first time you see a hostile creature today you must make a DC 15 will save or suffer major madness."
+            "4": "The first time you see a hostile creature today you must make a DC 15 mental save or suffer major madness."
         },
         {
-            "5": "The first time you see a hostile creature today you must make a DC 15 will save or suffer major madness."
+            "5": "The first time you see a hostile creature today you must make a DC 15 mental save or suffer major madness."
         },
         {
             "6": "The first time you take damage today roll on the major madness table."
@@ -192,7 +192,7 @@
             "1": "You fall unconscious. You wake if you take any damage or a creature takes a turn to wake you."
           },
           {
-            "2": "You are jumpy. You gain advantage on initiative checks but have disadvantage on any charisma checks and wisdom checks."
+            "2": "You are jumpy. You gain advantage on initiative tests but have disadvantage on any charisma tests and wisdom tests."
           },
           {
             "3": "Paranoid. You do not trust anyone. You cannot be a willing target of a spell."
@@ -201,7 +201,7 @@
             "4": "Overconfident. Your armour class is reduced by 1 and you cannot take cover."
           },
           {
-            "5": "Violent. You must succeed on a DC 18 will save to attack any creature besides the closest enemy."
+            "5": "Violent. You must succeed on a DC 18 mental save to attack any creature besides the closest enemy."
           },
           {
             "6": "Brash. You cannot move away from any enemy you see, unless it is towards another enemy."
@@ -213,7 +213,7 @@
             "8": "Fear. You are terrified of an object or creature of the GMs choice."
           },
           {
-            "9": "Skin Crawling. You feel like something is crawling over your skin. At the start of each turn you must make a DC 15 will save or spend your turn trying to stop whatever is crawling on you."
+            "9": "Skin Crawling. You feel like something is crawling over your skin. At the start of each turn you must make a DC 15 mental save or spend your turn trying to stop whatever is crawling on you."
           },
           {
             "10": "Screaming/crying. You are stunned"
@@ -230,7 +230,7 @@
             "3": "Fear. The GM picks up to three objects or creatures for you to be frightened of."
           },
           {
-            "4": "Blind. You believe you are blind and automatically fail any check involving sight. If you are already blind, you are deafened instead."
+            "4": "Blind. You believe you are blind and automatically fail any test involving sight. If you are already blind, you are deafened instead."
           },
           {
             "5": "Reckless. You cannot dodge or use cover and your armour class is reduced by 4."
@@ -256,7 +256,7 @@
             "1": "Shell.\n You cannot take any action. Any creature can pull you along at half speed."
           },
           {
-            "2": "Babbling.\nYou constantly babble intolerantly. You have disadvantage on stealth checks and saying anything takes 3 times as long as normal. If you try to cast a spell it has a 50% chance of failing as you cast it, unless it does not require you to speak."
+            "2": "Babbling.\nYou constantly babble intolerantly. You have disadvantage on stealth tests and saying anything takes 3 times as long as normal. If you try to cast a spell it has a 50% chance of failing as you cast it, unless it does not require you to speak."
           },
           {
             "3": "Totem. \n You choose a totem, while more than 30 ft. from the totem you have disadvantage on every roll. If the totem is destroyed you must roll on the minor, major and supreme madness tables."
@@ -279,7 +279,7 @@
           },
           {
          
-            "8": "Aggressive. \n You must always attack an enemy if there is an opportunity to do so. At the end of any combat you must succeed at a DC 15 will save or attack whatever creatures are around you."
+            "8": "Aggressive. \n You must always attack an enemy if there is an opportunity to do so. At the end of any combat you must succeed at a DC 15 mental save or attack whatever creatures are around you."
           },
           {
           

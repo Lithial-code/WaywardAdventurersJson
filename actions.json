@@ -12,27 +12,27 @@
   {
     "name": "Full Attack",
     "type": "",
-    "description": "You can move 5 feet and make as many attacks as you are allowed to take."
+    "description": "You can use your main action to move 5 feet and make as many attacks as you are allowed to take."
   },
   {
     "name": "Withdraw",
     "type": "",
-    "description": "You can move up to twice your movement speed. You do not provoke an attack of opportunity from leaving any enemies reach."
+    "description": "You can use your main action to move up to twice your movement speed. You do not provoke an attack of opportunity from leaving any enemies reach from this movement."
   },
   {
     "name": "Run",
     "type": "",
-    "description": "You can move up to three times your movement speed."
+    "description": "You can use your main action to move up to three times your movement speed."
   },
   {
     "name": "Hide",
     "type": "",
-    "description": "You can move up to your movement and attempt to hide if you are out of sight of whoever you are attempting to hide from. When you are hidden you have advantage on attacks against people who cannot see you."
+    "description": "You can use your main action to move up to your movement and attempt to hide if you are out of sight of whoever you are attempting to hide from. When you are hidden you have advantage on attacks against people who cannot see you."
   },
   {
     "name": "Sneak",
     "type": "",
-    "description": "If you are hidden, you can move up to your movement and remain hidden, as long as you do not move into the sight of whoever you are hiding from."
+    "description": "If you are already hidden, you can use your main action to move up to your movement and remain hidden, as long as you do not move directly into the sight of whoever you are hiding from."
   },
   {
     "name": "Dodge",
@@ -58,12 +58,12 @@
     "name": "Grappling",
     "type": "",
     "description": 
-      "You can use your main action to move up to your movement speed and attempt to grapple another creature. To do this you must roll a strength check against your target’s strength or dexterity check.\n Each size category difference between the creature and the target gives a -5 penalty on this roll.\n If your roll is higher than your target’s, you successfully grapple the target.\n You may release a grapple at any time. When you release a grapple, the target may immediately make a grapple check against you.\n You can attempt to grapple in place of an Attack of Opportunity.\nIf you move while grappling another creature, your movement speed is halved, and the grappled creature moves with you. Size differences between you and your grappled target might result in different movement penalties. \nTo escape a grapple the creature must use its main action and pass a contested strength or dexterity check against the grappling creatures strength check.\n If the grappling creature is knocked prone or moved against its will the grapple is released, unless the grappler is significantly larger than the target. \n Once you have a creature grappled you can take a number of special actions on your next turn in addition to any normal actions."
+      "You can use your main action to move up to your movement speed and attempt to grapple another creature. To do this you must roll a strength test against your target’s strength or dexterity test. You must have one hand free to initiate a grapple, or have a weapon specifically designed for grappling.\n Each size category difference between the creature and the target gives a -5 penalty on this roll.\n If your roll is higher than your target’s, you successfully grapple the target.\n You may release a grapple at any time. When you release a grapple, the target may immediately make a grapple test against you.\n You can attempt to grapple in place of an Attack of Opportunity.\n If you move while grappling another creature, your movement speed is halved, and the grappled creature moves with you. Size differences between you and your grappled target might result in different movement penalties.\nTo escape a grapple the creature must use its main action and pass a contested strength or dexterity test against the grappling creatures strength test.\n If the grappling creature is knocked prone or moved against its will the grapple is released, unless the grappler is significantly larger than the target.\n You can attempt to silence a creature you are grappling by giving yourself a -5 penalty on the grapple test."
   },
   {
     "name": "Body Shield",
     "type": "Grapple",
-    "description": "You can use a bonus action to use the creature as cover. Any attack that targets you has a 50% chance to instead target the creature."
+    "description": "You can use a bonus action to use the creature as cover. You gain a +3 cover bonus to armour class and any attack that targets you targets the creature instead on a critical failure."
   },
   {
     "name": "Execute",
@@ -73,16 +73,21 @@
   {
     "name": "Disarming",
     "type": "Grapple",
-    "description": "You can use a bonus action to attempt to disarm your grappled target. The creature has disadvantage on the strength check to avoid dropping their weapon."
+    "description": "You can use a bonus action to attempt to disarm your grappled target. The creature has disadvantage on the strength test to avoid dropping their weapon."
   },
   {
     "name": "Pushing",
-    "type": "",
-    "description": "In the place of a single attack you can attempt to shove, either with a shield or a free hand. Roll a strength check opposed by your target’s strength or dexterity. If you win you can choose to either push them back 10 feet or knock them prone. If you charge you can push with a shoulder rather than a shield or free hand."
+    "type": "Single Attack",
+    "description": "In the place of a single attack you can attempt to shove, either with a shield or a free hand. Roll a strength test opposed by your target’s strength or dexterity. If you win you can choose to either push them back 10 feet or knock them prone. If you charge you can push with a shoulder rather than a shield or free hand and you gain the +2 bonus from charging as if you were making an attack."
   },
   {
     "name": "Disarming",
-    "type": "",
-    "description": "In the place of a single attack you can attempt to disarm a foe. Roll an attack at disadvantage and with a -5 to hit, -10 if the weapon is being held in two hands. If it hits the target must make a strength check against your DC or drop the weapon."
+    "type": "Single Attack",
+    "description": "In the place of a single attack you can attempt to disarm a foe. Roll an attack at disadvantage and with a -5 to hit, -10 if the weapon is being held in two hands. If it hits the target must make a strength test against your DC or drop the weapon."
+  },
+  {
+  "name":"Coup de Grâce",
+  "type":"Non Combat",
+  "description":"If your target is helpless and you are not under threat, you can attempt to instantly kill a creature that you would be able to kill. Make an attack at advantage. If the attack hits it is a critical hit, deals double damage and ignores the targets defence. If the creature is still alive after this attack, they must roll a Resistance Save vs a DC equal to half the total damage dealt. If your target fails this save, they take the same amount of damage again."
   }
 ]
