@@ -17,7 +17,7 @@
 		"subrace": "Wild Born",
 		"stat": "+2 any 2 stats",
 		"bonus": "+1 skill or +2 languages",
-		"substat": "+1 wisdom",
+		"substat": "+2 wisdom or strength",
 		"skill": "+2 survival",
 		"flaw": "none"
 	},
@@ -28,7 +28,7 @@
 		"subrace": "Mountain Born",
 		"stat": "+2 any 2 stats",
 		"bonus": "+1 skill or +2 languages",
-		"substat": "+2 strength",
+		"substat": "+3 strength",
 		"skill": "+2 climb",
 		"flaw": "none"
 	},
@@ -39,7 +39,7 @@
 		"subrace": "Saddle Born",
 		"stat": "+2 any 2 stats",
 		"bonus": "+1 skill or +2 languages",
-		"substat": "+1 wisdom",
+		"substat": "+2 wisdom",
 		"skill": "+4 ride",
 		"flaw": "none"
 	},
